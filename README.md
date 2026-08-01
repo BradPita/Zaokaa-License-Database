@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-01 03:57 UTC · 59 tracked repos + 8 base models_
+_Last updated: 2026-08-01 04:02 UTC · 59 tracked repos + 7 base models_
 
 ## Tracked models
 
@@ -37,7 +37,7 @@ _Last updated: 2026-08-01 03:57 UTC · 59 tracked repos + 8 base models_
 | [Comfy-Org/Wan_2.2_ComfyUI_Repackaged](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged) | Comfy-Org | - | Review | 1 | 5,377,594 | 2026-07-03 |
 | [FX-FeiHou/wan2.2-Remix](https://huggingface.co/FX-FeiHou/wan2.2-Remix) | FX-FeiHou | other | Review | 1 | 2 | 2026-03-24 |
 | [Kijai/WanVideo_comfy](https://huggingface.co/Kijai/WanVideo_comfy) | Kijai | - | Review | 5 | 1,869,523 | 2026-06-13 |
-| [Wan-AI/Wan2.2-Animate-14B](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B) | Wan-AI | apache-2.0 | Yes | 1 | 21,111 | 2025-11-05 |
+| [Wan-AI/Wan2.2-Animate-14B](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B) | Wan-AI | apache-2.0 | Yes | 2 | 21,111 | 2025-11-05 |
 | [rzgar/NSFW-Wan-UMT5-XXL-V2](https://huggingface.co/rzgar/NSFW-Wan-UMT5-XXL-V2) | rzgar | apache-2.0 | Yes | 1 | 164 | 2026-07-17 |
 | [rzgar/Wan2.2_I2V_LightX2V_2Step](https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step) | rzgar | apache-2.0 | Yes | 2 | 1,314 | 2026-07-17 |
 | [spacepxl/Wan2.1-VAE-upscale2x](https://huggingface.co/spacepxl/Wan2.1-VAE-upscale2x) | spacepxl | apache-2.0 | Yes | 1 | 49,061 | 2025-10-26 |
@@ -220,7 +220,6 @@ _Last updated: 2026-08-01 03:57 UTC · 59 tracked repos + 8 base models_
 | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | Qwen | [apache-2.0](https://huggingface.co/Qwen/Qwen3-8B/blob/main/LICENSE) | Yes | 2025-07-26 |
 | [Qwen/Qwen3.5-9B](https://huggingface.co/Qwen/Qwen3.5-9B) | Qwen | [apache-2.0](https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE) | Yes | 2026-03-02 |
 | [Wan-AI/Wan2.1-T2V-14B](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) | Wan-AI | apache-2.0 | Yes | 2025-03-12 |
-| Wan-AI/Wan2.2-T2V-14B · _not found on Hub_ | Wan-AI | - | Review |  |
 | [google/gemma-3-12b-it](https://huggingface.co/google/gemma-3-12b-it) | google | gemma | Review | 2025-03-21 |
 
 <!-- LICENSE_TABLE_END -->

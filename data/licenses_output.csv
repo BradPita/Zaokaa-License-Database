@@ -36,10 +36,9 @@ Qwen/Qwen3-TTS-12Hz-1.7B-Base,Qwen,Qwen-TTS,tracked,qwen-tts,Qwen/Qwen3-TTS-12Hz
 Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice,Qwen,Qwen-TTS,tracked,qwen-tts,Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice,12,apache-2.0,,Yes,2452950,1848,text-to-speech,2026-01-29T08:00:54.000Z,ok
 Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign,Qwen,Qwen-TTS,tracked,qwen-tts,Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign,12,apache-2.0,,Yes,650372,381,text-to-speech,2026-01-29T08:04:19.000Z,ok
 Qwen/Qwen3-TTS-Tokenizer-12Hz,Qwen,Qwen-TTS,tracked,qwen-tts,Qwen/Qwen3-TTS-Tokenizer-12Hz,4,apache-2.0,,Yes,104505,75,audio-to-audio,2026-01-29T08:01:28.000Z,ok
-Qwen/Qwen3.5-9B,Qwen,Qwen3-LLM,base,,Qwen/Qwen3.5-9B,1,apache-2.0,https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE,Yes,11897029,1778,image-text-to-text,2026-03-02T00:51:43.000Z,ok
+Qwen/Qwen3.5-9B,Qwen,Qwen3-LLM,base,,Qwen/Qwen3.5-9B,1,apache-2.0,https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE,Yes,11897029,1779,image-text-to-text,2026-03-02T00:51:43.000Z,ok
 Wan-AI/Wan2.1-T2V-14B,Wan-AI,Wan,base,,Wan-AI/Wan2.1-T2V-14B,2,apache-2.0,,Yes,52645,1541,text-to-video,2025-03-12T03:08:09.000Z,ok
-Wan-AI/Wan2.2-Animate-14B,Wan-AI,Wan,tracked,detection,Wan-AI/Wan2.2-Animate-14B,1,apache-2.0,,Yes,21111,1223,video-to-video,2025-11-05T10:15:40.000Z,ok
-Wan-AI/Wan2.2-T2V-14B,Wan-AI,Wan,base,,Wan-AI/Wan2.2-T2V-14B,1,,,,,,,,not_found
+Wan-AI/Wan2.2-Animate-14B,Wan-AI,Wan,tracked,detection,Wan-AI/Wan2.2-Animate-14B,2,apache-2.0,,Yes,21111,1223,video-to-video,2025-11-05T10:15:40.000Z,ok
 alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1,alibaba-pai,Z-Image,tracked,model_patches,alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1,1,apache-2.0,,Yes,75685,434,,2026-02-26T07:46:49.000Z,ok
 apple/Sharp,apple,apple,tracked,sharp,apple/Sharp,1,apple-amlr,,Review,3381,398,image-to-3d,2025-12-18T17:38:39.000Z,ok
 circlestone-labs/Anima,circlestone-labs,Anima,tracked,"diffusion_models, text_encoders",circlestone-labs/Anima,2,other,LICENSE.md,Review,851880,1987,,2026-07-24T19:59:32.000Z,ok

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T03:57:05.035199+00:00",
-  "repo_count": 67,
+  "generated_at": "2026-08-01T04:02:27.348799+00:00",
+  "repo_count": 66,
   "models": [
     {
       "name": "Bingsu/adetailer",
@@ -643,7 +643,7 @@
       "license_url": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
       "commercial_use": "Yes",
       "downloads": 11897029,
-      "likes": 1778,
+      "likes": 1779,
       "pipeline_tag": "image-text-to-text",
       "last_modified": "2026-03-02T00:51:43.000Z",
       "status": "ok"
@@ -672,7 +672,7 @@
       "kind": "tracked",
       "categories": "detection",
       "hf_id": "Wan-AI/Wan2.2-Animate-14B",
-      "file_count": 1,
+      "file_count": 2,
       "license": "apache-2.0",
       "license_url": "",
       "commercial_use": "Yes",
@@ -681,23 +681,6 @@
       "pipeline_tag": "video-to-video",
       "last_modified": "2025-11-05T10:15:40.000Z",
       "status": "ok"
-    },
-    {
-      "name": "Wan-AI/Wan2.2-T2V-14B",
-      "provider": "Wan-AI",
-      "family": "Wan",
-      "kind": "base",
-      "categories": "",
-      "hf_id": "Wan-AI/Wan2.2-T2V-14B",
-      "file_count": 1,
-      "license": "",
-      "license_url": "",
-      "commercial_use": "",
-      "downloads": "",
-      "likes": "",
-      "pipeline_tag": "",
-      "last_modified": "",
-      "status": "not_found"
     },
     {
       "name": "alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
