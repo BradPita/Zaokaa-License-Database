@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-01T03:57:05.083770+00:00",
+  "_generated_at": "2026-08-01T03:59:33.907877+00:00",
   "_sources": [
     "models_manifest.json",
     "licenses_output.json",
@@ -530,9 +530,9 @@
       "license": "待确认（衍生/合并模型）",
       "commercial": "Review",
       "base_model": "Wan2.2",
-      "base_repo": "Wan-AI/Wan2.2-T2V-14B",
-      "base_license": "待确认（基础仓库未找到）",
-      "base_commercial": "Review"
+      "base_repo": "Wan-AI/Wan2.2-Animate-14B",
+      "base_license": "apache-2.0",
+      "base_commercial": "Yes"
     },
     {
       "category": "vae",

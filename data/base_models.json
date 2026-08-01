@@ -1,14 +1,92 @@
 {
   "_comment": "Base / original model registry for derivative tracing. Files whose names contain a derivative marker (nsfw/abliterated/remix/rapid/aio/merge/finetune) are traced up to one of these original models; the base model's license is taken from its OWN declaration on the HF repo listed here. Order matters: more specific entries first.",
   "bases": [
-    { "id": "wan2.2",        "display": "Wan2.2",            "hf_repo": "Wan-AI/Wan2.2-T2V-14B",          "keywords": ["wan2.2", "wan_2.2"] },
-    { "id": "wan2.1",        "display": "Wan2.1",            "hf_repo": "Wan-AI/Wan2.1-T2V-14B",          "keywords": ["wan2.1", "wan_2.1"] },
-    { "id": "umt5-xxl",      "display": "UMT5-XXL",          "hf_repo": "Wan-AI/Wan2.1-T2V-14B",          "keywords": ["umt5-xxl", "umt5_xxl"], "note": "UMT5-XXL text encoder as bundled with Wan2.1" },
-    { "id": "qwen-image-edit", "display": "Qwen-Image-Edit", "hf_repo": "Qwen/Qwen-Image-Edit-2511",     "keywords": ["qwen-image-edit", "qwenedit", "qwen_image_edit"] },
-    { "id": "qwen-image",    "display": "Qwen-Image",        "hf_repo": "Qwen/Qwen-Image",                "keywords": ["qwen-image", "qwen_image"] },
-    { "id": "qwen2.5-vl",    "display": "Qwen2.5-VL",        "hf_repo": "Qwen/Qwen2.5-VL-7B-Instruct",    "keywords": ["qwen2.5-vl", "qwen_2.5_vl", "qwen2.5vl"] },
-    { "id": "qwen3.5-9b",    "display": "Qwen3.5-9B",        "hf_repo": "Qwen/Qwen3.5-9B",                "keywords": ["qwen3.5-9b", "qwen3_5_9b", "huihui-qwen3.5"] },
-    { "id": "qwen3-8b",      "display": "Qwen3-8B",          "hf_repo": "Qwen/Qwen3-8B",                   "keywords": ["qwen3-8b", "qwen3_8b"] },
-    { "id": "gemma-3-12b",   "display": "Gemma-3-12B",       "hf_repo": "google/gemma-3-12b-it",          "keywords": ["gemma-3-12b", "gemma3-12b", "gemma_3_12b"] }
+    {
+      "id": "wan2.2",
+      "display": "Wan2.2",
+      "hf_repo": "Wan-AI/Wan2.2-Animate-14B",
+      "keywords": [
+        "wan2.2",
+        "wan_2.2"
+      ],
+      "note": "Wan2.2 license reference (Animate repo); canonical T2V repo not yet on Hub"
+    },
+    {
+      "id": "wan2.1",
+      "display": "Wan2.1",
+      "hf_repo": "Wan-AI/Wan2.1-T2V-14B",
+      "keywords": [
+        "wan2.1",
+        "wan_2.1"
+      ]
+    },
+    {
+      "id": "umt5-xxl",
+      "display": "UMT5-XXL",
+      "hf_repo": "Wan-AI/Wan2.1-T2V-14B",
+      "keywords": [
+        "umt5-xxl",
+        "umt5_xxl"
+      ],
+      "note": "UMT5-XXL text encoder as bundled with Wan2.1"
+    },
+    {
+      "id": "qwen-image-edit",
+      "display": "Qwen-Image-Edit",
+      "hf_repo": "Qwen/Qwen-Image-Edit-2511",
+      "keywords": [
+        "qwen-image-edit",
+        "qwenedit",
+        "qwen_image_edit"
+      ]
+    },
+    {
+      "id": "qwen-image",
+      "display": "Qwen-Image",
+      "hf_repo": "Qwen/Qwen-Image",
+      "keywords": [
+        "qwen-image",
+        "qwen_image"
+      ]
+    },
+    {
+      "id": "qwen2.5-vl",
+      "display": "Qwen2.5-VL",
+      "hf_repo": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "keywords": [
+        "qwen2.5-vl",
+        "qwen_2.5_vl",
+        "qwen2.5vl"
+      ]
+    },
+    {
+      "id": "qwen3.5-9b",
+      "display": "Qwen3.5-9B",
+      "hf_repo": "Qwen/Qwen3.5-9B",
+      "keywords": [
+        "qwen3.5-9b",
+        "qwen3_5_9b",
+        "huihui-qwen3.5"
+      ]
+    },
+    {
+      "id": "qwen3-8b",
+      "display": "Qwen3-8B",
+      "hf_repo": "Qwen/Qwen3-8B",
+      "keywords": [
+        "qwen3-8b",
+        "qwen3_8b"
+      ]
+    },
+    {
+      "id": "gemma-3-12b",
+      "display": "Gemma-3-12B",
+      "hf_repo": "google/gemma-3-12b-it",
+      "keywords": [
+        "gemma-3-12b",
+        "gemma3-12b",
+        "gemma_3_12b"
+      ]
+    }
   ]
 }
