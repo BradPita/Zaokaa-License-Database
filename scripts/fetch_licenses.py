@@ -10,9 +10,12 @@ Sources (merged, de-duplicated by repo):
 Queries the public Hub REST API for each repo's cardData.license and writes
 data/licenses_output.csv + .json (one row per repo, with a `kind` column).
 
-License fallback: when a repackaged repo declares no license in its cardData,
-the license is filled from its upstream/original repo via data/license_fallback.json
-(license_source = "fallback:<repo>"). Declared licenses are never overridden.
+License overrides (data/license_overrides.json):
+  - fallbacks: when a repackaged repo declares no license, fill it from its
+    upstream/original repo (license_source = "fallback:<repo>").
+  - links: attach an authoritative license URL (e.g. a GitHub LICENSE) to a
+    repo that declares "other" or lacks a usable license_link.
+Declared SPDX licenses are never changed.
 
 No external dependencies beyond the Python standard library.
 Set HF_TOKEN for a higher rate limit / gated-model metadata (optional).
@@ -33,7 +36,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "models_manifest.json"
 EXTRA = ROOT / "data" / "extra_models.json"
 BASE = ROOT / "data" / "base_models.json"
-FALLBACK = ROOT / "data" / "license_fallback.json"
+OVERRIDES = ROOT / "data" / "license_overrides.json"
 OUT_CSV = ROOT / "data" / "licenses_output.csv"
 OUT_JSON = ROOT / "data" / "licenses_output.json"
 HF_API = "https://huggingface.co/api/models/{repo_id}"
@@ -84,14 +87,13 @@ def family_of(repo):
     return repo.split("/")[0]
 
 
-def load_fallbacks():
-    if not FALLBACK.exists():
-        return {}
-    data = json.loads(FALLBACK.read_text(encoding="utf-8"))
-    out = {}
-    for fb in data.get("fallbacks", []):
-        out[fb["repo"]] = fb
-    return out
+def load_overrides():
+    if not OVERRIDES.exists():
+        return {}, {}
+    data = json.loads(OVERRIDES.read_text(encoding="utf-8"))
+    fallbacks = {fb["repo"]: fb for fb in data.get("fallbacks", [])}
+    links = {lk["repo"]: lk for lk in data.get("links", [])}
+    return fallbacks, links
 
 
 def load_repos():
@@ -168,7 +170,7 @@ def parse_license(card_data):
     return lic.strip(), (link or "").strip()
 
 
-def fetch_one(repo, meta, fallbacks):
+def fetch_one(repo, meta, fallbacks, links):
     row = {k: "" for k in CSV_FIELDS}
     row["name"] = repo
     row["provider"] = repo.split("/")[0]
@@ -185,19 +187,28 @@ def fetch_one(repo, meta, fallbacks):
         return row
 
     card = info.get("cardData") or {}
-    lic, link = parse_license(card)
-    row["license_source"] = "carddata"
+    lic, link_url = parse_license(card)
+    source = "cardata"
+    commercial = ""
 
     if not lic and repo in fallbacks:
         fb = fallbacks[repo]
         lic = fb.get("license", "")
+        commercial = fb.get("commercial_use", "")
         src = fb.get("source_repo", "")
-        link = "https://huggingface.co/" + src if src else ""
-        row["license_source"] = "fallback:" + src
+        link_url = "https://huggingface.co/" + src if src else ""
+        source = "fallback:" + src
+    else:
+        commercial = assess_commercial(lic)
+
+    if repo in links:
+        link_url = links[repo].get("license_url", "")
+        source = source + "+link" if source != "cardata" else "cardata+link"
 
     row["license"] = lic
-    row["license_url"] = link
-    row["commercial_use"] = assess_commercial(lic)
+    row["license_url"] = link_url
+    row["license_source"] = source
+    row["commercial_use"] = commercial or assess_commercial(lic)
     row["downloads"] = info.get("downloads", "")
     row["likes"] = info.get("likes", "")
     row["pipeline_tag"] = info.get("pipeline_tag") or ""
@@ -211,12 +222,12 @@ def main():
     if not repos:
         print("No repos found. Run extract_manifest.py first.", file=sys.stderr)
         return 1
-    fallbacks = load_fallbacks()
-    print("Tracking {} repos ({} fallbacks)".format(len(repos), len(fallbacks)))
+    fallbacks, links = load_overrides()
+    print("Tracking {} repos ({} fallbacks, {} links)".format(len(repos), len(fallbacks), len(links)))
     rows = []
     for i, (repo, meta) in enumerate(sorted(repos.items()), 1):
         print("[{}/{}] ({}) {}".format(i, len(repos), meta["kind"], repo))
-        rows.append(fetch_one(repo, meta, fallbacks))
+        rows.append(fetch_one(repo, meta, fallbacks, links))
         if i < len(repos):
             time.sleep(REQUEST_DELAY)
 
@@ -237,7 +248,8 @@ def main():
     ok = sum(1 for r in rows if r["status"] == "ok")
     nf = sum(1 for r in rows if r["status"] == "not_found")
     fb_used = sum(1 for r in rows if r["license_source"].startswith("fallback"))
-    print("Done. ok={} not_found={} fallback_applied={}".format(ok, nf, fb_used))
+    link_used = sum(1 for r in rows if "link" in r["license_source"])
+    print("Done. ok={} not_found={} fallback={} link={}".format(ok, nf, fb_used, link_used))
     return 0
 
 
