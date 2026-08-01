@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-01 14:26 UTC · 59 tracked repos + 7 base models_
+_Last updated: 2026-08-01 14:30 UTC · 59 tracked repos + 7 base models_
 
 ## Tracked models
 

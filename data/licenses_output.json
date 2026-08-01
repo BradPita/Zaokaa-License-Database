@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T08:47:43.438335+00:00",
+  "generated_at": "2026-08-01T14:30:02.210116+00:00",
   "repo_count": 66,
   "_sources": [
     "HuggingFace API (cardData)",
@@ -271,7 +271,7 @@
       "license_source": "fallback:alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
       "commercial_use": "Yes",
       "downloads": 5218592,
-      "likes": 794,
+      "likes": 795,
       "pipeline_tag": "",
       "last_modified": "2026-07-02T13:20:16.000Z",
       "status": "ok"
@@ -289,7 +289,7 @@
       "license_source": "cardata+link",
       "commercial_use": "Review",
       "downloads": 2,
-      "likes": 509,
+      "likes": 510,
       "pipeline_tag": "",
       "last_modified": "2026-03-24T17:01:57.000Z",
       "status": "ok"
@@ -307,7 +307,7 @@
       "license_source": "cardata+link",
       "commercial_use": "Review",
       "downloads": 979712,
-      "likes": 563,
+      "likes": 565,
       "pipeline_tag": "",
       "last_modified": "2026-07-28T20:47:36.000Z",
       "status": "ok"
@@ -433,7 +433,7 @@
       "license_source": "cardata+link",
       "commercial_use": "Review",
       "downloads": 2128047,
-      "likes": 1735,
+      "likes": 1738,
       "pipeline_tag": "image-to-video",
       "last_modified": "2026-07-09T11:12:53.000Z",
       "status": "ok"
@@ -487,7 +487,7 @@
       "license_source": "spdx",
       "commercial_use": "Yes",
       "downloads": 0,
-      "likes": 2351,
+      "likes": 2352,
       "pipeline_tag": "text-to-image",
       "last_modified": "2026-02-03T02:10:35.000Z",
       "status": "ok"
@@ -541,7 +541,7 @@
       "license_source": "spdx",
       "commercial_use": "Yes",
       "downloads": 224426,
-      "likes": 1224,
+      "likes": 1225,
       "pipeline_tag": "image-to-image",
       "last_modified": "2025-12-23T13:13:52.000Z",
       "status": "ok"
@@ -757,7 +757,7 @@
       "license_source": "spdx",
       "commercial_use": "Yes",
       "downloads": 75682,
-      "likes": 434,
+      "likes": 435,
       "pipeline_tag": "",
       "last_modified": "2026-02-26T07:46:49.000Z",
       "status": "ok"
@@ -793,7 +793,7 @@
       "license_source": "cardata",
       "commercial_use": "Review",
       "downloads": 843139,
-      "likes": 1988,
+      "likes": 1989,
       "pipeline_tag": "",
       "last_modified": "2026-07-24T19:59:32.000Z",
       "status": "ok"
@@ -811,7 +811,7 @@
       "license_source": "cardata+link",
       "commercial_use": "No",
       "downloads": 0,
-      "likes": 590,
+      "likes": 592,
       "pipeline_tag": "",
       "last_modified": "2026-07-29T16:32:13.000Z",
       "status": "ok"
@@ -1135,7 +1135,7 @@
       "license_source": "spdx",
       "commercial_use": "Yes",
       "downloads": 1315,
-      "likes": 9,
+      "likes": 10,
       "pipeline_tag": "text-to-image",
       "last_modified": "2026-07-17T06:23:33.000Z",
       "status": "ok"
