@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-01 04:02 UTC · 59 tracked repos + 7 base models_
+_Last updated: 2026-08-01 06:57 UTC · 59 tracked repos + 7 base models_
 
 ## Tracked models
 
@@ -33,10 +33,10 @@ _Last updated: 2026-08-01 04:02 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Comfy-Org/Wan_2.1_ComfyUI_repackaged](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged) | Comfy-Org | - | Review | 3 | 2,228,071 | 2026-01-28 |
-| [Comfy-Org/Wan_2.2_ComfyUI_Repackaged](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged) | Comfy-Org | - | Review | 1 | 5,377,594 | 2026-07-03 |
+| [Comfy-Org/Wan_2.1_ComfyUI_repackaged](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged) | Comfy-Org | [apache-2.0](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) | Yes | 3 | 2,228,071 | 2026-01-28 |
+| [Comfy-Org/Wan_2.2_ComfyUI_Repackaged](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged) | Comfy-Org | [apache-2.0](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B) | Yes | 1 | 5,377,594 | 2026-07-03 |
 | [FX-FeiHou/wan2.2-Remix](https://huggingface.co/FX-FeiHou/wan2.2-Remix) | FX-FeiHou | other | Review | 1 | 2 | 2026-03-24 |
-| [Kijai/WanVideo_comfy](https://huggingface.co/Kijai/WanVideo_comfy) | Kijai | - | Review | 5 | 1,869,523 | 2026-06-13 |
+| [Kijai/WanVideo_comfy](https://huggingface.co/Kijai/WanVideo_comfy) | Kijai | [apache-2.0](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) | Yes | 5 | 1,869,523 | 2026-06-13 |
 | [Wan-AI/Wan2.2-Animate-14B](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B) | Wan-AI | apache-2.0 | Yes | 2 | 21,111 | 2025-11-05 |
 | [rzgar/NSFW-Wan-UMT5-XXL-V2](https://huggingface.co/rzgar/NSFW-Wan-UMT5-XXL-V2) | rzgar | apache-2.0 | Yes | 1 | 164 | 2026-07-17 |
 | [rzgar/Wan2.2_I2V_LightX2V_2Step](https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step) | rzgar | apache-2.0 | Yes | 2 | 1,314 | 2026-07-17 |
@@ -90,7 +90,7 @@ _Last updated: 2026-08-01 04:02 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Comfy-Org/ltx-2](https://huggingface.co/Comfy-Org/ltx-2) | Comfy-Org | - | Review | 2 | 0 | 2026-03-08 |
+| [Comfy-Org/ltx-2](https://huggingface.co/Comfy-Org/ltx-2) | Comfy-Org | [other](https://huggingface.co/Lightricks/LTX-2.3) | Review | 2 | 0 | 2026-03-08 |
 | [Kijai/LTX2.3_comfy](https://huggingface.co/Kijai/LTX2.3_comfy) | Kijai | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 6 | 999,703 | 2026-07-28 |
 | [Lightricks/LTX-2.3](https://huggingface.co/Lightricks/LTX-2.3) | Lightricks | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 1 | 2,192,827 | 2026-07-09 |
 | [joyfox/LTX2.3-ICEdit-Insight](https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight) | joyfox | apache-2.0 | Yes | 4 | 63,228 | 2026-07-23 |
@@ -100,7 +100,7 @@ _Last updated: 2026-08-01 04:02 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Comfy-Org/z_image_turbo](https://huggingface.co/Comfy-Org/z_image_turbo) | Comfy-Org | - | Review | 2 | 5,320,924 | 2026-07-02 |
+| [Comfy-Org/z_image_turbo](https://huggingface.co/Comfy-Org/z_image_turbo) | Comfy-Org | [apache-2.0](https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1) | Yes | 2 | 5,320,924 | 2026-07-02 |
 | [alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1](https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1) | alibaba-pai | apache-2.0 | Yes | 1 | 75,685 | 2026-02-26 |
 
 ### Bernini
