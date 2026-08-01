@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-01 06:57 UTC · 59 tracked repos + 7 base models_
+_Last updated: 2026-08-01 07:24 UTC · 59 tracked repos + 7 base models_
 
 ## Tracked models
 
@@ -52,7 +52,7 @@ _Last updated: 2026-08-01 06:57 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) | Comfy-Org | [other](https://huggingface.co/krea/Krea-2-Turbo/blob/main/LICENSE.pdf) | Review | 3 | 10 | 2026-07-20 |
+| [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) | Comfy-Org | [other](https://github.com/krea-ai/krea-2/blob/main/LICENSE.md) | Review | 3 | 10 | 2026-07-20 |
 | [conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit) | conradlocke | [other](https://krea.ai/krea-2-licensing) | Review | 1 | 0 | 2026-07-29 |
 | [uzumix/krea2filterbypass3.safetensors](https://huggingface.co/uzumix/krea2filterbypass3.safetensors) | uzumix | - | Review | 1 | 4,093 | 2026-07-08 |
 
@@ -90,7 +90,7 @@ _Last updated: 2026-08-01 06:57 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Comfy-Org/ltx-2](https://huggingface.co/Comfy-Org/ltx-2) | Comfy-Org | [other](https://huggingface.co/Lightricks/LTX-2.3) | Review | 2 | 0 | 2026-03-08 |
+| [Comfy-Org/ltx-2](https://huggingface.co/Comfy-Org/ltx-2) | Comfy-Org | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 2 | 0 | 2026-03-08 |
 | [Kijai/LTX2.3_comfy](https://huggingface.co/Kijai/LTX2.3_comfy) | Kijai | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 6 | 999,703 | 2026-07-28 |
 | [Lightricks/LTX-2.3](https://huggingface.co/Lightricks/LTX-2.3) | Lightricks | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 1 | 2,192,827 | 2026-07-09 |
 | [joyfox/LTX2.3-ICEdit-Insight](https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight) | joyfox | apache-2.0 | Yes | 4 | 63,228 | 2026-07-23 |
@@ -126,7 +126,7 @@ _Last updated: 2026-08-01 06:57 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Comfy-Org/sam3.1](https://huggingface.co/Comfy-Org/sam3.1) | Comfy-Org | [other](LICENSE) | Review | 1 | 0 | 2026-05-06 |
+| [Comfy-Org/sam3.1](https://huggingface.co/Comfy-Org/sam3.1) | Comfy-Org | [other](https://github.com/facebookresearch/sam3/blob/main/LICENSE) | Review | 1 | 0 | 2026-05-06 |
 | [jetjodh/sam-3d-body-dinov3](https://huggingface.co/jetjodh/sam-3d-body-dinov3) | jetjodh | [other](https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE) | Review | 3 | 1,231 | 2025-11-25 |
 
 ### LivePortrait
@@ -175,7 +175,7 @@ _Last updated: 2026-08-01 06:57 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Bingsu/adetailer](https://huggingface.co/Bingsu/adetailer) | Bingsu | apache-2.0 | Yes | 1 | 10,453,776 | 2024-11-21 |
+| [Bingsu/adetailer](https://huggingface.co/Bingsu/adetailer) | Bingsu | apache-2.0 | Yes | 1 | 10,272,979 | 2024-11-21 |
 
 ### ChenkinNoob
 
