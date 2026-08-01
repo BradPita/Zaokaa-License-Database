@@ -2,10 +2,13 @@
 """
 Fetch license metadata for tracked models from the Hugging Face Hub.
 
-Source of truth: data/simpai_models.json (extracted from SimpAI's
-model_checker.py) - optionally merged with data/extra_models.json.
-Queries the public Hub REST API for each unique repo's cardData.license.
-Writes data/licenses_output.csv + .json (one row per repo).
+Sources (merged, de-duplicated by repo):
+  data/models_manifest.json   - models used by the ComfyUI pipeline (tracked)
+  data/extra_models.json      - optional manual additions (same shape)
+  data/base_models.json       - original/base models for derivative tracing
+
+Queries the public Hub REST API for each repo's cardData.license and writes
+data/licenses_output.csv + .json (one row per repo, with a `kind` column).
 No external dependencies beyond the Python standard library.
 
 Set HF_TOKEN for a higher rate limit / gated-model metadata (optional).
@@ -23,8 +26,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SIMPAI = ROOT / "data" / "simpai_models.json"
+MANIFEST = ROOT / "data" / "models_manifest.json"
 EXTRA = ROOT / "data" / "extra_models.json"
+BASE = ROOT / "data" / "base_models.json"
 OUT_CSV = ROOT / "data" / "licenses_output.csv"
 OUT_JSON = ROOT / "data" / "licenses_output.json"
 HF_API = "https://huggingface.co/api/models/{repo_id}"
@@ -40,15 +44,14 @@ NC_MARKERS = (
     "cc-by-nc", "nc-sa", "nc-nd",
 )
 
-# Ordered keyword -> display family, used to group the README table.
 FAMILY_RULES = [
     ("wan2", "Wan"), ("wan", "Wan"), ("wanvideo", "Wan"),
     ("krea", "Krea"), ("flux", "FLUX"),
     ("qwen3-tts", "Qwen-TTS"), ("qwen-tts", "Qwen-TTS"),
     ("qwen-image", "Qwen-Image"), ("qwen_image", "Qwen-Image"),
-    ("qwenedit", "Qwen-Image"), ("qwen-image-edit", "Qwen-Image"),
-    ("nunchaku-qwen-image", "Qwen-Image"),
-    ("ltx", "LTX-Video"),
+    ("qwenedit", "Qwen-Image"),
+    ("qwen2.5-vl", "Qwen-VL"), ("qwen3", "Qwen3-LLM"), ("qwen", "Qwen"),
+    ("gemma", "Gemma"), ("ltx", "LTX-Video"),
     ("z_image", "Z-Image"), ("z-image", "Z-Image"),
     ("bernini", "Bernini"), ("scail", "SCAIL"),
     ("seedvr", "SeedVR"), ("sam", "Segment Anything"),
@@ -58,11 +61,10 @@ FAMILY_RULES = [
     ("melbandroformer", "Audio"), ("wav2vec2", "Audio"),
     ("hunyuan_foley", "Audio"), ("audio", "Audio"),
     ("anima", "Anima"), ("kaloscope", "Kaloscope"),
-    ("simplesdxl", "SimpleSDXL"),
 ]
 
 CSV_FIELDS = [
-    "name", "provider", "family", "simpai_categories", "hf_id",
+    "name", "provider", "family", "kind", "categories", "hf_id",
     "file_count", "license", "license_url", "commercial_use",
     "downloads", "likes", "pipeline_tag", "last_modified", "status",
 ]
@@ -77,23 +79,32 @@ def family_of(repo):
 
 
 def load_repos():
-    """Return {repo: {'categories': set, 'files': int}} merged from sources."""
+    """Return {repo: {'kind','categories':set,'files':int}} merged from sources."""
     repos = {}
 
-    def add(repo, category):
+    def add(repo, kind, category):
         if not repo:
             return
-        r = repos.setdefault(repo, {"categories": set(), "files": 0})
+        r = repos.setdefault(repo, {"kind": kind, "categories": set(), "files": 0})
+        # tracked takes precedence over base
+        if kind == "tracked":
+            r["kind"] = "tracked"
         r["files"] += 1
         if category:
             r["categories"].add(category)
 
-    for src in (SIMPAI, EXTRA):
-        if not src.exists():
-            continue
-        data = json.loads(src.read_text(encoding="utf-8"))
+    if MANIFEST.exists():
+        data = json.loads(MANIFEST.read_text(encoding="utf-8"))
         for f in data.get("files", []):
-            add(f.get("hf_repo", ""), f.get("category", ""))
+            add(f.get("hf_repo", ""), "tracked", f.get("category", ""))
+    if EXTRA.exists():
+        data = json.loads(EXTRA.read_text(encoding="utf-8"))
+        for f in data.get("files", []):
+            add(f.get("hf_repo", ""), "tracked", f.get("category", ""))
+    if BASE.exists():
+        data = json.loads(BASE.read_text(encoding="utf-8"))
+        for b in data.get("bases", []):
+            add(b.get("hf_repo", ""), "base", "")
     return repos
 
 
@@ -147,7 +158,8 @@ def fetch_one(repo, meta):
     row["name"] = repo
     row["provider"] = repo.split("/")[0]
     row["family"] = family_of(repo)
-    row["simpai_categories"] = ", ".join(sorted(meta["categories"]))
+    row["kind"] = meta["kind"]
+    row["categories"] = ", ".join(sorted(meta["categories"]))
     row["hf_id"] = repo
     row["file_count"] = meta["files"]
     row["status"] = "pending"
@@ -173,12 +185,12 @@ def fetch_one(repo, meta):
 def main():
     repos = load_repos()
     if not repos:
-        print("No repos found. Run extract_simpai_models.py first.", file=sys.stderr)
+        print("No repos found. Run extract_manifest.py first.", file=sys.stderr)
         return 1
     print("Tracking {} repos".format(len(repos)))
     rows = []
     for i, (repo, meta) in enumerate(sorted(repos.items()), 1):
-        print("[{}/{}] {}".format(i, len(repos), repo))
+        print("[{}/{}] ({}) {}".format(i, len(repos), meta["kind"], repo))
         rows.append(fetch_one(repo, meta))
         if i < len(repos):
             time.sleep(REQUEST_DELAY)

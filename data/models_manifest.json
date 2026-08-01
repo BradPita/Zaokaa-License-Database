@@ -1,0 +1,945 @@
+{
+  "_source": "model manifest (model_checker.py style)",
+  "_extracted_at": "2026-08-01T03:27:11.224944+00:00",
+  "file_count": 156,
+  "repo_count": 59,
+  "scrubbed_distribution_entries": 321,
+  "files": [
+    {
+      "category": "clip_vision",
+      "filename": "clip_vision_h.safetensors",
+      "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "hr16/DWPose-TorchScript-BatchSize5/dw-ll_ucoco_384_bs5.torchscript.pt",
+      "hf_repo": "hr16/DWPose-TorchScript-BatchSize5",
+      "hf_url": "https://huggingface.co/hr16/DWPose-TorchScript-BatchSize5/resolve/main/dw-ll_ucoco_384_bs5.torchscript.pt"
+    },
+    {
+      "category": "controlnet",
+      "filename": "yzd-v/DWPose/yolox_l.onnx",
+      "hf_repo": "yzd-v/DWPose",
+      "hf_url": "https://huggingface.co/yzd-v/DWPose/blob/main/yolox_l.onnx"
+    },
+    {
+      "category": "sams",
+      "filename": "sam_vit_b_01ec64.pth",
+      "hf_repo": "mashb1t/misc",
+      "hf_url": "https://huggingface.co/mashb1t/misc/resolve/main/sam_vit_b_01ec64.pth"
+    },
+    {
+      "category": "sams",
+      "filename": "sam_vit_l_0b3195.pth",
+      "hf_repo": "mashb1t/misc",
+      "hf_url": "https://huggingface.co/mashb1t/misc/resolve/main/sam_vit_l_0b3195.pth"
+    },
+    {
+      "category": "LLM",
+      "filename": "Huihui-Qwen3.5-9B-abliterated/Huihui-Qwen3.5-9B-abliterated.Q4_K_M.gguf",
+      "hf_repo": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
+      "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/resolve/main/Huihui-Qwen3.5-9B-abliterated.Q4_K_M.gguf"
+    },
+    {
+      "category": "LLM",
+      "filename": "Huihui-Qwen3.5-9B-abliterated/Huihui-Qwen3.5-9B-abliterated.mmproj-Q8_0.gguf",
+      "hf_repo": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
+      "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/resolve/main/Huihui-Qwen3.5-9B-abliterated.mmproj-Q8_0.gguf"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "z_image_turbo_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/z_image_turbo",
+      "hf_url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_int8_convrot.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen_3_4b.safetensors",
+      "hf_repo": "Comfy-Org/z_image_turbo",
+      "hf_url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "Z-Image-Turbo-Fun-Controlnet-Union-2.1-lite-2601-8steps.safetensors",
+      "hf_repo": "alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
+      "hf_url": "https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1/resolve/main/Z-Image-Turbo-Fun-Controlnet-Union-2.1-lite-2601-8steps.safetensors"
+    },
+    {
+      "category": "SEEDVR2",
+      "filename": "ema_vae_fp16.safetensors",
+      "hf_repo": "numz/SeedVR2_comfyUI",
+      "hf_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/ema_vae_fp16.safetensors"
+    },
+    {
+      "category": "SEEDVR2",
+      "filename": "seedvr2_ema_3b_fp16.safetensors",
+      "hf_repo": "numz/SeedVR2_comfyUI",
+      "hf_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_3b_fp16.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "qwen_image_2512_fp8_e4m3fn.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Qwen-Image-2512-Lightning-4steps-V1.0-bf16.safetensors",
+      "hf_repo": "lightx2v/Qwen-Image-2512-Lightning",
+      "hf_url": "https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning/resolve/main/Qwen-Image-2512-Lightning-4steps-V1.0-bf16.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "qwen_image_edit_2511_fp8mixed.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+      "hf_repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+      "hf_url": "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Qwen-Image-Edit-2511-Lightning-8steps-V1.0-bf16.safetensors",
+      "hf_repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+      "hf_url": "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/Qwen-Image-Edit-2511-Lightning-8steps-V1.0-bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+      "hf_repo": "fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA",
+      "hf_url": "https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA/resolve/main/qwen-image-edit-2511-multiple-angles-lora.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "anything2real_2601_A_final_patched.safetensors",
+      "hf_repo": "lrzjason/Anything2Real_2601",
+      "hf_url": "https://huggingface.co/lrzjason/Anything2Real_2601/resolve/main/anything2real_2601_A_final_patched.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "qe2511_consis_alpha_patched.safetensors",
+      "hf_repo": "lrzjason/QwenEdit_Consistance_Edit",
+      "hf_url": "https://huggingface.co/lrzjason/QwenEdit_Consistance_Edit/resolve/main/qe2511_consis_alpha_patched.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "nunchaku_qwen_image_2511_balance_int4.safetensors",
+      "hf_repo": "QuantFunc/Nunchaku-Qwen-Image-EDIT-2511",
+      "hf_url": "https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511/resolve/main/nunchaku_qwen_image_edit_2511_balance_int4.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "nunchaku_qwen_image_2511_balance_fp4.safetensors",
+      "hf_repo": "QuantFunc/Nunchaku-Qwen-Image-EDIT-2511",
+      "hf_url": "https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511/resolve/main/nunchaku_qwen_image_edit_2511_balance_fp4.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "Qwen-Rapid-AIO-NSFW-v23.safetensors",
+      "hf_repo": "Phr00t/Qwen-Image-Edit-Rapid-AIO",
+      "hf_url": "https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO/resolve/main/v23/Qwen-Rapid-AIO-NSFW-v23.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "anima-base-v1.0.safetensors",
+      "hf_repo": "circlestone-labs/Anima",
+      "hf_url": "https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/diffusion_models/anima-base-v1.0.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen_3_06b_base.safetensors",
+      "hf_repo": "circlestone-labs/Anima",
+      "hf_url": "https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/text_encoders/qwen_3_06b_base.safetensors"
+    },
+    {
+      "category": "upscale_models",
+      "filename": "4x-AnimeSharp.pth",
+      "hf_repo": "Kim2091/AnimeSharp",
+      "hf_url": "https://huggingface.co/Kim2091/AnimeSharp/resolve/main/4x-AnimeSharp.pth"
+    },
+    {
+      "category": "model_patches",
+      "filename": "anima-lllite-pose-1.safetensors",
+      "hf_repo": "kohya-ss/Anima-LLLite",
+      "hf_url": "https://huggingface.co/kohya-ss/Anima-LLLite/resolve/main/anima-lllite-pose-1.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen3_8b_abliterated_v2-fp8mixed.safetensors",
+      "hf_repo": "silveroxides/FLUX.2-dev-fp8_scaled",
+      "hf_url": "https://huggingface.co/silveroxides/FLUX.2-dev-fp8_scaled/resolve/main/qwen3_8b_abliterated_v2-fp8mixed.safetensors"
+    },
+    {
+      "category": "sams",
+      "filename": "sam_vit_h_4b8939.pth",
+      "hf_repo": "mashb1t/misc",
+      "hf_url": "https://huggingface.co/mashb1t/misc/resolve/main/sam_vit_h_4b8939.pth"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "ChenkinNoob-XL-V0.5.safetensors",
+      "hf_repo": "ChenkinNoob/ChenkinNoob-XL-V0.5",
+      "hf_url": "https://huggingface.co/ChenkinNoob/ChenkinNoob-XL-V0.5/resolve/main/ChenkinNoob-XL-V0.5.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "Chenkin-UniControl-XL.safetensors",
+      "hf_repo": "ChenkinNoob/Chenkin-UniControl-XL",
+      "hf_url": "https://huggingface.co/ChenkinNoob/Chenkin-UniControl-XL/resolve/main/Chenkin-UniControl-XL.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "sdpose_wholebody_fp16.safetensors",
+      "hf_repo": "Comfy-Org/SDPose",
+      "hf_url": "https://huggingface.co/Comfy-Org/SDPose/resolve/main/checkpoints/sdpose_wholebody_fp16.safetensors"
+    },
+    {
+      "category": "lsnet",
+      "filename": "kaloscope/best_checkpoint.pth",
+      "hf_repo": "heathcliff01/Kaloscope",
+      "hf_url": "https://huggingface.co/heathcliff01/Kaloscope/resolve/main/best_checkpoint.pth"
+    },
+    {
+      "category": "lsnet",
+      "filename": "kaloscope/class_mapping.csv",
+      "hf_repo": "heathcliff01/Kaloscope",
+      "hf_url": "https://huggingface.co/heathcliff01/Kaloscope/resolve/main/class_mapping.csv"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.2_bernini_r_low_noise_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Bernini-R",
+      "hf_url": "https://huggingface.co/Comfy-Org/Bernini-R/resolve/main/diffusion_models/wan2.2_bernini_r_low_noise_int8_convrot.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2_1-VACE_module_14B_fp8_e4m3fn.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-VACE_module_14B_fp8_e4m3fn.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "nsfw_wan_umt5_xxl_v2_int8-convrot.safetensors",
+      "hf_repo": "rzgar/NSFW-Wan-UMT5-XXL-V2",
+      "hf_url": "https://huggingface.co/rzgar/NSFW-Wan-UMT5-XXL-V2/resolve/main/encoders/nsfw_wan_umt5_xxl_v2_int8-convrot.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "wan_2.1_vae.safetensors",
+      "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Bernini-R_LightX2V_high_noise.safetensors",
+      "hf_repo": "rzgar/Bernini-R-LightX2V-4step-loras",
+      "hf_url": "https://huggingface.co/rzgar/Bernini-R-LightX2V-4step-loras/resolve/main/Bernini-R_LightX2V_high_noise.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Bernini-R_LightX2V_low_noise.safetensors",
+      "hf_repo": "rzgar/Bernini-R-LightX2V-4step-loras",
+      "hf_url": "https://huggingface.co/rzgar/Bernini-R-LightX2V-4step-loras/resolve/main/Bernini-R_LightX2V_low_noise.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Wan2.2_I2V_LightX2V_2step_high_noise.safetensors",
+      "hf_repo": "rzgar/Wan2.2_I2V_LightX2V_2Step",
+      "hf_url": "https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step/resolve/main/Wan2.2_I2V_LightX2V_2step_high_noise.safetensors?download=true"
+    },
+    {
+      "category": "loras",
+      "filename": "Wan2.2_I2V_LightX2V_2step_low_noise.safetensors",
+      "hf_repo": "rzgar/Wan2.2_I2V_LightX2V_2Step",
+      "hf_url": "https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step/resolve/main/Wan2.2_I2V_LightX2V_2step_low_noise.safetensors?download=true"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2.2_Remix_SFW_t2v_14b_high_lighting_v1.0_dyno.safetensors",
+      "hf_repo": "FX-FeiHou/wan2.2-Remix",
+      "hf_url": "https://huggingface.co/FX-FeiHou/wan2.2-Remix/resolve/main/SFW/Wan2.2_Remix_SFW_t2v_14b_high_lighting_v1.0_dyno.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "Wan2.1_VAE_upscale2x_imageonly_real_v1.safetensors",
+      "hf_repo": "spacepxl/Wan2.1-VAE-upscale2x",
+      "hf_url": "https://huggingface.co/spacepxl/Wan2.1-VAE-upscale2x/resolve/main/Wan2.1_VAE_upscale2x_imageonly_real_v1.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.1_14B_SCAIL_2_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/SCAIL-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/SCAIL-2/resolve/main/diffusion_models/wan2.1_14B_SCAIL_2_int8_convrot.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "wan2.1_SCAIL_2_DPO_lora_bf16.safetensors",
+      "hf_repo": "Comfy-Org/SCAIL-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/SCAIL-2/resolve/main/loras/wan2.1_SCAIL_2_DPO_lora_bf16.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "sam3.1_multiplex_fp16.safetensors",
+      "hf_repo": "Comfy-Org/sam3.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/sam3.1/resolve/main/checkpoints/sam3.1_multiplex_fp16.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.2_animate_14B_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_animate_14B_int8_convrot.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2_1-MiniMaxRemover_1_3B_fp16.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-MiniMaxRemover_1_3B_fp16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "WanAnimate_relight_lora_fp16.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors"
+    },
+    {
+      "category": "detection",
+      "filename": "vitpose_h_wholebody_data.bin",
+      "hf_repo": "Kijai/vitpose_comfy",
+      "hf_url": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_data.bin"
+    },
+    {
+      "category": "detection",
+      "filename": "vitpose_h_wholebody_model.onnx",
+      "hf_repo": "Kijai/vitpose_comfy",
+      "hf_url": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_model.onnx"
+    },
+    {
+      "category": "detection",
+      "filename": "yolov10m.onnx",
+      "hf_repo": "Wan-AI/Wan2.2-Animate-14B",
+      "hf_url": "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B/resolve/main/process_checkpoint/det/yolov10m.onnx"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors",
+      "hf_repo": "Kijai/wav2vec2_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "MelBandRoformer_fp16.safetensors",
+      "hf_repo": "Kijai/MelBandRoFormer_comfy",
+      "hf_url": "https://huggingface.co/Kijai/MelBandRoFormer_comfy/resolve/main/MelBandRoformer_fp16.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "wan2.1_infiniteTalk_single_fp16.safetensors",
+      "hf_repo": "Kijai/wav2vec2_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors"
+    },
+    {
+      "category": "audio_encoders",
+      "filename": "wav2vec2-chinese-base_fp16.safetensors",
+      "hf_repo": "Kijai/wav2vec2_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "ltx-2.3-22b-dev_transformer_only_int8_convrot.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-dev_transformer_only_int8_convrot.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors",
+      "hf_repo": "Comfy-Org/ltx-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/loras/gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx-2.3-22b-ic-lora-outpaint.safetensors",
+      "hf_repo": "oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint",
+      "hf_url": "https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint/resolve/main/ltx-2.3-22b-ic-lora-outpaint.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "ltx-2.3_text_projection_bf16.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/text_encoders/ltx-2.3_text_projection_bf16.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "gemma_3_12B_it_fpmixed.safetensors",
+      "hf_repo": "Comfy-Org/ltx-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors"
+    },
+    {
+      "category": "latent_upscale_models",
+      "filename": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
+      "hf_repo": "Lightricks/LTX-2.3",
+      "hf_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "LTX23_audio_vae_bf16.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_bf16.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "LTX23_video_vae_bf16.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_video_vae_bf16.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "taeltx2_3.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/taeltx2_3.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen3vl_4b_fp8_scaled.safetensors",
+      "hf_repo": "Comfy-Org/Krea-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/text_encoders/qwen3vl_4b_fp8_scaled.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx2.3-video-restoration-general.safetensors",
+      "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
+      "hf_url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight/resolve/main/ltx2.3-video-restoration-general.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx2.3-ic-video-upscale-general.safetensors",
+      "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
+      "hf_url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight/resolve/main/ltx2.3-ic-video-upscale-general.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx2.3-ic-watermark-remove-general.safetensors",
+      "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
+      "hf_url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight/resolve/main/ltx2.3-ic-watermark-remove-general.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx2.3-ic-subtitles-remove-general.safetensors",
+      "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
+      "hf_url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight/resolve/main/ltx2.3-ic-subtitles-remove-general.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-Tokenizer-12Hz/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/main/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-Tokenizer-12Hz/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/main/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-Tokenizer-12Hz/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/main/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-Tokenizer-12Hz/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/main/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/vocab.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/vocab.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/vocab.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/vocab.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/vocab.json"
+    },
+    {
+      "category": "sam3dbody",
+      "filename": "model.ckpt",
+      "hf_repo": "jetjodh/sam-3d-body-dinov3",
+      "hf_url": "https://huggingface.co/jetjodh/sam-3d-body-dinov3/resolve/main/model.ckpt"
+    },
+    {
+      "category": "sam3dbody",
+      "filename": "model_config.yaml",
+      "hf_repo": "jetjodh/sam-3d-body-dinov3",
+      "hf_url": "https://huggingface.co/jetjodh/sam-3d-body-dinov3/resolve/main/model_config.yaml"
+    },
+    {
+      "category": "sam3dbody",
+      "filename": "assets/mhr_model.pt",
+      "hf_repo": "jetjodh/sam-3d-body-dinov3",
+      "hf_url": "https://huggingface.co/jetjodh/sam-3d-body-dinov3/resolve/main/assets/mhr_model.pt"
+    },
+    {
+      "category": "loras",
+      "filename": "VNCCS_PoseStudioKlein9b_V1.safetensors",
+      "hf_repo": "MIUProject/VNCCS_PoseStudio_Klein",
+      "hf_url": "https://huggingface.co/MIUProject/VNCCS_PoseStudio_Klein/resolve/main/models/loras/Klein9b/VNCCS/VNCCS_PoseStudioKlein9b_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "VNCCS_QIE2511_PoseStudio_ART_V5.9.5.safetensors",
+      "hf_repo": "MIUProject/VNCCS_PoseStudio",
+      "hf_url": "https://huggingface.co/MIUProject/VNCCS_PoseStudio/resolve/main/models/loras/qwen/VNCCS/VNCCS_QIE2511_PoseStudio_ART_V5.9.5.safetensors"
+    },
+    {
+      "category": "sharp",
+      "filename": "sharp_2572gikvuh.pt",
+      "hf_repo": "apple/Sharp",
+      "hf_url": "https://huggingface.co/apple/Sharp/resolve/main/sharp_2572gikvuh.pt"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.2_bernini_r_high_noise_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Bernini-R",
+      "hf_url": "https://huggingface.co/Comfy-Org/Bernini-R/resolve/main/diffusion_models/wan2.2_bernini_r_high_noise_int8_convrot.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "krea2_turbo_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Krea-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/diffusion_models/krea2_turbo_int8_convrot.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "krea2_identity_edit_v1_2.safetensors",
+      "hf_repo": "conradlocke/krea2-identity-edit",
+      "hf_url": "https://huggingface.co/conradlocke/krea2-identity-edit/resolve/main/krea2_identity_edit_v1_2.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "krea2filterbypass3.safetensors",
+      "hf_repo": "uzumix/krea2filterbypass3.safetensors",
+      "hf_url": "https://huggingface.co/uzumix/krea2filterbypass3.safetensors/resolve/main/krea2filterbypass3.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "qwen_image_vae.safetensors",
+      "hf_repo": "Comfy-Org/Krea-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/vae/qwen_image_vae.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "appearance_feature_extractor.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/appearance_feature_extractor.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "motion_extractor.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/motion_extractor.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "warping_module.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/warping_module.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "spade_generator.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/spade_generator.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "stitching_retargeting_module.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/stitching_retargeting_module.safetensors"
+    },
+    {
+      "category": "ultralytics",
+      "filename": "face_yolov8n.pt",
+      "hf_repo": "Bingsu/adetailer",
+      "hf_url": "https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8n.pt"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.1_t2v_14B_fp8_scaled.safetensors",
+      "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_fp8_scaled.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "Wan21_Uni3C_controlnet_fp16.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan21_Uni3C_controlnet_fp16.safetensors"
+    }
+  ]
+}

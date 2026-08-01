@@ -2,9 +2,10 @@
 """
 Render the repo-level license data into the README.md table section.
 
-Reads data/licenses_output.csv (one row per tracked HF repo) and replaces
+Reads data/licenses_output.csv (one row per tracked/base HF repo) and replaces
 everything between <!-- LICENSE_TABLE_START --> and <!-- LICENSE_TABLE_END -->
-in README.md. Groups rows by model family. Stdlib only.
+in README.md. Tracked repos are grouped by model family; base models (used for
+derivative tracing) are listed in a separate section. Stdlib only.
 """
 from __future__ import annotations
 
@@ -20,9 +21,10 @@ START = "<!-- LICENSE_TABLE_START -->"
 END = "<!-- LICENSE_TABLE_END -->"
 
 FAMILY_ORDER = [
-    "Wan", "FLUX", "Krea", "Qwen-Image", "Qwen-TTS", "LTX-Video",
+    "Wan", "FLUX", "Krea", "Qwen-Image", "Qwen-TTS", "Qwen-VL",
+    "Qwen3-LLM", "Qwen", "Gemma", "LTX-Video",
     "Z-Image", "Bernini", "SCAIL", "SeedVR", "Segment Anything",
-    "LivePortrait", "Pose", "PoseStudio", "Audio", "SimpleSDXL",
+    "LivePortrait", "Pose", "PoseStudio", "Audio", "Anima", "Kaloscope",
 ]
 
 
@@ -66,23 +68,12 @@ def license_cell(row):
     return lic
 
 
-def build_block(rows):
+def family_section(tracked):
     lines = []
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    lines.append("_Last updated: {} · {} repos tracked_".format(ts, len(rows)))
-    lines.append("")
-
-    if not rows:
-        lines.append("> _No data yet. Run `python scripts/fetch_licenses.py` then "
-                     "`python scripts/generate_readme.py` (or trigger the GitHub "
-                     "Actions workflow) to populate this table._")
-        return lines
-
     by_fam = {}
-    for r in rows:
+    for r in tracked:
         by_fam.setdefault(r.get("family", "Other"), []).append(r)
     order = FAMILY_ORDER + sorted(f for f in by_fam if f not in FAMILY_ORDER)
-
     for fam in order:
         group = by_fam.get(fam)
         if not group:
@@ -95,16 +86,50 @@ def build_block(rows):
         for r in group:
             comm = esc(r.get("commercial_use")) or "Review"
             cells = [
-                model_cell(r),
-                esc(r.get("provider")),
-                license_cell(r),
-                comm,
-                fmt_int(r.get("file_count")),
-                fmt_int(r.get("downloads")),
+                model_cell(r), esc(r.get("provider")), license_cell(r), comm,
+                fmt_int(r.get("file_count")), fmt_int(r.get("downloads")),
                 fmt_date(r.get("last_modified")),
             ]
             lines.append("| " + " | ".join(cells) + " |")
         lines.append("")
+    return lines
+
+
+def base_section(base_rows):
+    lines = []
+    if not base_rows:
+        return lines
+    lines.append("### Base model declarations (for derivative tracing)")
+    lines.append("")
+    lines.append("> Original models that derivatives trace up to. Marked per each model's own declaration.")
+    lines.append("")
+    lines.append("| Base model | Repo | License | Commercial | Updated |")
+    lines.append("|---|---|---|---|---|")
+    base_rows.sort(key=lambda r: r.get("name", ""))
+    for r in base_rows:
+        comm = esc(r.get("commercial_use")) or "Review"
+        cells = [model_cell(r), esc(r.get("provider")), license_cell(r), comm, fmt_date(r.get("last_modified"))]
+        lines.append("| " + " | ".join(cells) + " |")
+    lines.append("")
+    return lines
+
+
+def build_block(rows):
+    lines = []
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    tracked = [r for r in rows if r.get("kind") != "base"]
+    base = [r for r in rows if r.get("kind") == "base"]
+    lines.append("_Last updated: {} · {} tracked repos + {} base models_".format(ts, len(tracked), len(base)))
+    lines.append("")
+    if not rows:
+        lines.append("> _No data yet. Run `python scripts/fetch_licenses.py` then "
+                     "`python scripts/generate_readme.py` (or trigger the GitHub "
+                     "Actions workflow) to populate this table._")
+        return lines
+    lines.append("## Tracked models")
+    lines.append("")
+    lines.extend(family_section(tracked))
+    lines.extend(base_section(base))
     return lines
 
 
