@@ -16,7 +16,7 @@ Comfy-Org/z_image_turbo,Comfy-Org,Z-Image,tracked,"diffusion_models, text_encode
 FX-FeiHou/wan2.2-Remix,FX-FeiHou,Wan,tracked,diffusion_models,FX-FeiHou/wan2.2-Remix,1,other,,cardata,Review,2,509,,2026-03-24T17:01:57.000Z,ok
 Kijai/LTX2.3_comfy,Kijai,LTX-Video,tracked,"diffusion_models, loras, text_encoders, vae",Kijai/LTX2.3_comfy,6,other,https://github.com/Lightricks/LTX-2/blob/main/LICENSE,cardata+link,Review,999703,562,,2026-07-28T20:47:36.000Z,ok
 Kijai/LivePortrait_safetensors,Kijai,LivePortrait,tracked,liveportrait,Kijai/LivePortrait_safetensors,5,mit,https://huggingface.co/spaces/KlingTeam/LivePortrait/blob/main/LICENSE,fallback:KwaiVGI/LivePortrait+link,Yes,0,94,,2024-08-02T15:45:27.000Z,ok
-Kijai/MelBandRoFormer_comfy,Kijai,Audio,tracked,diffusion_models,Kijai/MelBandRoFormer_comfy,1,,,cardata,Review,93004,43,,2025-08-23T19:37:24.000Z,ok
+Kijai/MelBandRoFormer_comfy,Kijai,Audio,tracked,diffusion_models,Kijai/MelBandRoFormer_comfy,1,mit,https://huggingface.co/KimberleyJSN/melbandroformer/blob/main/README.md,fallback:KimberleyJSN/melbandroformer+link,Yes,93004,43,,2025-08-23T19:37:24.000Z,ok
 Kijai/WanVideo_comfy,Kijai,Wan,tracked,"diffusion_models, loras, model_patches",Kijai/WanVideo_comfy,5,apache-2.0,https://huggingface.co/Wan-AI/Wan2.1-T2V-14B,fallback:Wan-AI/Wan2.1-T2V-14B,Yes,1834935,2456,,2026-06-13T16:56:23.000Z,ok
 Kijai/vitpose_comfy,Kijai,Pose,tracked,detection,Kijai/vitpose_comfy,2,apache-2.0,https://spdx.org/licenses/Apache-2.0.html,spdx,Yes,0,31,,2025-09-23T16:44:53.000Z,ok
 Kijai/wav2vec2_safetensors,Kijai,Audio,tracked,"audio_encoders, diffusion_models, model_patches",Kijai/wav2vec2_safetensors,3,mit,https://spdx.org/licenses/MIT.html,spdx,Yes,0,17,,2025-08-25T21:38:10.000Z,ok
@@ -61,7 +61,7 @@ oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint,oumoumad,LTX-Video,tracked,loras,oumoumad/
 rzgar/Bernini-R-LightX2V-4step-loras,rzgar,Bernini,tracked,loras,rzgar/Bernini-R-LightX2V-4step-loras,2,apache-2.0,https://spdx.org/licenses/Apache-2.0.html,spdx,Yes,18640,50,image-to-image,2026-07-02T23:53:12.000Z,ok
 rzgar/NSFW-Wan-UMT5-XXL-V2,rzgar,Wan,tracked,text_encoders,rzgar/NSFW-Wan-UMT5-XXL-V2,1,apache-2.0,https://spdx.org/licenses/Apache-2.0.html,spdx,Yes,164,10,,2026-07-17T01:06:32.000Z,ok
 rzgar/Wan2.2_I2V_LightX2V_2Step,rzgar,Wan,tracked,loras,rzgar/Wan2.2_I2V_LightX2V_2Step,2,apache-2.0,https://spdx.org/licenses/Apache-2.0.html,spdx,Yes,1314,9,text-to-image,2026-07-17T06:23:33.000Z,ok
-silveroxides/FLUX.2-dev-fp8_scaled,silveroxides,FLUX,tracked,text_encoders,silveroxides/FLUX.2-dev-fp8_scaled,1,other,https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md,cardata+link,Review,16437,88,image-to-image,2026-07-15T17:21:07.000Z,ok
-spacepxl/Wan2.1-VAE-upscale2x,spacepxl,Wan,tracked,vae,spacepxl/Wan2.1-VAE-upscale2x,1,apache-2.0,https://spdx.org/licenses/Apache-2.0.html,spdx,Yes,49061,190,,2025-10-26T20:03:10.000Z,ok
+silveroxides/FLUX.2-dev-fp8_scaled,silveroxides,FLUX,tracked,text_encoders,silveroxides/FLUX.2-dev-fp8_scaled,1,other,https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md,cardata+link,Review,16114,88,image-to-image,2026-07-15T17:21:07.000Z,ok
+spacepxl/Wan2.1-VAE-upscale2x,spacepxl,Wan,tracked,vae,spacepxl/Wan2.1-VAE-upscale2x,1,apache-2.0,https://spdx.org/licenses/Apache-2.0.html,spdx,Yes,49026,190,,2025-10-26T20:03:10.000Z,ok
 uzumix/krea2filterbypass3.safetensors,uzumix,Krea,tracked,loras,uzumix/krea2filterbypass3.safetensors,1,other,https://github.com/krea-ai/krea-2/blob/main/LICENSE.md,fallback:krea/Krea-2-Turbo+link,Review,4093,2,text-to-image,2026-07-08T10:11:33.000Z,ok
 yzd-v/DWPose,yzd-v,Pose,tracked,controlnet,yzd-v/DWPose,1,apache-2.0,https://spdx.org/licenses/Apache-2.0.html,spdx,Yes,0,129,,2023-08-22T05:16:26.000Z,ok

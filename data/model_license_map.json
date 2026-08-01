@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-01T08:06:54.217028+00:00",
+  "_generated_at": "2026-08-01T08:11:29.300342+00:00",
   "_sources": [
     "models_manifest.json",
     "licenses_output.json",
@@ -17,7 +17,7 @@
   ],
   "file_count": 156,
   "derivative_count": 7,
-  "files_with_license_url": 150,
+  "files_with_license_url": 151,
   "files": [
     {
       "category": "clip_vision",
@@ -834,10 +834,10 @@
       "filename": "MelBandRoformer_fp16.safetensors",
       "hf_repo": "Kijai/MelBandRoFormer_comfy",
       "derivative": false,
-      "license": "待确认（HF未声明许可）",
-      "license_url": "",
-      "license_source": "cardata",
-      "commercial": "Review",
+      "license": "mit",
+      "license_url": "https://huggingface.co/KimberleyJSN/melbandroformer/blob/main/README.md",
+      "license_source": "fallback:KimberleyJSN/melbandroformer+link",
+      "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
