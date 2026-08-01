@@ -125,6 +125,11 @@
       "repo": "Kijai/MelBandRoFormer_comfy",
       "license_url": "https://huggingface.co/KimberleyJSN/melbandroformer/blob/main/README.md",
       "note": "MelBandRoformer MIT license (source: KimberleyJSN/melbandroformer README)"
+    },
+    {
+      "repo": "apple/Sharp",
+      "license_url": "https://github.com/apple/ml-sharp/blob/main/LICENSE",
+      "note": "Apple SHARP (ml-sharp) license; Apple Sample Code terms - personal, non-exclusive (source: apple/ml-sharp GitHub)"
     }
   ]
 }

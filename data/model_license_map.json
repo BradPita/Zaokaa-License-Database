@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-01T08:11:29.300342+00:00",
+  "_generated_at": "2026-08-01T08:15:26.134572+00:00",
   "_sources": [
     "models_manifest.json",
     "licenses_output.json",
@@ -17,7 +17,7 @@
   ],
   "file_count": 156,
   "derivative_count": 7,
-  "files_with_license_url": 151,
+  "files_with_license_url": 152,
   "files": [
     {
       "category": "clip_vision",
@@ -2140,8 +2140,8 @@
       "hf_repo": "apple/Sharp",
       "derivative": false,
       "license": "apple-amlr",
-      "license_url": "",
-      "license_source": "cardata",
+      "license_url": "https://github.com/apple/ml-sharp/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",

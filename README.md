@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-01 08:11 UTC · 59 tracked repos + 7 base models_
+_Last updated: 2026-08-01 08:15 UTC · 59 tracked repos + 7 base models_
 
 ## Tracked models
 
@@ -65,8 +65,8 @@ _Last updated: 2026-08-01 08:11 UTC · 59 tracked repos + 7 base models_
 | [Phr00t/Qwen-Image-Edit-Rapid-AIO](https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO) | Phr00t | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 0 | 2026-02-03 |
 | [QuantFunc/Nunchaku-Qwen-Image-EDIT-2511](https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511) | QuantFunc | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 4,396 | 2026-06-19 |
 | [fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA](https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA) | fal | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 63,422 | 2026-01-07 |
-| [lightx2v/Qwen-Image-2512-Lightning](https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 71,511 | 2026-01-15 |
-| [lightx2v/Qwen-Image-Edit-2511-Lightning](https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 297,851 | 2026-01-15 |
+| [lightx2v/Qwen-Image-2512-Lightning](https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 70,227 | 2026-01-15 |
+| [lightx2v/Qwen-Image-Edit-2511-Lightning](https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 289,282 | 2026-01-15 |
 | [lrzjason/QwenEdit_Consistance_Edit](https://huggingface.co/lrzjason/QwenEdit_Consistance_Edit) | lrzjason | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 0 | 2026-04-17 |
 
 ### Qwen-TTS
@@ -100,8 +100,8 @@ _Last updated: 2026-08-01 08:11 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Comfy-Org/z_image_turbo](https://huggingface.co/Comfy-Org/z_image_turbo) | Comfy-Org | [apache-2.0](https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1) | Yes | 2 | 5,320,924 | 2026-07-02 |
-| [alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1](https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1) | alibaba-pai | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 75,685 | 2026-02-26 |
+| [Comfy-Org/z_image_turbo](https://huggingface.co/Comfy-Org/z_image_turbo) | Comfy-Org | [apache-2.0](https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1) | Yes | 2 | 5,218,592 | 2026-07-02 |
+| [alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1](https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1) | alibaba-pai | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 75,682 | 2026-02-26 |
 
 ### Bernini
 
@@ -127,7 +127,7 @@ _Last updated: 2026-08-01 08:11 UTC · 59 tracked repos + 7 base models_
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
 | [Comfy-Org/sam3.1](https://huggingface.co/Comfy-Org/sam3.1) | Comfy-Org | [other](https://github.com/facebookresearch/sam3/blob/main/LICENSE) | Review | 1 | 0 | 2026-05-06 |
-| [jetjodh/sam-3d-body-dinov3](https://huggingface.co/jetjodh/sam-3d-body-dinov3) | jetjodh | [other](https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE) | Review | 3 | 1,231 | 2025-11-25 |
+| [jetjodh/sam-3d-body-dinov3](https://huggingface.co/jetjodh/sam-3d-body-dinov3) | jetjodh | [other](https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE) | Review | 3 | 1,206 | 2025-11-25 |
 
 ### LivePortrait
 
@@ -194,13 +194,13 @@ _Last updated: 2026-08-01 08:11 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [apple/Sharp](https://huggingface.co/apple/Sharp) | apple | apple-amlr | Review | 1 | 3,381 | 2025-12-18 |
+| [apple/Sharp](https://huggingface.co/apple/Sharp) | apple | [apple-amlr](https://github.com/apple/ml-sharp/blob/main/LICENSE) | Review | 1 | 3,306 | 2025-12-18 |
 
 ### lrzjason
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [lrzjason/Anything2Real_2601](https://huggingface.co/lrzjason/Anything2Real_2601) | lrzjason | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 119,304 | 2026-01-28 |
+| [lrzjason/Anything2Real_2601](https://huggingface.co/lrzjason/Anything2Real_2601) | lrzjason | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 117,333 | 2026-01-28 |
 
 ### mashb1t
 
