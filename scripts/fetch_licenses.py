@@ -206,7 +206,7 @@ def assess_commercial(license_value):
 
 def parse_license(card_data):
     if not card_data:
-        return "", ""
+        return "", "", ""
     lic = card_data.get("license")
     if isinstance(lic, list):
         lic = ", ".join(str(x) for x in lic if x)
@@ -214,8 +214,9 @@ def parse_license(card_data):
         lic = str(lic)
     else:
         lic = ""
-    link = card_data.get("license_link") or card_data.get("license_name") or ""
-    return lic.strip(), (link or "").strip()
+    lic_name = card_data.get("license_name") or ""
+    link = card_data.get("license_link") or ""
+    return lic.strip(), (link or "").strip(), (lic_name or "").strip()
 
 
 def fetch_one(repo, meta, fallbacks, links):
@@ -235,7 +236,10 @@ def fetch_one(repo, meta, fallbacks, links):
         return row
 
     card = info.get("cardData") or {}
-    lic, link_url = parse_license(card)
+    lic, link_url, lic_name = parse_license(card)
+    if link_url and not link_url.startswith(("http://", "https://")):
+        # cardData license_link may be a repo-relative path (e.g. "LICENSE.md")
+        link_url = "https://huggingface.co/{}/resolve/main/{}".format(repo, link_url.lstrip("/"))
     source = "cardata"
     commercial = ""
 
@@ -247,7 +251,9 @@ def fetch_one(repo, meta, fallbacks, links):
         link_url = "https://huggingface.co/" + src if src else ""
         source = "fallback:" + src
     else:
-        commercial = assess_commercial(lic)
+        # license_name (e.g. "circlestone-labs-non-commercial-license") can carry
+        # the commercial restriction when cardData.license is just "other".
+        commercial = assess_commercial(lic + " " + lic_name)
 
     if repo in links:
         link_url = links[repo].get("license_url", "")

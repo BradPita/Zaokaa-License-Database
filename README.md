@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-01 17:34 UTC | 59 tracked repos + 7 base models_
+_Last updated: 2026-08-01 17:58 UTC | 59 tracked repos + 7 base models_
 
 > **[View the formatted table online](https://bradpita.github.io/Zaokaa-License-Database/)** - fixed column widths for side-by-side comparison and every link opens in a new tab (not possible inside GitHub's README).
 
@@ -48,7 +48,7 @@ _Last updated: 2026-08-01 17:34 UTC | 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [silveroxides/FLUX.2-dev-fp8_scaled](https://huggingface.co/silveroxides/FLUX.2-dev-fp8_scaled) | silveroxides | [other](https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md) | Review | Black Forest Labs FLUX.2-dev license - non-commercial; commercial use requires a separate license from BFL. | 1 | 16,114 | 2026-07-15 |
+| [silveroxides/FLUX.2-dev-fp8_scaled](https://huggingface.co/silveroxides/FLUX.2-dev-fp8_scaled) | silveroxides | [other](https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md) | No | Black Forest Labs FLUX.2 \[dev\] Non-Commercial License: non-commercial, non-production use; commercial use requires a separate license from BFL. | 1 | 16,114 | 2026-07-15 |
 
 ### Krea
 
@@ -128,8 +128,8 @@ _Last updated: 2026-08-01 17:34 UTC | 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/sam3.1](https://huggingface.co/Comfy-Org/sam3.1) | Comfy-Org | [other](https://github.com/facebookresearch/sam3/blob/main/LICENSE) | Review | Custom or undeclared license; commercial conditions require human review of the license text. | 1 | 0 | 2026-05-06 |
-| [jetjodh/sam-3d-body-dinov3](https://huggingface.co/jetjodh/sam-3d-body-dinov3) | jetjodh | [other](https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE) | Review | Custom or undeclared license; commercial conditions require human review of the license text. | 3 | 1,206 | 2025-11-25 |
+| [Comfy-Org/sam3.1](https://huggingface.co/Comfy-Org/sam3.1) | Comfy-Org | [other](https://github.com/facebookresearch/sam3/blob/main/LICENSE) | Yes | SAM License (Meta, 2025-11-19): royalty-free commercial use permitted, no revenue threshold; obligations: no reverse engineering of components, trade-control/ITAR compliance, acknowledge SAM in publications. | 1 | 0 | 2026-05-06 |
+| [jetjodh/sam-3d-body-dinov3](https://huggingface.co/jetjodh/sam-3d-body-dinov3) | jetjodh | [other](https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE) | Yes | SAM License (Meta, 2025-11-19): royalty-free commercial use permitted, no revenue threshold; obligations: no reverse engineering of components, trade-control/ITAR compliance, acknowledge SAM in publications. | 3 | 1,206 | 2025-11-25 |
 
 ### LivePortrait
 
@@ -164,8 +164,8 @@ _Last updated: 2026-08-01 17:34 UTC | 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [circlestone-labs/Anima](https://huggingface.co/circlestone-labs/Anima) | circlestone-labs | [other](LICENSE.md) | Review | Custom or undeclared license; commercial conditions require human review of the license text. | 2 | 843,139 | 2026-07-24 |
-| [kohya-ss/Anima-LLLite](https://huggingface.co/kohya-ss/Anima-LLLite) | kohya-ss | [other](LICENSE) | Review | Custom or undeclared license; commercial conditions require human review of the license text. | 1 | 0 | 2026-05-20 |
+| [circlestone-labs/Anima](https://huggingface.co/circlestone-labs/Anima) | circlestone-labs | [other](https://huggingface.co/circlestone-labs/Anima/raw/main/LICENSE.md) | No | CircleStone Labs Non-Commercial License v1.2: model & derivatives non-commercial, non-production; generated images (Outputs) may be used commercially; commercial model use requires a separate license (circlestone.ai); derivative of Cosmos-Predict2-2B - NVIDIA Open Model License applies to derivatives. | 2 | 843,139 | 2026-07-24 |
+| [kohya-ss/Anima-LLLite](https://huggingface.co/kohya-ss/Anima-LLLite) | kohya-ss | [other](https://huggingface.co/kohya-ss/Anima-LLLite/raw/main/LICENSE) | No | CircleStone Labs Non-Commercial License v1.0 (same as Anima base): model & derivatives non-commercial, non-production; generated images (Outputs) may be used commercially; commercial model use requires a separate license (circlestone.ai). | 1 | 0 | 2026-05-20 |
 
 ### Kaloscope
 
@@ -184,13 +184,13 @@ _Last updated: 2026-08-01 17:34 UTC | 59 tracked repos + 7 base models_
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
 | [ChenkinNoob/Chenkin-UniControl-XL](https://huggingface.co/ChenkinNoob/Chenkin-UniControl-XL) | ChenkinNoob | [fair-ai-public-license-1.0-sd](https://freedevproject.org/faipl-1.0-sd/) | No | Fair AI Public License 1.0 SD (FAIPL) - non-commercial use only. | 1 | 812 | 2026-04-10 |
-| [ChenkinNoob/ChenkinNoob-XL-V0.5](https://huggingface.co/ChenkinNoob/ChenkinNoob-XL-V0.5) | ChenkinNoob | [other](https://freedevproject.org/faipl-1.0-sd/) | Review | Custom or undeclared license; commercial conditions require human review of the license text. | 1 | 35 | 2026-04-10 |
+| [ChenkinNoob/ChenkinNoob-XL-V0.5](https://huggingface.co/ChenkinNoob/ChenkinNoob-XL-V0.5) | ChenkinNoob | [other](https://freedevproject.org/faipl-1.0-sd/) | No | Fair AI Public License 1.0 SD (FAIPL) - non-commercial use only (same as base model Chenkin-UniControl-XL). | 1 | 35 | 2026-04-10 |
 
 ### Kim2091
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Kim2091/AnimeSharp](https://huggingface.co/Kim2091/AnimeSharp) | Kim2091 | [cc-by-nc-sa-4.0](https://spdx.org/licenses/CC-BY-NC-SA-4.0.html) | No | Non-commercial license: free use excludes commercial rights; commercial use requires a purchased license. | 1 | 0 | 2024-12-08 |
+| [Kim2091/AnimeSharp](https://huggingface.co/Kim2091/AnimeSharp) | Kim2091 | [cc-by-nc-sa-4.0](https://spdx.org/licenses/CC-BY-NC-SA-4.0.html) | No | CC BY-NC-SA 4.0: non-commercial use only; attribution + share-alike required; commercial use needs separate permission from the author. | 1 | 0 | 2024-12-08 |
 
 ### apple
 

@@ -128,8 +128,9 @@
     {
       "repo": "silveroxides/FLUX.2-dev-fp8_scaled",
       "license_url": "https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md",
-      "note": "FLUX.2-dev license (Black Forest Labs, non-commercial)",
-      "commercial_terms": "Black Forest Labs FLUX.2-dev license - non-commercial; commercial use requires a separate license from BFL."
+      "commercial_use": "No",
+      "note": "FLUX.2-dev license (Black Forest Labs, non-commercial AND non-production; canonical LICENSE.md lives in a gated HF repo - readable mirror: https://huggingface.co/city96/FLUX.1-dev-gguf/raw/main/LICENSE.md)",
+      "commercial_terms": "Black Forest Labs FLUX.2 [dev] Non-Commercial License: non-commercial, non-production use; commercial use requires a separate license from BFL."
     },
     {
       "repo": "ChenkinNoob/Chenkin-UniControl-XL",
@@ -175,6 +176,47 @@
       "note": "Krea 2 Community License v1 (2026-06-22) - not open source; free use incl. commercial under US$1M company-wide annual revenue, >=US$1M requires Enterprise License (opensource@krea.ai); AUP + content-filter obligations. Authoritative text: krea-ai/krea-2 LICENSE.pdf; use policy: https://www.krea.ai/krea-2-use-policy.",
       "commercial_use": "No",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply."
+    },
+    {
+      "repo": "circlestone-labs/Anima",
+      "license_url": "https://huggingface.co/circlestone-labs/Anima/raw/main/LICENSE.md",
+      "commercial_use": "No",
+      "note": "CircleStone Labs Non-Commercial License v1.2: model + derivatives non-commercial AND non-production; generated Outputs may be used commercially (per README); commercial model license via tdrussell@circlestone.ai; derivative of NVIDIA Cosmos-Predict2-2B (NVIDIA Open Model License applies to derivatives).",
+      "commercial_terms": "CircleStone Labs Non-Commercial License v1.2: model & derivatives non-commercial, non-production; generated images (Outputs) may be used commercially; commercial model use requires a separate license (circlestone.ai); derivative of Cosmos-Predict2-2B - NVIDIA Open Model License applies to derivatives."
+    },
+    {
+      "repo": "kohya-ss/Anima-LLLite",
+      "license_url": "https://huggingface.co/kohya-ss/Anima-LLLite/raw/main/LICENSE",
+      "commercial_use": "No",
+      "note": "Same license as the Anima base model (per README): CircleStone Labs Non-Commercial License v1.0, copy included in repo as LICENSE.",
+      "commercial_terms": "CircleStone Labs Non-Commercial License v1.0 (same as Anima base): model & derivatives non-commercial, non-production; generated images (Outputs) may be used commercially; commercial model use requires a separate license (circlestone.ai)."
+    },
+    {
+      "repo": "ChenkinNoob/ChenkinNoob-XL-V0.5",
+      "license_url": "https://freedevproject.org/faipl-1.0-sd/",
+      "commercial_use": "No",
+      "note": "Derivative of Chenkin-UniControl-XL; cardData license_link already points to FAIPL 1.0 SD - non-commercial, aligned with base model.",
+      "commercial_terms": "Fair AI Public License 1.0 SD (FAIPL) - non-commercial use only (same as base model Chenkin-UniControl-XL)."
+    },
+    {
+      "repo": "Comfy-Org/sam3.1",
+      "license_url": "https://github.com/facebookresearch/sam3/blob/main/LICENSE",
+      "commercial_use": "Yes",
+      "note": "SAM License (Meta, 2025-11-19): royalty-free for any purpose incl. commercial, no revenue threshold; obligations: no reverse engineering, trade-control compliance, publication acknowledgment.",
+      "commercial_terms": "SAM License (Meta, 2025-11-19): royalty-free commercial use permitted, no revenue threshold; obligations: no reverse engineering of components, trade-control/ITAR compliance, acknowledge SAM in publications."
+    },
+    {
+      "repo": "jetjodh/sam-3d-body-dinov3",
+      "license_url": "https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE",
+      "commercial_use": "Yes",
+      "note": "SAM License (Meta, 2025-11-19) - verified via anonymous resolve URL; royalty-free incl. commercial, no revenue threshold.",
+      "commercial_terms": "SAM License (Meta, 2025-11-19): royalty-free commercial use permitted, no revenue threshold; obligations: no reverse engineering of components, trade-control/ITAR compliance, acknowledge SAM in publications."
+    },
+    {
+      "repo": "Kim2091/AnimeSharp",
+      "license_url": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html",
+      "note": "CC BY-NC-SA 4.0: non-commercial; attribution + share-alike required; commercial use needs separate permission from author.",
+      "commercial_terms": "CC BY-NC-SA 4.0: non-commercial use only; attribution + share-alike required; commercial use needs separate permission from the author."
     }
   ]
 }
