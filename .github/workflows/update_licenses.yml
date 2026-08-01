@@ -1,0 +1,46 @@
+name: Update Model Licenses
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # every Monday 00:00 UTC
+  workflow_dispatch: {}  # manual run from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-licenses
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch licenses
+        run: python scripts/fetch_licenses.py
+
+      - name: Render README
+        run: python scripts/generate_readme.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/licenses_output.csv data/licenses_output.json README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update model licenses [skip ci]"
+            git push
+          fi

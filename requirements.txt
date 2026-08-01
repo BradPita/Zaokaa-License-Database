@@ -1,0 +1,3 @@
+# The fetcher uses only the Python standard library (urllib + json).
+# No third-party packages are required. Add huggingface_hub here if you
+# later switch the fetcher to the SDK.

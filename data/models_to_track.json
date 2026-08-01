@@ -1,0 +1,44 @@
+{
+  "_comment": "Curated list of open models to track. Add new entries under 'models'. The 'hf_id' is the Hugging Face Hub repo path (org/name). The fetcher reads license metadata from the public Hub API.",
+  "models": [
+    { "name": "FLUX.1 [schnell]",            "provider": "Black Forest Labs", "category": "image", "hf_id": "black-forest-labs/FLUX.1-schnell" },
+    { "name": "FLUX.1 [dev]",                "provider": "Black Forest Labs", "category": "image", "hf_id": "black-forest-labs/FLUX.1-dev" },
+    { "name": "FLUX.1 Krea Dev",             "provider": "Black Forest Labs", "category": "image", "hf_id": "black-forest-labs/FLUX.1-Krea-dev" },
+    { "name": "Stable Diffusion 3.5 Large",  "provider": "Stability AI",     "category": "image", "hf_id": "stabilityai/stable-diffusion-3.5-large" },
+    { "name": "Stable Diffusion 3.5 Medium", "provider": "Stability AI",     "category": "image", "hf_id": "stabilityai/stable-diffusion-3.5-medium" },
+    { "name": "Stable Diffusion 3 Medium",   "provider": "Stability AI",     "category": "image", "hf_id": "stabilityai/stable-diffusion-3-medium" },
+    { "name": "SDXL Base 1.0",               "provider": "Stability AI",     "category": "image", "hf_id": "stabilityai/stable-diffusion-xl-base-1.0" },
+    { "name": "SDXL Turbo",                  "provider": "Stability AI",     "category": "image", "hf_id": "stabilityai/sdxl-turbo" },
+    { "name": "Stable Cascade",              "provider": "Stability AI",     "category": "image", "hf_id": "stabilityai/stable-cascade" },
+    { "name": "Stable Diffusion 2.1",        "provider": "Stability AI",     "category": "image", "hf_id": "stabilityai/stable-diffusion-2-1" },
+    { "name": "PixArt-XL 2 1024",            "provider": "PixArt-Alpha",     "category": "image", "hf_id": "PixArt-alpha/PixArt-XL-2-1024-MS" },
+    { "name": "PixArt-Sigma XL 2 1024",      "provider": "PixArt-Alpha",     "category": "image", "hf_id": "PixArt-alpha/PixArt-Sigma-XL-2-1024-MS" },
+    { "name": "Kolors",                      "provider": "Kuaishou",         "category": "image", "hf_id": "Kwai-Kolors/Kolors" },
+    { "name": "Playground v2.5 1024",        "provider": "Playground",      "category": "image", "hf_id": "playgroundai/playground-v2.5-1024px-aesthetic" },
+
+    { "name": "Wan2.1 T2V 14B",              "provider": "Alibaba",          "category": "video", "hf_id": "Wan-AI/Wan2.1-T2V-14B" },
+    { "name": "Wan2.1 T2V 1.3B",             "provider": "Alibaba",          "category": "video", "hf_id": "Wan-AI/Wan2.1-T2V-1.3B" },
+    { "name": "Wan2.1 I2V 14B 720P",         "provider": "Alibaba",          "category": "video", "hf_id": "Wan-AI/Wan2.1-I2V-14B-720P" },
+    { "name": "Wan2.1 I2V 14B 480P",         "provider": "Alibaba",          "category": "video", "hf_id": "Wan-AI/Wan2.1-I2V-14B-480P" },
+    { "name": "Wan2.2 T2I 14B",              "provider": "Alibaba",          "category": "video", "hf_id": "Wan-AI/Wan2.2-T2I-14B" },
+    { "name": "LTX-Video",                   "provider": "Lightricks",       "category": "video", "hf_id": "Lightricks/LTX-Video" },
+    { "name": "LTX-Video 0.9.7 Distilled",   "provider": "Lightricks",       "category": "video", "hf_id": "Lightricks/LTX-Video-0.9.7-distilled" },
+    { "name": "CogVideoX-5B",                "provider": "Zhipu AI",         "category": "video", "hf_id": "THUDM/CogVideoX-5b" },
+    { "name": "CogVideoX-2B",                "provider": "Zhipu AI",         "category": "video", "hf_id": "THUDM/CogVideoX-2b" },
+    { "name": "HunyuanVideo",                "provider": "Tencent",         "category": "video", "hf_id": "tencent/HunyuanVideo" },
+    { "name": "Mochi 1",                     "provider": "Genmo",            "category": "video", "hf_id": "genmo/mochi-1" },
+
+    { "name": "Qwen2.5-7B Instruct",         "provider": "Alibaba",          "category": "llm",   "hf_id": "Qwen/Qwen2.5-7B-Instruct" },
+    { "name": "Qwen2.5-72B Instruct",        "provider": "Alibaba",          "category": "llm",   "hf_id": "Qwen/Qwen2.5-72B-Instruct" },
+    { "name": "Llama 3.1 8B Instruct",       "provider": "Meta",             "category": "llm",   "hf_id": "meta-llama/Llama-3.1-8B-Instruct" },
+    { "name": "Gemma 2 9B IT",               "provider": "Google",           "category": "llm",   "hf_id": "google/gemma-2-9b-it" },
+    { "name": "Mistral 7B Instruct v0.3",    "provider": "Mistral AI",       "category": "llm",   "hf_id": "mistralai/Mistral-7B-Instruct-v0.3" },
+    { "name": "DeepSeek-V3",                 "provider": "DeepSeek",         "category": "llm",   "hf_id": "deepseek-ai/DeepSeek-V3" },
+    { "name": "Yi-1.5-9B Chat",              "provider": "01.AI",            "category": "llm",   "hf_id": "01-ai/Yi-1.5-9B-Chat" },
+    { "name": "GLM-4-9B Chat",               "provider": "Zhipu AI",         "category": "llm",   "hf_id": "THUDM/glm-4-9b-chat" },
+
+    { "name": "Stable Audio Open 1.0",       "provider": "Stability AI",     "category": "audio", "hf_id": "stabilityai/stable-audio-open-1.0" },
+    { "name": "Bark",                        "provider": "Suno",             "category": "audio", "hf_id": "suno/bark" },
+    { "name": "MusicGen Small",              "provider": "Meta",             "category": "audio", "hf_id": "facebook/musicgen-small" }
+  ]
+}
