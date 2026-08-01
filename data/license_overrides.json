@@ -35,6 +35,13 @@
       "commercial_use": "Review",
       "source_repo": "Lightricks/LTX-2.3",
       "note": "repackage of LTX-Video; upstream declares a custom 'other' license"
+    },
+    {
+      "repo": "ChenkinNoob/Chenkin-UniControl-XL",
+      "license": "fair-ai-public-license-1.0-sd",
+      "commercial_use": "No",
+      "source_repo": "ChenkinNoob/Chenkin-UniControl-XL",
+      "note": "non-commercial per fair-ai-public-license-1.0-sd; stated in README, no LICENSE file"
     }
   ],
   "links": [
@@ -77,6 +84,11 @@
       "repo": "silveroxides/FLUX.2-dev-fp8_scaled",
       "license_url": "https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md",
       "note": "FLUX.2-dev license (Black Forest Labs, non-commercial)"
+    },
+    {
+      "repo": "ChenkinNoob/Chenkin-UniControl-XL",
+      "license_url": "https://freedevproject.org/faipl-1.0-sd/",
+      "note": "Fair AI Public License 1.0 SD (source: freedevproject.org)"
     }
   ]
 }

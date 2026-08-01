@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-01T07:30:02.670296+00:00",
+  "_generated_at": "2026-08-01T07:50:43.535968+00:00",
   "_sources": [
     "models_manifest.json",
     "licenses_output.json",
@@ -17,7 +17,7 @@
   ],
   "file_count": 156,
   "derivative_count": 7,
-  "files_with_license_url": 143,
+  "files_with_license_url": 144,
   "files": [
     {
       "category": "clip_vision",
@@ -474,10 +474,10 @@
       "filename": "Chenkin-UniControl-XL.safetensors",
       "hf_repo": "ChenkinNoob/Chenkin-UniControl-XL",
       "derivative": false,
-      "license": "待确认（HF未声明许可）",
-      "license_url": "",
-      "license_source": "cardata",
-      "commercial": "Review",
+      "license": "fair-ai-public-license-1.0-sd",
+      "license_url": "https://freedevproject.org/faipl-1.0-sd/",
+      "license_source": "fallback:ChenkinNoob/Chenkin-UniControl-XL+link",
+      "commercial": "No",
       "base_model": "",
       "base_repo": "",
       "base_license": "",

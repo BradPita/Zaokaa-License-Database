@@ -50,6 +50,7 @@ PERMISSIVE = {
 NC_MARKERS = (
     "non-commercial", "noncommercial", "non_commercial",
     "cc-by-nc", "nc-sa", "nc-nd",
+    "fair-ai-public-license", "faipl",
 )
 
 # Authoritative SPDX license page for well-known standard licenses, used to give
