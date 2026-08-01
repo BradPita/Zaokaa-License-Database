@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Render the tracked-model license data into the README.md table section.
+Render the repo-level license data into the README.md table section.
 
-Reads data/licenses_output.csv and replaces everything between the
-<!-- LICENSE_TABLE_START --> and <!-- LICENSE_TABLE_END --> markers in
-README.md. Uses only the Python standard library.
+Reads data/licenses_output.csv (one row per tracked HF repo) and replaces
+everything between <!-- LICENSE_TABLE_START --> and <!-- LICENSE_TABLE_END -->
+in README.md. Groups rows by model family. Stdlib only.
 """
 from __future__ import annotations
 
@@ -19,13 +19,11 @@ README = ROOT / "README.md"
 START = "<!-- LICENSE_TABLE_START -->"
 END = "<!-- LICENSE_TABLE_END -->"
 
-CATEGORY_ORDER = ["image", "video", "llm", "audio"]
-CATEGORY_TITLES = {
-    "image": "Image Generation",
-    "video": "Video Generation",
-    "llm": "Large Language Models",
-    "audio": "Audio / Music",
-}
+FAMILY_ORDER = [
+    "Wan", "FLUX", "Krea", "Qwen-Image", "Qwen-TTS", "LTX-Video",
+    "Z-Image", "Bernini", "SCAIL", "SeedVR", "Segment Anything",
+    "LivePortrait", "Pose", "PoseStudio", "Audio", "SimpleSDXL",
+]
 
 
 def esc(s):
@@ -37,7 +35,7 @@ def fmt_date(s):
     return s[:10] if s else ""
 
 
-def fmt_downloads(s):
+def fmt_int(s):
     s = str(s or "").strip()
     return format(int(s), ",") if s.isdigit() else "-"
 
@@ -71,28 +69,29 @@ def license_cell(row):
 def build_block(rows):
     lines = []
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    lines.append("_Last updated: {} · {} models tracked_".format(ts, len(rows)))
+    lines.append("_Last updated: {} · {} repos tracked_".format(ts, len(rows)))
     lines.append("")
 
     if not rows:
-        lines.append("> _No data yet. Run `python scripts/fetch_licenses.py` "
-                     "then `python scripts/generate_readme.py` to populate "
-                     "this table (or trigger the GitHub Actions workflow)._")
+        lines.append("> _No data yet. Run `python scripts/fetch_licenses.py` then "
+                     "`python scripts/generate_readme.py` (or trigger the GitHub "
+                     "Actions workflow) to populate this table._")
         return lines
 
-    by_cat = {}
+    by_fam = {}
     for r in rows:
-        by_cat.setdefault(r.get("category", "other"), []).append(r)
-    cats = CATEGORY_ORDER + [c for c in by_cat if c not in CATEGORY_ORDER]
+        by_fam.setdefault(r.get("family", "Other"), []).append(r)
+    order = FAMILY_ORDER + sorted(f for f in by_fam if f not in FAMILY_ORDER)
 
-    for cat in cats:
-        group = by_cat.get(cat)
+    for fam in order:
+        group = by_fam.get(fam)
         if not group:
             continue
-        lines.append("### {}".format(CATEGORY_TITLES.get(cat, cat.title())))
+        group.sort(key=lambda r: r.get("name", ""))
+        lines.append("### {}".format(fam))
         lines.append("")
-        lines.append("| Model | Provider | License | Commercial | Downloads | Updated |")
-        lines.append("|---|---|---|---|---|---|")
+        lines.append("| Model | Provider | License | Commercial | Files | Downloads | Updated |")
+        lines.append("|---|---|---|---|---|---|---|")
         for r in group:
             comm = esc(r.get("commercial_use")) or "Review"
             cells = [
@@ -100,7 +99,8 @@ def build_block(rows):
                 esc(r.get("provider")),
                 license_cell(r),
                 comm,
-                fmt_downloads(r.get("downloads")),
+                fmt_int(r.get("file_count")),
+                fmt_int(r.get("downloads")),
                 fmt_date(r.get("last_modified")),
             ]
             lines.append("| " + " | ".join(cells) + " |")
@@ -121,7 +121,7 @@ def main():
     pre = text[:text.index(START) + len(START)]
     post = text[text.index(END):]
     README.write_text(pre + "\n" + block + "\n" + post, encoding="utf-8")
-    print("README updated with {} models.".format(len(rows)))
+    print("README updated with {} repos.".format(len(rows)))
     return 0
 
 

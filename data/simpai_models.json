@@ -1,0 +1,2430 @@
+{
+  "_source": "SimpAI_Studio/model_checker.py",
+  "_extracted_at": "2026-08-01T02:52:28.612773+00:00",
+  "file_count": 346,
+  "repo_count": 61,
+  "files": [
+    {
+      "category": "upscale_models",
+      "filename": "4x-UltraSharp.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/upscale_models/4x-UltraSharp.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/upscale_models/4x-UltraSharp.pth"
+    },
+    {
+      "category": "upscale_models",
+      "filename": "4xNomosUniDAT_bokeh_jpg.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/upscale_models/4xNomosUniDAT_bokeh_jpg.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/upscale_models/4xNomosUniDAT_bokeh_jpg.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "parsing_bisenet.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/parsing_bisenet.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/parsing_bisenet.pth"
+    },
+    {
+      "category": "controlnet",
+      "filename": "lllyasviel/Annotators/ZoeD_M12_N.pt",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/lllyasviel/Annotators/ZoeD_M12_N.pt",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/lllyasviel/Annotators/ZoeD_M12_N.pt"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "clip_vision_h.safetensors",
+      "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/master/split_files/clip_vision/clip_vision_h.safetensors"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "wd-eva02-large-tagger-v3.onnx",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/clip_vision/wd-eva02-large-tagger-v3.onnx",
+      "ms_url": "https://www.modelscope.cn/models/windecay/WD-tagger/resolve/master/wd-eva02-large-tagger-v3.onnx"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "wd-eva02-large-tagger-v3.csv",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/clip_vision/wd-eva02-large-tagger-v3.csv",
+      "ms_url": "https://www.modelscope.cn/models/windecay/WD-tagger/resolve/master/wd-eva02-large-tagger-v3.csv"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "clip-vit-large-patch14/merges.txt",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip_vision/clip-vit-large-patch14/merges.txt",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip_vision/clip-vit-large-patch14/merges.txt"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "clip-vit-large-patch14/special_tokens_map.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip_vision/clip-vit-large-patch14/special_tokens_map.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip_vision/clip-vit-large-patch14/special_tokens_map.json"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "clip-vit-large-patch14/tokenizer_config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip_vision/clip-vit-large-patch14/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip_vision/clip-vit-large-patch14/tokenizer_config.json"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "clip-vit-large-patch14/vocab.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip_vision/clip-vit-large-patch14/vocab.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip_vision/clip-vit-large-patch14/vocab.json"
+    },
+    {
+      "category": "configs",
+      "filename": "anything_v3.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/anything_v3.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/anything_v3.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v1-inference.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v1-inference.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v1-inference.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v1-inference_clip_skip_2.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v1-inference_clip_skip_2.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v1-inference_clip_skip_2.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v1-inference_clip_skip_2_fp16.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v1-inference_clip_skip_2_fp16.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v1-inference_clip_skip_2_fp16.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v1-inference_fp16.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v1-inference_fp16.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v1-inference_fp16.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v1-inpainting-inference.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v1-inpainting-inference.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v1-inpainting-inference.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v2-inference-v.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v2-inference-v.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v2-inference-v.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v2-inference-v_fp32.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v2-inference-v_fp32.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v2-inference-v_fp32.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v2-inference.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v2-inference.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v2-inference.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v2-inference_fp32.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v2-inference_fp32.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v2-inference_fp32.yaml"
+    },
+    {
+      "category": "configs",
+      "filename": "v2-inpainting-inference.yaml",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/configs/v2-inpainting-inference.yaml",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/configs/v2-inpainting-inference.yaml"
+    },
+    {
+      "category": "controlnet",
+      "filename": "detection_Resnet50_Final.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/detection_Resnet50_Final.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/detection_Resnet50_Final.pth"
+    },
+    {
+      "category": "controlnet",
+      "filename": "fooocus_ip_negative.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/fooocus_ip_negative.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/fooocus_ip_negative.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "parsing_parsenet.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/parsing_parsenet.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/parsing_parsenet.pth"
+    },
+    {
+      "category": "controlnet",
+      "filename": "lllyasviel/Annotators/body_pose_model.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/lllyasviel/Annotators/body_pose_model.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/lllyasviel/Annotators/body_pose_model.pth"
+    },
+    {
+      "category": "controlnet",
+      "filename": "lllyasviel/Annotators/facenet.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/lllyasviel/Annotators/facenet.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/lllyasviel/Annotators/facenet.pth"
+    },
+    {
+      "category": "controlnet",
+      "filename": "lllyasviel/Annotators/hand_pose_model.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/lllyasviel/Annotators/hand_pose_model.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/lllyasviel/Annotators/hand_pose_model.pth"
+    },
+    {
+      "category": "controlnet",
+      "filename": "hr16/DWPose-TorchScript-BatchSize5/dw-ll_ucoco_384_bs5.torchscript.pt",
+      "hf_repo": "hr16/DWPose-TorchScript-BatchSize5",
+      "hf_url": "https://huggingface.co/hr16/DWPose-TorchScript-BatchSize5/resolve/main/dw-ll_ucoco_384_bs5.torchscript.pt",
+      "ms_url": "https://www.modelscope.cn/models/svjack/DWPose-TorchScript-BatchSize5/resolve/master/dw-ll_ucoco_384_bs5.torchscript.pt"
+    },
+    {
+      "category": "controlnet",
+      "filename": "yzd-v/DWPose/yolox_l.onnx",
+      "hf_repo": "yzd-v/DWPose",
+      "hf_url": "https://huggingface.co/yzd-v/DWPose/blob/main/yolox_l.onnx",
+      "ms_url": "https://www.modelscope.cn/models/zhangjin/DWPose/resolve/master/yolox_l.onnx"
+    },
+    {
+      "category": "inpaint",
+      "filename": "fooocus_inpaint_head.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/fooocus_inpaint_head.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/fooocus_inpaint_head.pth"
+    },
+    {
+      "category": "grounding-dino",
+      "filename": "groundingdino_swint_ogc.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/groundingdino_swint_ogc.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/groundingdino_swint_ogc.pth"
+    },
+    {
+      "category": "grounding-dino",
+      "filename": "GroundingDINO_SwinT_OGC.cfg.py",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/GroundingDINO_SwinT_OGC.cfg.py",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/inpaint/GroundingDINO_SwinT_OGC.cfg.py"
+    },
+    {
+      "category": "inpaint",
+      "filename": "isnet-anime.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/isnet-anime.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/isnet-anime.onnx"
+    },
+    {
+      "category": "inpaint",
+      "filename": "isnet-general-use.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/isnet-general-use.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/isnet-general-use.onnx"
+    },
+    {
+      "category": "sams",
+      "filename": "sam_vit_b_01ec64.pth",
+      "hf_repo": "mashb1t/misc",
+      "hf_url": "https://huggingface.co/mashb1t/misc/resolve/main/sam_vit_b_01ec64.pth",
+      "ms_url": "https://www.modelscope.cn/models/muse/sam_vit_b_01ec64/resolve/master/sam_vit_b_01ec64.pth"
+    },
+    {
+      "category": "sams",
+      "filename": "sam_vit_l_0b3195.pth",
+      "hf_repo": "mashb1t/misc",
+      "hf_url": "https://huggingface.co/mashb1t/misc/resolve/main/sam_vit_l_0b3195.pth",
+      "ms_url": "https://www.modelscope.cn/models/muse/sam_vit_l_0b3195/resolve/master/sam_vit_l_0b3195.pth"
+    },
+    {
+      "category": "inpaint",
+      "filename": "silueta.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/silueta.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/silueta.onnx"
+    },
+    {
+      "category": "inpaint",
+      "filename": "u2net.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/u2net.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/u2net.onnx"
+    },
+    {
+      "category": "inpaint",
+      "filename": "u2netp.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/u2netp.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/u2netp.onnx"
+    },
+    {
+      "category": "inpaint",
+      "filename": "u2net_cloth_seg.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/u2net_cloth_seg.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/u2net_cloth_seg.onnx"
+    },
+    {
+      "category": "inpaint",
+      "filename": "u2net_human_seg.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/u2net_human_seg.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/u2net_human_seg.onnx"
+    },
+    {
+      "category": "llms",
+      "filename": "bert-base-uncased/config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/bert-base-uncased/config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/bert-base-uncased/config.json"
+    },
+    {
+      "category": "llms",
+      "filename": "bert-base-uncased/model.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/bert-base-uncased/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/bert-base-uncased/model.safetensors"
+    },
+    {
+      "category": "llms",
+      "filename": "bert-base-uncased/tokenizer.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/bert-base-uncased/tokenizer.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/bert-base-uncased/tokenizer.json"
+    },
+    {
+      "category": "llms",
+      "filename": "bert-base-uncased/tokenizer_config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/bert-base-uncased/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/bert-base-uncased/tokenizer_config.json"
+    },
+    {
+      "category": "llms",
+      "filename": "bert-base-uncased/vocab.txt",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/bert-base-uncased/vocab.txt",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/bert-base-uncased/vocab.txt"
+    },
+    {
+      "category": "llms",
+      "filename": "Helsinki-NLP/opus-mt-zh-en/config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/config.json"
+    },
+    {
+      "category": "llms",
+      "filename": "Helsinki-NLP/opus-mt-zh-en/generation_config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/generation_config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/generation_config.json"
+    },
+    {
+      "category": "llms",
+      "filename": "Helsinki-NLP/opus-mt-zh-en/metadata.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/metadata.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/metadata.json"
+    },
+    {
+      "category": "llms",
+      "filename": "Helsinki-NLP/opus-mt-zh-en/pytorch_model.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/pytorch_model.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/pytorch_model.bin"
+    },
+    {
+      "category": "llms",
+      "filename": "Helsinki-NLP/opus-mt-zh-en/source.spm",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/source.spm",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/source.spm"
+    },
+    {
+      "category": "llms",
+      "filename": "Helsinki-NLP/opus-mt-zh-en/target.spm",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/target.spm",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/target.spm"
+    },
+    {
+      "category": "llms",
+      "filename": "Helsinki-NLP/opus-mt-zh-en/tokenizer_config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/tokenizer_config.json"
+    },
+    {
+      "category": "llms",
+      "filename": "Helsinki-NLP/opus-mt-zh-en/vocab.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/vocab.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/Helsinki-NLP/opus-mt-zh-en/vocab.json"
+    },
+    {
+      "category": "llms",
+      "filename": "superprompt-v1/config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/superprompt-v1/config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/superprompt-v1/config.json"
+    },
+    {
+      "category": "llms",
+      "filename": "superprompt-v1/generation_config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/superprompt-v1/generation_config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/superprompt-v1/generation_config.json"
+    },
+    {
+      "category": "llms",
+      "filename": "superprompt-v1/model.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/superprompt-v1/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/superprompt-v1/model.safetensors"
+    },
+    {
+      "category": "llms",
+      "filename": "superprompt-v1/README.md",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/superprompt-v1/README.md",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/superprompt-v1/README.md"
+    },
+    {
+      "category": "llms",
+      "filename": "superprompt-v1/spiece.model",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/superprompt-v1/spiece.model",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/superprompt-v1/spiece.model"
+    },
+    {
+      "category": "llms",
+      "filename": "superprompt-v1/tokenizer.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/superprompt-v1/tokenizer.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/superprompt-v1/tokenizer.json"
+    },
+    {
+      "category": "llms",
+      "filename": "superprompt-v1/tokenizer_config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/superprompt-v1/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/superprompt-v1/tokenizer_config.json"
+    },
+    {
+      "category": "rembg",
+      "filename": "RMBG-1.4.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/rembg/RMBG-1.4.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/rembg/RMBG-1.4.pth"
+    },
+    {
+      "category": "vae_approx",
+      "filename": "vaeapp_sd15.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/vae_approx/vaeapp_sd15.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/vae_approx/vaeapp_sd15.pth"
+    },
+    {
+      "category": "vae_approx",
+      "filename": "xl-to-v1_interposer-v4.0.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/vae_approx/xl-to-v1_interposer-v4.0.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/vae_approx/xl-to-v1_interposer-v4.0.safetensors"
+    },
+    {
+      "category": "vae_approx",
+      "filename": "xlvaeapp.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/vae_approx/xlvaeapp.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/vae_approx/xlvaeapp.pth"
+    },
+    {
+      "category": "clip",
+      "filename": "clip_l.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip/clip_l.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip/clip_l.safetensors"
+    },
+    {
+      "category": "ultralytics",
+      "filename": "bbox/face_yolov8m.pt",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/ultralytics/bbox/face_yolov8m.pt",
+      "ms_url": "https://www.modelscope.cn/models/ACCC1380/Adetailer_model/resolve/master/face_yolov8m.pt"
+    },
+    {
+      "category": "ultralytics",
+      "filename": "bbox/hand_yolov8s.pt",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/ultralytics/bbox/hand_yolov8s.pt",
+      "ms_url": "https://www.modelscope.cn/models/ACCC1380/Adetailer_model/resolve/master/hand_yolov8s.pt"
+    },
+    {
+      "category": "LLM",
+      "filename": "Huihui-Qwen3.5-9B-abliterated/Huihui-Qwen3.5-9B-abliterated.Q4_K_M.gguf",
+      "hf_repo": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
+      "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/resolve/main/Huihui-Qwen3.5-9B-abliterated.Q4_K_M.gguf",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/LLM/Huihui-Qwen3.5-9B-abliterated/Huihui-Qwen3.5-9B-abliterated.Q4_K_M.gguf"
+    },
+    {
+      "category": "LLM",
+      "filename": "Huihui-Qwen3.5-9B-abliterated/Huihui-Qwen3.5-9B-abliterated.mmproj-Q8_0.gguf",
+      "hf_repo": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
+      "hf_url": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF/resolve/main/Huihui-Qwen3.5-9B-abliterated.mmproj-Q8_0.gguf",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/LLM/Huihui-Qwen3.5-9B-abliterated/Huihui-Qwen3.5-9B-abliterated.mmproj-Q8_0.gguf"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "z_image_turbo_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/z_image_turbo",
+      "hf_url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_int8_convrot.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/z_image_turbo/resolve/master/split_files/diffusion_models/z_image_turbo_int8_convrot.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen_3_4b.safetensors",
+      "hf_repo": "Comfy-Org/z_image_turbo",
+      "hf_url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/VerStella/z_image_turbo_comfyui/resolve/master/split_files/text_encoders/qwen_3_4b.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "Z-Image-Turbo-Fun-Controlnet-Union-2.1-lite-2601-8steps.safetensors",
+      "hf_repo": "alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
+      "hf_url": "https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1/resolve/main/Z-Image-Turbo-Fun-Controlnet-Union-2.1-lite-2601-8steps.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/PAI/Z-Image-Turbo-Fun-Controlnet-Union-2.1/resolve/master/Z-Image-Turbo-Fun-Controlnet-Union-2.1-lite-2601-8steps.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "ae.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/vae/ae.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/vae/ae.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "UltraFlux-vae_v1.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/vae/UltraFlux-vae_v1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/vae/UltraFlux-vae_v1.safetensors"
+    },
+    {
+      "category": "SEEDVR2",
+      "filename": "ema_vae_fp16.safetensors",
+      "hf_repo": "numz/SeedVR2_comfyUI",
+      "hf_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/ema_vae_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/numz/SeedVR2_comfyUI/resolve/master/ema_vae_fp16.safetensors"
+    },
+    {
+      "category": "SEEDVR2",
+      "filename": "seedvr2_ema_3b_fp16.safetensors",
+      "hf_repo": "numz/SeedVR2_comfyUI",
+      "hf_url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_3b_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/numz/SeedVR2_comfyUI/resolve/master/seedvr2_ema_3b_fp16.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "qwen_image_2512_fp8_e4m3fn.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image_ComfyUI",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/Qwen-Image_ComfyUI/resolve/master/split_files/diffusion_models/qwen_image_2512_fp8_e4m3fn.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "Qwen-Image-InstantX-ControlNet-Union.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/Qwen-Image-InstantX-ControlNet-Union.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/Qwen-Image-InstantX-ControlNet-Union.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip/qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip/qwen_2.5_vl_7b_fp8_scaled.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "qwen_image_vae.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/vae/qwen_image_vae.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/vae/qwen_image_vae.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Qwen-Image-2512-Lightning-4steps-V1.0-bf16.safetensors",
+      "hf_repo": "lightx2v/Qwen-Image-2512-Lightning",
+      "hf_url": "https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning/resolve/main/Qwen-Image-2512-Lightning-4steps-V1.0-bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/lightx2v/Qwen-Image-2512-Lightning/resolve/master/Qwen-Image-2512-Lightning-4steps-V1.0-bf16.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "Qwen-Image-InstantX-ControlNet-Inpainting.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/Qwen-Image-InstantX-ControlNet-Inpainting.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/Qwen-Image-InstantX-ControlNet-Inpainting.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "qwen_image_edit_2511_fp8mixed.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/diffusion_models/qwen_image_edit_2511_fp8mixed.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+      "hf_repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+      "hf_url": "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/loras/Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Qwen-Image-Edit-2511-Lightning-8steps-V1.0-bf16.safetensors",
+      "hf_repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+      "hf_url": "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning/resolve/main/Qwen-Image-Edit-2511-Lightning-8steps-V1.0-bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/loras/Qwen-Image-Edit-2511-Lightning-8steps-V1.0-bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "qwen-image-edit-2511-multiple-angles-lora.safetensors",
+      "hf_repo": "fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA",
+      "hf_url": "https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA/resolve/main/qwen-image-edit-2511-multiple-angles-lora.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA/resolve/master/qwen-image-edit-2511-multiple-angles-lora.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "anything2real_2601_A_final_patched.safetensors",
+      "hf_repo": "lrzjason/Anything2Real_2601",
+      "hf_url": "https://huggingface.co/lrzjason/Anything2Real_2601/resolve/main/anything2real_2601_A_final_patched.safetensors",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/loras/anything2real_2601_A_final_patched.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "qe2511_consis_alpha_patched.safetensors",
+      "hf_repo": "lrzjason/QwenEdit_Consistance_Edit",
+      "hf_url": "https://huggingface.co/lrzjason/QwenEdit_Consistance_Edit/resolve/main/qe2511_consis_alpha_patched.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/loras/qe2511_consis_alpha_patched.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "nunchaku_qwen_image_2511_balance_int4.safetensors",
+      "hf_repo": "QuantFunc/Nunchaku-Qwen-Image-EDIT-2511",
+      "hf_url": "https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511/resolve/main/nunchaku_qwen_image_edit_2511_balance_int4.safetensors",
+      "ms_url": "https://modelscope.cn/models/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511/resolve/master/nunchaku_qwen_image_2511_balance_int4.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "nunchaku_qwen_image_2511_balance_fp4.safetensors",
+      "hf_repo": "QuantFunc/Nunchaku-Qwen-Image-EDIT-2511",
+      "hf_url": "https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511/resolve/main/nunchaku_qwen_image_edit_2511_balance_fp4.safetensors",
+      "ms_url": "https://modelscope.cn/models/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511/resolve/master/nunchaku_qwen_image_2511_balance_fp4.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "Qwen-Rapid-AIO-NSFW-v23.safetensors",
+      "hf_repo": "Phr00t/Qwen-Image-Edit-Rapid-AIO",
+      "hf_url": "https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO/resolve/main/v23/Qwen-Rapid-AIO-NSFW-v23.safetensors",
+      "ms_url": "https://modelscope.cn/models/Phr00t/Qwen-Rapid-AIO/resolve/master/v23/Qwen-Rapid-AIO-NSFW-v23.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "anima-base-v1.0.safetensors",
+      "hf_repo": "circlestone-labs/Anima",
+      "hf_url": "https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/diffusion_models/anima-base-v1.0.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/circlestone-labs/Anima/resolve/master/split_files/diffusion_models/anima-base-v1.0.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen_3_06b_base.safetensors",
+      "hf_repo": "circlestone-labs/Anima",
+      "hf_url": "https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/text_encoders/qwen_3_06b_base.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/circlestone-labs/Anima/resolve/master/split_files/text_encoders/qwen_3_06b_base.safetensors"
+    },
+    {
+      "category": "upscale_models",
+      "filename": "4x-AnimeSharp.pth",
+      "hf_repo": "Kim2091/AnimeSharp",
+      "hf_url": "https://huggingface.co/Kim2091/AnimeSharp/resolve/main/4x-AnimeSharp.pth",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/upscale_models/4x-AnimeSharp.pth"
+    },
+    {
+      "category": "model_patches",
+      "filename": "anima-lllite-any-test-like-v2.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/controlnet/anima-lllite-any-test-like-v2.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/Anima-LLLite/resolve/master/model_patches/anima-lllite-any-test-like-v2.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "anima-lllite-pose-1.safetensors",
+      "hf_repo": "kohya-ss/Anima-LLLite",
+      "hf_url": "https://huggingface.co/kohya-ss/Anima-LLLite/resolve/main/anima-lllite-pose-1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/Anima-LLLite/resolve/master/model_patches/anima-lllite-pose-1.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "anima-lllite-inpainting-v2.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/controlnet/anima-lllite-inpainting-v2.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/Anima-LLLite/resolve/master/model_patches/anima-lllite-inpainting-v2.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "animaTileRepair_v20.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/controlnet/animaTileRepair_v20.safetensors",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/controlnet/animaTileRepair_v20.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "flux1-dev-fp8.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/flux1-dev-fp8.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/flux1-dev-fp8.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "flux1-fill-dev-OneReward_fp8.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/flux1-fill-dev-OneReward_fp8.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/flux1-fill-dev-OneReward_fp8.safetensors"
+    },
+    {
+      "category": "clip",
+      "filename": "EVA02_CLIP_L_336_psz14_s6B.pt",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip/EVA02_CLIP_L_336_psz14_s6B.pt",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip/EVA02_CLIP_L_336_psz14_s6B.pt"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "t5xxl_fp8_e4m3fn.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip/t5xxl_fp8_e4m3fn.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip/t5xxl_fp8_e4m3fn.safetensors"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "sigclip_vision_patch14_384.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip_vision/sigclip_vision_patch14_384.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip_vision/sigclip_vision_patch14_384.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "flux.1-dev_controlnet_union_pro_2.0.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/flux.1-dev_controlnet_union_pro_2.0.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/flux.1-dev_controlnet_union_pro_2.0.safetensors"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/antelopev2/1k3d68.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/antelopev2/1k3d68.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/antelopev2/1k3d68.onnx"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/antelopev2/2d106det.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/antelopev2/2d106det.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/antelopev2/2d106det.onnx"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/antelopev2/genderage.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/antelopev2/genderage.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/antelopev2/genderage.onnx"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/antelopev2/glintr100.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/antelopev2/glintr100.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/antelopev2/glintr100.onnx"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/antelopev2/scrfd_10g_bnkps.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/antelopev2/scrfd_10g_bnkps.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/antelopev2/scrfd_10g_bnkps.onnx"
+    },
+    {
+      "category": "pulid",
+      "filename": "pulid_flux_v0.9.1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/pulid/pulid_flux_v0.9.1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/pulid/pulid_flux_v0.9.1.safetensors"
+    },
+    {
+      "category": "style_models",
+      "filename": "flux1-redux-dev.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/style_models/flux1-redux-dev.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/style_models/flux1-redux-dev.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "svdq-int4_r32-flux.1-dev.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/svdq-int4_r32-flux.1-dev.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/svdq-int4_r32-flux.1-dev.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "svdq-int4_r32-flux.1-fill-dev.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/svdq-int4_r32-flux.1-fill-dev.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/svdq-int4_r32-flux.1-fill-dev.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "svdq-fp4_r32-flux.1-dev.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/svdq-fp4_r32-flux.1-dev.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/svdq-fp4_r32-flux.1-dev.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "svdq-fp4_r32-flux.1-fill-dev.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/svdq-fp4_r32-flux.1-fill-dev.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/svdq-fp4_r32-flux.1-fill-dev.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen3_8b_abliterated_v2-fp8mixed.safetensors",
+      "hf_repo": "silveroxides/FLUX.2-dev-fp8_scaled",
+      "hf_url": "https://huggingface.co/silveroxides/FLUX.2-dev-fp8_scaled/resolve/main/qwen3_8b_abliterated_v2-fp8mixed.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/silveroxides/FLUX.2-dev-fp8_scaled/resolve/master/qwen3_8b_abliterated_v2-fp8mixed.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "flux2-vae.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/vae/flux2-vae.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/flux2-klein-4B/resolve/master/split_files/vae/flux2-vae.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Flux2 Klein动漫转写实真人 AnythingtoRealCharacters.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/loras/Flux2%20Klein%E5%8A%A8%E6%BC%AB%E8%BD%AC%E5%86%99%E5%AE%9E%E7%9C%9F%E4%BA%BA%20AnythingtoRealCharacters.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/zhouwenbin1994/Klein9BAnythingtoRealC/resolve/20260128232821/Flux2%20Klein%E5%8A%A8%E6%BC%AB%E8%BD%AC%E5%86%99%E5%AE%9E%E7%9C%9F%E4%BA%BA%20AnythingtoRealCharacters.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "flux1-dev-kontext_fp8_scaled.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/flux1-dev-kontext_fp8_scaled.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/flux1-dev-kontext_fp8_scaled.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "flux1-turbo.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/flux1-turbo.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/flux1-turbo.safetensors"
+    },
+    {
+      "category": "upscale_models",
+      "filename": "4x_NMKD-Siax_200k.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/upscale_models/4x_NMKD-Siax_200k.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/upscale_models/4x_NMKD-Siax_200k.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_general_V1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_general_V1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_general_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_all.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_all.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_all.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_appliances_V1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_appliances_V1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_appliances_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_makeup_V1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_makeup_V1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_makeup_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_metal_V1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_metal_V1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_metal_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_clothing_V1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_clothing_V1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_clothing_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_jewelry_V1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_jewelry_V1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_jewelry_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_digital3C.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_digital3C.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_digital3C.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_composite.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_composite.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_composite.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_pattern.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_pattern.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_pattern.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_scene_alpha.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_scene_alpha.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_scene_alpha.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_face_V1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_face_V1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_face_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_angle_beta.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_angle_beta.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_angle_beta.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_3view.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_3view.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_3view.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_remove_V1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_remove_V1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_remove_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_body_restore.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_body_restore.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_body_restore.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_takeclothes_V2.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_takeclothes_V2.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_takeclothes_V2.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_put_it_here_V4.2.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_put_it_here_V4.2.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_put_it_here_V4.2.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_deblur.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_deblur.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_deblur.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Kontext_depth_referencel.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Kontext_depth_referencel.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Kontext_depth_referencel.safetensors"
+    },
+    {
+      "category": "rembg",
+      "filename": "ckpt_base.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/rembg/ckpt_base.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/rembg/ckpt_base.pth"
+    },
+    {
+      "category": "rembg",
+      "filename": "General.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/rembg/General.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/rembg/General.safetensors"
+    },
+    {
+      "category": "rembg",
+      "filename": "Portrait.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/rembg/Portrait.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/rembg/Portrait.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "removal_timestep_alpha-2-1740.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/removal_timestep_alpha-2-1740.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/removal_timestep_alpha-2-1740.safetensors"
+    },
+    {
+      "category": "sams",
+      "filename": "sam_vit_h_4b8939.pth",
+      "hf_repo": "mashb1t/misc",
+      "hf_url": "https://huggingface.co/mashb1t/misc/resolve/main/sam_vit_h_4b8939.pth",
+      "ms_url": "https://www.modelscope.cn/models/muse/sam_vit_h_4b8939/resolve/master/sam_vit_h_4b8939.pth"
+    },
+    {
+      "category": "loras",
+      "filename": "comfyui_portrait_lora64.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/comfyui_portrait_lora64.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/comfyui_portrait_lora64.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "realisticVisionV60B1_v51VAE.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/realisticVisionV60B1_v51VAE.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/realisticVisionV60B1_v51VAE.safetensors"
+    },
+    {
+      "category": "unet",
+      "filename": "iclight_sd15_fbc_unet_ldm.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/unet/iclight_sd15_fbc_unet_ldm.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/unet/iclight_sd15_fbc_unet_ldm.safetensors"
+    },
+    {
+      "category": "unet",
+      "filename": "iclight_sd15_fc_unet_ldm.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/unet/iclight_sd15_fc_unet_ldm.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/unet/iclight_sd15_fc_unet_ldm.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "miaomiaoHarem_v20.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/miaomiaoHarem_v20.safetensors",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/checkpoints/miaomiaoHarem_v20.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "OneObsession_20Bold.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/OneObsession_20Bold.safetensors?",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/checkpoints/OneObsession_20Bold.safetensors"
+    },
+    {
+      "category": "ipadapter",
+      "filename": "noob_ip_adapter.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/ipadapter/noob_ip_adapter.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/ipadapter/noob_ip_adapter.bin"
+    },
+    {
+      "category": "upscale_models",
+      "filename": "remacri_original.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/upscale_models/remacri_original.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/upscale_models/remacri_original.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "noob_sdxl_controlnet_inpainting.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/noob_sdxl_controlnet_inpainting.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/noob_sdxl_controlnet_inpainting.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "xinsir_cn_union_sdxl_1.0_promax.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/xinsir_cn_union_sdxl_1.0_promax.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/xinsir_cn_union_sdxl_1.0_promax.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "ChenkinNoob-XL-V0.5.safetensors",
+      "hf_repo": "ChenkinNoob/ChenkinNoob-XL-V0.5",
+      "hf_url": "https://huggingface.co/ChenkinNoob/ChenkinNoob-XL-V0.5/resolve/main/ChenkinNoob-XL-V0.5.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/ChenkinNoob/ChenkinNoob-XL-V0.5/resolve/20260410110159/ChenkinNoob-XL-V0.5.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "Chenkin-UniControl-XL.safetensors",
+      "hf_repo": "ChenkinNoob/Chenkin-UniControl-XL",
+      "hf_url": "https://huggingface.co/ChenkinNoob/Chenkin-UniControl-XL/resolve/main/Chenkin-UniControl-XL.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/ChenkinNoob/Chenkin-UniControl-XL/resolve/master/Chenkin-UniControl-XL.safetensors"
+    },
+    {
+      "category": "ipadapter",
+      "filename": "ip-adapter-plus-face_sdxl_vit-h.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/ip-adapter-plus-face_sdxl_vit-h.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/ip-adapter-plus-face_sdxl_vit-h.bin"
+    },
+    {
+      "category": "ipadapter",
+      "filename": "ip-adapter-plus_sdxl_vit-h.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/ip-adapter-plus_sdxl_vit-h.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/ip-adapter-plus_sdxl_vit-h.bin"
+    },
+    {
+      "category": "loras",
+      "filename": "sd_xl_offset_example-lora_1.0.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/sd_xl_offset_example-lora_1.0.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/sd_xl_offset_example-lora_1.0.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ip-adapter-faceid-plusv2_sdxl_lora.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/ip-adapter-faceid-plusv2_sdxl_lora.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/ip-adapter-faceid-plusv2_sdxl_lora.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "sdxl_lightning_4step_lora.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/sdxl_lightning_4step_lora.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/sdxl_lightning_4step_lora.safetensors"
+    },
+    {
+      "category": "upscale_models",
+      "filename": "fooocus_upscaler_s409985e5.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/upscale_models/fooocus_upscaler_s409985e5.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/upscale_models/fooocus_upscaler_s409985e5.bin"
+    },
+    {
+      "category": "loras",
+      "filename": "Hyper-SDXL-8steps-lora.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/Hyper-SDXL-8steps-lora.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/Hyper-SDXL-8steps-lora.safetensors"
+    },
+    {
+      "category": "embeddings",
+      "filename": "unaestheticXLhk1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/embeddings/unaestheticXLhk1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/embeddings/unaestheticXLhk1.safetensors"
+    },
+    {
+      "category": "embeddings",
+      "filename": "unaestheticXLv31.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/embeddings/unaestheticXLv31.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/embeddings/unaestheticXLv31.safetensors"
+    },
+    {
+      "category": "inpaint",
+      "filename": "inpaint_v26.fooocus.patch",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/inpaint_v26.fooocus.patch",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/inpaint_v26.fooocus.patch"
+    },
+    {
+      "category": "inpaint",
+      "filename": "inpaint_v25.fooocus.patch",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/inpaint_v25.fooocus.patch",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/inpaint_v25.fooocus.patch"
+    },
+    {
+      "category": "llms",
+      "filename": "nllb-200-distilled-600M/pytorch_model.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/nllb-200-distilled-600M/pytorch_model.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/nllb-200-distilled-600M/pytorch_model.bin"
+    },
+    {
+      "category": "llms",
+      "filename": "nllb-200-distilled-600M/sentencepiece.bpe.model",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/nllb-200-distilled-600M/sentencepiece.bpe.model",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/nllb-200-distilled-600M/sentencepiece.bpe.model"
+    },
+    {
+      "category": "llms",
+      "filename": "nllb-200-distilled-600M/tokenizer.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/llms/nllb-200-distilled-600M/tokenizer.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/llms/nllb-200-distilled-600M/tokenizer.json"
+    },
+    {
+      "category": "prompt_expansion",
+      "filename": "fooocus_expansion/config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/prompt_expansion/fooocus_expansion/config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/prompt_expansion/fooocus_expansion/config.json"
+    },
+    {
+      "category": "prompt_expansion",
+      "filename": "fooocus_expansion/merges.txt",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/prompt_expansion/fooocus_expansion/merges.txt",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/prompt_expansion/fooocus_expansion/merges.txt"
+    },
+    {
+      "category": "prompt_expansion",
+      "filename": "fooocus_expansion/positive.txt",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/prompt_expansion/fooocus_expansion/positive.txt",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/prompt_expansion/fooocus_expansion/positive.txt"
+    },
+    {
+      "category": "prompt_expansion",
+      "filename": "fooocus_expansion/pytorch_model.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/prompt_expansion/fooocus_expansion/pytorch_model.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/prompt_expansion/fooocus_expansion/pytorch_model.bin"
+    },
+    {
+      "category": "prompt_expansion",
+      "filename": "fooocus_expansion/special_tokens_map.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/prompt_expansion/fooocus_expansion/special_tokens_map.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/prompt_expansion/fooocus_expansion/special_tokens_map.json"
+    },
+    {
+      "category": "prompt_expansion",
+      "filename": "fooocus_expansion/tokenizer.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/prompt_expansion/fooocus_expansion/tokenizer.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/prompt_expansion/fooocus_expansion/tokenizer.json"
+    },
+    {
+      "category": "prompt_expansion",
+      "filename": "fooocus_expansion/tokenizer_config.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/prompt_expansion/fooocus_expansion/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/prompt_expansion/fooocus_expansion/tokenizer_config.json"
+    },
+    {
+      "category": "prompt_expansion",
+      "filename": "fooocus_expansion/vocab.json",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/prompt_expansion/fooocus_expansion/vocab.json",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/prompt_expansion/fooocus_expansion/vocab.json"
+    },
+    {
+      "category": "safety_checker",
+      "filename": "stable-diffusion-safety-checker.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/safety_checker/stable-diffusion-safety-checker.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/safety_checker/stable-diffusion-safety-checker.bin"
+    },
+    {
+      "category": "clip",
+      "filename": "sd15_clip_model.fp16.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/clip/sd15_clip_model.fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/clip/sd15_clip_model.fp16.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "control_v11f1e_sd15_tile_fp16.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/control_v11f1e_sd15_tile_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/control_v11f1e_sd15_tile_fp16.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "control_v11f1p_sd15_depth_fp16.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/control_v11f1p_sd15_depth_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/control_v11f1p_sd15_depth_fp16.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "control_v11p_sd15_canny_fp16.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/control_v11p_sd15_canny_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/control_v11p_sd15_canny_fp16.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "control_v11p_sd15_openpose_fp16.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/control_v11p_sd15_openpose_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/control_v11p_sd15_openpose_fp16.safetensors"
+    },
+    {
+      "category": "inpaint",
+      "filename": "sd15_powerpaint_brushnet_clip_v2_1.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/sd15_powerpaint_brushnet_clip_v2_1.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/sd15_powerpaint_brushnet_clip_v2_1.bin"
+    },
+    {
+      "category": "inpaint",
+      "filename": "sd15_powerpaint_brushnet_v2_1.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/inpaint/sd15_powerpaint_brushnet_v2_1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/inpaint/sd15_powerpaint_brushnet_v2_1.safetensors"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/buffalo_l/1k3d68.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/buffalo_l/1k3d68.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/buffalo_l/1k3d68.onnx"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/buffalo_l/2d106det.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/buffalo_l/2d106det.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/buffalo_l/2d106det.onnx"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/buffalo_l/det_10g.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/buffalo_l/det_10g.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/buffalo_l/det_10g.onnx"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/buffalo_l/genderage.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/buffalo_l/genderage.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/buffalo_l/genderage.onnx"
+    },
+    {
+      "category": "insightface",
+      "filename": "models/buffalo_l/w600k_r50.onnx",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/insightface/models/buffalo_l/w600k_r50.onnx",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/insightface/models/buffalo_l/w600k_r50.onnx"
+    },
+    {
+      "category": "ipadapter",
+      "filename": "ip-adapter-faceid-plusv2_sd15.bin",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/ipadapter/ip-adapter-faceid-plusv2_sd15.bin",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/ipadapter/ip-adapter-faceid-plusv2_sd15.bin"
+    },
+    {
+      "category": "ipadapter",
+      "filename": "ip-adapter_sd15.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/ipadapter/ip-adapter_sd15.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/ipadapter/ip-adapter_sd15.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ip-adapter-faceid-plusv2_sd15_lora.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/ip-adapter-faceid-plusv2_sd15_lora.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "juggernautXL_juggXIByRundiffusion.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "depth-anything/Depth-Anything-V2-Large/depth_anything_v2_vitl.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/depth-anything/Depth-Anything-V2-Large/depth_anything_v2_vitl.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/depth-anything/Depth-Anything-V2-Large/depth_anything_v2_vitl.pth"
+    },
+    {
+      "category": "controlnet",
+      "filename": "lllyasviel/Annotators/sk_model.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/lllyasviel/Annotators/sk_model.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/lllyasviel/Annotators/sk_model.pth"
+    },
+    {
+      "category": "controlnet",
+      "filename": "lllyasviel/Annotators/sk_model2.pth",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/controlnet/lllyasviel/Annotators/sk_model2.pth",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/controlnet/lllyasviel/Annotators/sk_model2.pth"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "sdpose_wholebody_fp16.safetensors",
+      "hf_repo": "Comfy-Org/SDPose",
+      "hf_url": "https://huggingface.co/Comfy-Org/SDPose/resolve/main/checkpoints/sdpose_wholebody_fp16.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/SDPose/resolve/master/checkpoints/sdpose_wholebody_fp16.safetensors"
+    },
+    {
+      "category": "lsnet",
+      "filename": "kaloscope/best_checkpoint.pth",
+      "hf_repo": "heathcliff01/Kaloscope",
+      "hf_url": "https://huggingface.co/heathcliff01/Kaloscope/resolve/main/best_checkpoint.pth",
+      "ms_url": "https://www.modelscope.cn/models/Heathcliff02/Kaloscope/resolve/master/best_checkpoint.pth"
+    },
+    {
+      "category": "lsnet",
+      "filename": "kaloscope/class_mapping.csv",
+      "hf_repo": "heathcliff01/Kaloscope",
+      "hf_url": "https://huggingface.co/heathcliff01/Kaloscope/resolve/main/class_mapping.csv",
+      "ms_url": "https://www.modelscope.cn/models/Heathcliff02/Kaloscope/resolve/master/class_mapping.csv"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.2_bernini_r_low_noise_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Bernini-R",
+      "hf_url": "https://huggingface.co/Comfy-Org/Bernini-R/resolve/main/diffusion_models/wan2.2_bernini_r_low_noise_int8_convrot.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/Bernini-R/resolve/master/diffusion_models/wan2.2_bernini_r_low_noise_int8_convrot.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2_1-VACE_module_14B_fp8_e4m3fn.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-VACE_module_14B_fp8_e4m3fn.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/WanVideo_comfy/resolve/master/Wan2_1-VACE_module_14B_fp8_e4m3fn.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "nsfw_wan_umt5_xxl_v2_int8-convrot.safetensors",
+      "hf_repo": "rzgar/NSFW-Wan-UMT5-XXL-V2",
+      "hf_url": "https://huggingface.co/rzgar/NSFW-Wan-UMT5-XXL-V2/resolve/main/encoders/nsfw_wan_umt5_xxl_v2_int8-convrot.safetensors",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/text_encoders/wan_umt5_xxl_v2_int8-convrot.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "wan_2.1_vae.safetensors",
+      "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/master/split_files/vae/wan_2.1_vae.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Bernini-R_LightX2V_high_noise.safetensors",
+      "hf_repo": "rzgar/Bernini-R-LightX2V-4step-loras",
+      "hf_url": "https://huggingface.co/rzgar/Bernini-R-LightX2V-4step-loras/resolve/main/Bernini-R_LightX2V_high_noise.safetensors",
+      "ms_url": "https://modelscope.cn/models/rzgar/Bernini-R-LightX2V-4step-loras/resolve/master/Bernini-R_LightX2V_high_noise.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Bernini-R_LightX2V_low_noise.safetensors",
+      "hf_repo": "rzgar/Bernini-R-LightX2V-4step-loras",
+      "hf_url": "https://huggingface.co/rzgar/Bernini-R-LightX2V-4step-loras/resolve/main/Bernini-R_LightX2V_low_noise.safetensors",
+      "ms_url": "https://modelscope.cn/models/rzgar/Bernini-R-LightX2V-4step-loras/resolve/master/Bernini-R_LightX2V_low_noise.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "WAN2.1_SmartphoneSnapshotPhotoReality_v1_by-AI_Characters.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/WAN2.1_SmartphoneSnapshotPhotoReality_v1_by-AI_Characters.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/WAN2.1_SmartphoneSnapshotPhotoReality_v1_by-AI_Characters.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/checkpoints/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/checkpoints/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf"
+    },
+    {
+      "category": "loras",
+      "filename": "Wan2.2_I2V_LightX2V_2step_high_noise.safetensors",
+      "hf_repo": "rzgar/Wan2.2_I2V_LightX2V_2Step",
+      "hf_url": "https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step/resolve/main/Wan2.2_I2V_LightX2V_2step_high_noise.safetensors?download=true",
+      "ms_url": "https://modelscope.cn/models/rzgar/Wan2.2_I2V_LightX2V_2Step/resolve/master/Wan2.2_I2V_LightX2V_2step_high_noise.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Wan2.2_I2V_LightX2V_2step_low_noise.safetensors",
+      "hf_repo": "rzgar/Wan2.2_I2V_LightX2V_2Step",
+      "hf_url": "https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step/resolve/main/Wan2.2_I2V_LightX2V_2step_low_noise.safetensors?download=true",
+      "ms_url": "https://modelscope.cn/models/rzgar/Wan2.2_I2V_LightX2V_2Step/resolve/master/Wan2.2_I2V_LightX2V_2step_low_noise.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/loras/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/loras/SVI_v2_PRO_Wan2.2-I2V-A14B_HIGH_lora_rank_128_fp16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/loras/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/loras/SVI_v2_PRO_Wan2.2-I2V-A14B_LOW_lora_rank_128_fp16.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "rife/flownet.pkl",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/controlnet/rife/flownet.pkl",
+      "ms_url": "https://www.modelscope.cn/models/windecay/rife/resolve/master/flownet.pkl"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "DasiwaWAN22I2V14BLightspeed_synthseductionHighV9.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/diffusion_models/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/diffusion_models/DasiwaWAN22I2V14BLightspeed_synthseductionHighV9.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "DasiwaWAN22I2V14BLightspeed_synthseductionLowV9.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/diffusion_models/DasiwaWAN22I2V14BLightspeed_synthseductionLowV9.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/diffusion_models/DasiwaWAN22I2V14BLightspeed_synthseductionLowV9.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2.2_Remix_SFW_t2v_14b_high_lighting_v1.0_dyno.safetensors",
+      "hf_repo": "FX-FeiHou/wan2.2-Remix",
+      "hf_url": "https://huggingface.co/FX-FeiHou/wan2.2-Remix/resolve/main/SFW/Wan2.2_Remix_SFW_t2v_14b_high_lighting_v1.0_dyno.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/huyuefeitool/wan2.2-Remix/resolve/master/Wan2.2_Remix_SFW_t2v_14b_high_lighting_v1.0_dyno.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "Wan2.1_VAE_upscale2x_imageonly_real_v1.safetensors",
+      "hf_repo": "spacepxl/Wan2.1-VAE-upscale2x",
+      "hf_url": "https://huggingface.co/spacepxl/Wan2.1-VAE-upscale2x/resolve/main/Wan2.1_VAE_upscale2x_imageonly_real_v1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/spacepxl/Wan2.1-VAE-upscale2x/resolve/master/Wan2.1_VAE_upscale2x_imageonly_real_v1.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.1_14B_SCAIL_2_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/SCAIL-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/SCAIL-2/resolve/main/diffusion_models/wan2.1_14B_SCAIL_2_int8_convrot.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/SCAIL-2/resolve/master/diffusion_models/wan2.1_14B_SCAIL_2_int8_convrot.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors",
+      "hf_repo": "metercai/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/metercai/SimpleSDXL2/resolve/main/SimpleModels/loras/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "wan2.1_SCAIL_2_DPO_lora_bf16.safetensors",
+      "hf_repo": "Comfy-Org/SCAIL-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/SCAIL-2/resolve/main/loras/wan2.1_SCAIL_2_DPO_lora_bf16.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/SCAIL-2/resolve/master/loras/wan2.1_SCAIL_2_DPO_lora_bf16.safetensors"
+    },
+    {
+      "category": "checkpoints",
+      "filename": "sam3.1_multiplex_fp16.safetensors",
+      "hf_repo": "Comfy-Org/sam3.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/sam3.1/resolve/main/checkpoints/sam3.1_multiplex_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/sam3.1/resolve/master/checkpoints/sam3.1_multiplex_fp16.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.2_animate_14B_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_animate_14B_int8_convrot.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/master/split_files/diffusion_models/wan2.2_animate_14B_int8_convrot.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2_1-MiniMaxRemover_1_3B_fp16.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-MiniMaxRemover_1_3B_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/WanVideo_comfy/resolve/master/Wan2_1-MiniMaxRemover_1_3B_fp16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "WanAnimate_relight_lora_fp16.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors",
+      "ms_url": "https://modelscope.cn/models/Kijai/WanVideo_comfy/resolve/master/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors"
+    },
+    {
+      "category": "detection",
+      "filename": "vitpose_h_wholebody_data.bin",
+      "hf_repo": "Kijai/vitpose_comfy",
+      "hf_url": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_data.bin",
+      "ms_url": "https://modelscope.cn/models/Kijai/vitpose_comfy/resolve/master/onnx/vitpose_h_wholebody_data.bin"
+    },
+    {
+      "category": "detection",
+      "filename": "vitpose_h_wholebody_model.onnx",
+      "hf_repo": "Kijai/vitpose_comfy",
+      "hf_url": "https://huggingface.co/Kijai/vitpose_comfy/resolve/main/onnx/vitpose_h_wholebody_model.onnx",
+      "ms_url": "https://modelscope.cn/models/Kijai/vitpose_comfy/resolve/master/onnx/vitpose_h_wholebody_model.onnx"
+    },
+    {
+      "category": "detection",
+      "filename": "yolov10m.onnx",
+      "hf_repo": "Wan-AI/Wan2.2-Animate-14B",
+      "hf_url": "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B/resolve/main/process_checkpoint/det/yolov10m.onnx",
+      "ms_url": "https://modelscope.cn/models/Wan-AI/Wan2.2-Animate-14B/resolve/master/process_checkpoint/det/yolov10m.onnx"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors",
+      "hf_repo": "Kijai/wav2vec2_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/WanVideo_comfy/resolve/master/Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "MelBandRoformer_fp16.safetensors",
+      "hf_repo": "Kijai/MelBandRoFormer_comfy",
+      "hf_url": "https://huggingface.co/Kijai/MelBandRoFormer_comfy/resolve/main/MelBandRoformer_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/MelBandRoFormer_comfy/resolve/master/MelBandRoformer_fp16.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "wan2.1_infiniteTalk_single_fp16.safetensors",
+      "hf_repo": "Kijai/wav2vec2_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/master/split_files/model_patches/wan2.1_infiniteTalk_single_fp16.safetensors"
+    },
+    {
+      "category": "audio_encoders",
+      "filename": "wav2vec2-chinese-base_fp16.safetensors",
+      "hf_repo": "Kijai/wav2vec2_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/wav2vec2_safetensors/resolve/master/wav2vec2-chinese-base_fp16.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "ltx-2.3-22b-dev_transformer_only_int8_convrot.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-dev_transformer_only_int8_convrot.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LTX2.3_comfy/resolve/master/diffusion_models/ltx-2.3-22b-dev_transformer_only_int8_convrot.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LTX2.3_comfy/resolve/master/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors",
+      "hf_repo": "Comfy-Org/ltx-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/loras/gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/ltx-2/resolve/master/split_files/loras/gemma-3-12b-it-abliterated_heretic_lora_rank64_bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx-2.3-22b-ic-lora-outpaint.safetensors",
+      "hf_repo": "oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint",
+      "hf_url": "https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint/resolve/main/ltx-2.3-22b-ic-lora-outpaint.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/oumoumad-ai/LTX-2.3-22b-IC-LoRA-Outpaint/resolve/master/ltx-2.3-22b-ic-lora-outpaint.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "ltx-2.3_text_projection_bf16.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/text_encoders/ltx-2.3_text_projection_bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LTX2.3_comfy/resolve/master/text_encoders/ltx-2.3_text_projection_bf16.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "gemma_3_12B_it_fpmixed.safetensors",
+      "hf_repo": "Comfy-Org/ltx-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/ltx-2/resolve/master/split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors"
+    },
+    {
+      "category": "latent_upscale_models",
+      "filename": "ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
+      "hf_repo": "Lightricks/LTX-2.3",
+      "hf_url": "https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Lightricks/LTX-2.3/resolve/master/ltx-2.3-spatial-upscaler-x2-1.1.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "LTX23_audio_vae_bf16.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LTX2.3_comfy/resolve/master/vae/LTX23_audio_vae_bf16.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "LTX23_video_vae_bf16.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_video_vae_bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LTX2.3_comfy/resolve/master/vae/LTX23_video_vae_bf16.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "taeltx2_3.safetensors",
+      "hf_repo": "Kijai/LTX2.3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/taeltx2_3.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LTX2.3_comfy/resolve/master/vae/taeltx2_3.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen3vl_4b_fp8_scaled.safetensors",
+      "hf_repo": "Comfy-Org/Krea-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/Krea-2/resolve/master/text_encoders/qwen3vl_4b_fp8_scaled.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx2.3-video-restoration-general.safetensors",
+      "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
+      "hf_url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight/resolve/main/ltx2.3-video-restoration-general.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/joyfox/LTX2.3-ICEdit-Insight/resolve/master/ltx2.3-video-restoration-general.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx2.3-ic-video-upscale-general.safetensors",
+      "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
+      "hf_url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight/resolve/main/ltx2.3-ic-video-upscale-general.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/joyfox/LTX2.3-ICEdit-Insight/resolve/master/ltx2.3-ic-video-upscale-general.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx2.3-ic-watermark-remove-general.safetensors",
+      "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
+      "hf_url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight/resolve/main/ltx2.3-ic-watermark-remove-general.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/joyfox/LTX2.3-ICEdit-Insight/resolve/master/ltx2.3-ic-watermark-remove-general.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "ltx/ltx2.3-ic-subtitles-remove-general.safetensors",
+      "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
+      "hf_url": "https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight/resolve/main/ltx2.3-ic-subtitles-remove-general.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/joyfox/LTX2.3-ICEdit-Insight/resolve/master/ltx2.3-ic-subtitles-remove-general.safetensors"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "clap/config.json",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/clap/config.json",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/clap/config.json"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "clap/merges.txt",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/clap/merges.txt",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/clap/merges.txt"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "clap/pytorch_model.bin",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/clap/pytorch_model.bin",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/clap/pytorch_model.bin"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "clap/vocab.json",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/clap/vocab.json",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/clap/vocab.json"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "hunyuanvideo_foley_xl.pth",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/hunyuanvideo_foley_xl.pth",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/hunyuanvideo_foley_xl.pth"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "siglip2/config.json",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/siglip2/config.json",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/siglip2/config.json"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "siglip2/model.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/siglip2/model.safetensors",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/siglip2/model.safetensors"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "siglip2/preprocessor_config.json",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/siglip2/preprocessor_config.json",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/siglip2/preprocessor_config.json"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "synchformer_state_dict.pth",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/synchformer_state_dict.pth",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/synchformer_state_dict.pth"
+    },
+    {
+      "category": "hunyuan_foley",
+      "filename": "vae_128d_48k.pth",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/hunyuan_foley/vae_128d_48k.pth",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/hunyuan_foley/vae_128d_48k.pth"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-Tokenizer-12Hz/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/main/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/master/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-Tokenizer-12Hz/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/main/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/master/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-Tokenizer-12Hz/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/main/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/master/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-Tokenizer-12Hz/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/main/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-Tokenizer-12Hz/resolve/master/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/generation_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/merges.txt",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/speech_tokenizer/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/speech_tokenizer/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/speech_tokenizer/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/speech_tokenizer/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-Base/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/main/vocab.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/master/vocab.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/generation_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/merges.txt",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/speech_tokenizer/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/speech_tokenizer/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/speech_tokenizer/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/speech_tokenizer/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-0.6B-CustomVoice/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/main/vocab.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice/resolve/master/vocab.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/generation_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/merges.txt",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/speech_tokenizer/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/speech_tokenizer/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/speech_tokenizer/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/speech_tokenizer/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-Base/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/main/vocab.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-Base/resolve/master/vocab.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/generation_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/merges.txt",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/speech_tokenizer/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/speech_tokenizer/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/speech_tokenizer/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/speech_tokenizer/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-CustomVoice/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/main/vocab.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice/resolve/master/vocab.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/generation_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/generation_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/generation_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/merges.txt",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/merges.txt",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/merges.txt"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/speech_tokenizer/config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/speech_tokenizer/config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/speech_tokenizer/config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/speech_tokenizer/configuration.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/speech_tokenizer/configuration.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/speech_tokenizer/configuration.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/speech_tokenizer/model.safetensors",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/speech_tokenizer/model.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/speech_tokenizer/model.safetensors"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/speech_tokenizer/preprocessor_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/speech_tokenizer/preprocessor_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/tokenizer_config.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/tokenizer_config.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/tokenizer_config.json"
+    },
+    {
+      "category": "qwen-tts",
+      "filename": "Qwen3-TTS-12Hz-1.7B-VoiceDesign/vocab.json",
+      "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "hf_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/main/vocab.json",
+      "ms_url": "https://www.modelscope.cn/models/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign/resolve/master/vocab.json"
+    },
+    {
+      "category": "sam3dbody",
+      "filename": "model.ckpt",
+      "hf_repo": "jetjodh/sam-3d-body-dinov3",
+      "hf_url": "https://huggingface.co/jetjodh/sam-3d-body-dinov3/resolve/main/model.ckpt",
+      "ms_url": "https://www.modelscope.cn/models/facebook/sam-3d-body-dinov3/resolve/master/model.ckpt"
+    },
+    {
+      "category": "sam3dbody",
+      "filename": "model_config.yaml",
+      "hf_repo": "jetjodh/sam-3d-body-dinov3",
+      "hf_url": "https://huggingface.co/jetjodh/sam-3d-body-dinov3/resolve/main/model_config.yaml",
+      "ms_url": "https://www.modelscope.cn/models/facebook/sam-3d-body-dinov3/resolve/master/model_config.yaml"
+    },
+    {
+      "category": "sam3dbody",
+      "filename": "assets/mhr_model.pt",
+      "hf_repo": "jetjodh/sam-3d-body-dinov3",
+      "hf_url": "https://huggingface.co/jetjodh/sam-3d-body-dinov3/resolve/main/assets/mhr_model.pt",
+      "ms_url": "https://www.modelscope.cn/models/facebook/sam-3d-body-dinov3/resolve/master/assets/mhr_model.pt"
+    },
+    {
+      "category": "loras",
+      "filename": "VNCCS_PoseStudioKlein9b_V1.safetensors",
+      "hf_repo": "MIUProject/VNCCS_PoseStudio_Klein",
+      "hf_url": "https://huggingface.co/MIUProject/VNCCS_PoseStudio_Klein/resolve/main/models/loras/Klein9b/VNCCS/VNCCS_PoseStudioKlein9b_V1.safetensors",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/loras/VNCCS_PoseStudioKlein9b_V1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "VNCCS_QIE2511_PoseStudio_ART_V5.9.5.safetensors",
+      "hf_repo": "MIUProject/VNCCS_PoseStudio",
+      "hf_url": "https://huggingface.co/MIUProject/VNCCS_PoseStudio/resolve/main/models/loras/qwen/VNCCS/VNCCS_QIE2511_PoseStudio_ART_V5.9.5.safetensors",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/loras/VNCCS_QIE2511_PoseStudio_ART_V5.9.5.safetensors"
+    },
+    {
+      "category": "sharp",
+      "filename": "sharp_2572gikvuh.pt",
+      "hf_repo": "apple/Sharp",
+      "hf_url": "https://huggingface.co/apple/Sharp/resolve/main/sharp_2572gikvuh.pt",
+      "ms_url": "https://modelscope.cn/models/apple/Sharp/resolve/master/sharp_2572gikvuh.pt"
+    },
+    {
+      "category": "loras",
+      "filename": "Repair-Damage_25.safetensors",
+      "hf_repo": "windecay/SimpleSDXL2",
+      "hf_url": "https://huggingface.co/windecay/SimpleSDXL2/resolve/main/SimpleModels/loras/Repair-Damage_25.safetensors",
+      "ms_url": "https://modelscope.cn/models/Daniel8152/Repair-Damage/resolve/20260111212939/Repair-Damage_25.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.2_bernini_r_high_noise_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Bernini-R",
+      "hf_url": "https://huggingface.co/Comfy-Org/Bernini-R/resolve/main/diffusion_models/wan2.2_bernini_r_high_noise_int8_convrot.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Comfy-Org/Bernini-R/resolve/master/diffusion_models/wan2.2_bernini_r_high_noise_int8_convrot.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "krea2_turbo_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Krea-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/main/diffusion_models/krea2_turbo_int8_convrot.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/Krea-2/resolve/master/diffusion_models/krea2_turbo_int8_convrot.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "krea2_identity_edit_v1_2.safetensors",
+      "hf_repo": "conradlocke/krea2-identity-edit",
+      "hf_url": "https://huggingface.co/conradlocke/krea2-identity-edit/resolve/main/krea2_identity_edit_v1_2.safetensors",
+      "ms_url": "https://modelscope.cn/models/windecay/SimpAI_dev/resolve/master/SimpleModels/loras/krea2_identity_edit_v1_2.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "krea2filterbypass3.safetensors",
+      "hf_repo": "uzumix/krea2filterbypass3.safetensors",
+      "hf_url": "https://huggingface.co/uzumix/krea2filterbypass3.safetensors/resolve/main/krea2filterbypass3.safetensors",
+      "ms_url": "https://hf-mirror.com/uzumix/krea2filterbypass3.safetensors/resolve/main/krea2filterbypass3.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "appearance_feature_extractor.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/appearance_feature_extractor.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LivePortrait_safetensors/resolve/master/appearance_feature_extractor.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "motion_extractor.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/motion_extractor.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LivePortrait_safetensors/resolve/master/motion_extractor.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "warping_module.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/warping_module.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LivePortrait_safetensors/resolve/master/warping_module.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "spade_generator.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/spade_generator.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LivePortrait_safetensors/resolve/master/spade_generator.safetensors"
+    },
+    {
+      "category": "liveportrait",
+      "filename": "stitching_retargeting_module.safetensors",
+      "hf_repo": "Kijai/LivePortrait_safetensors",
+      "hf_url": "https://huggingface.co/Kijai/LivePortrait_safetensors/resolve/main/stitching_retargeting_module.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/LivePortrait_safetensors/resolve/master/stitching_retargeting_module.safetensors"
+    },
+    {
+      "category": "ultralytics",
+      "filename": "face_yolov8n.pt",
+      "hf_repo": "Bingsu/adetailer",
+      "hf_url": "https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8n.pt",
+      "ms_url": "https://www.modelscope.cn/models/Bingsu/adetailer/resolve/master/face_yolov8n.pt"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.1_t2v_14B_fp8_scaled.safetensors",
+      "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/wan2.1_t2v_14B_fp8_scaled.safetensors",
+      "ms_url": "https://modelscope.cn/models/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/master/split_files/diffusion_models/wan2.1_t2v_14B_fp8_scaled.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Lightx2v/lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/metercai/SimpleSDXL2/resolve/master/SimpleModels/loras/lightx2v_T2V_14B_cfg_step_distill_v2_lora_rank64_bf16.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "Wan21_Uni3C_controlnet_fp16.safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan21_Uni3C_controlnet_fp16.safetensors",
+      "ms_url": "https://www.modelscope.cn/models/Kijai/WanVideo_comfy/resolve/master/Wan21_Uni3C_controlnet_fp16.safetensors"
+    }
+  ]
+}
