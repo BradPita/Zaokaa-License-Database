@@ -34,10 +34,10 @@ FAMILY_ORDER = [
     "LivePortrait", "Pose", "PoseStudio", "Audio", "Anima", "Kaloscope",
 ]
 
-TRACKED_HEADERS = ["Model", "Provider", "License", "Commercial", "Files", "Downloads", "Updated"]
-TRACKED_ALIGNS = ["left", "left", "left", "center", "right", "right", "left"]
-BASE_HEADERS = ["Base model", "Provider", "License", "Commercial", "Updated"]
-BASE_ALIGNS = ["left", "left", "left", "center", "left"]
+TRACKED_HEADERS = ["Model", "Provider", "License", "Commercial", "Commercial terms", "Files", "Downloads", "Updated"]
+TRACKED_ALIGNS = ["left", "left", "left", "center", "left", "right", "right", "left"]
+BASE_HEADERS = ["Base model", "Provider", "License", "Commercial", "Commercial terms", "Updated"]
+BASE_ALIGNS = ["left", "left", "left", "center", "left", "left"]
 
 COMM_EMOJI = {"Yes": "Yes", "No": "No", "Review": "Review"}
 
@@ -89,6 +89,10 @@ def comm_cell(r):
     return COMM_EMOJI.get((r.get("commercial_use") or "").strip(), "Review")
 
 
+def terms_cell(r):
+    return cell_escape(r.get("commercial_terms")) or "-"
+
+
 def md_table(headers, aligns, rows):
     sep = []
     for a in aligns:
@@ -122,7 +126,7 @@ def family_section(tracked):
         for r in group:
             rows.append([
                 model_cell(r), cell_escape(r.get("provider")), license_cell(r),
-                comm_cell(r), fmt_int(r.get("file_count")),
+                comm_cell(r), terms_cell(r), fmt_int(r.get("file_count")),
                 fmt_int(r.get("downloads")), fmt_date(r.get("last_modified")),
             ])
         lines.extend(md_table(TRACKED_HEADERS, TRACKED_ALIGNS, rows))
@@ -143,7 +147,7 @@ def base_section(base_rows):
     for r in base_rows:
         rows.append([
             model_cell(r), cell_escape(r.get("provider")), license_cell(r),
-            comm_cell(r), fmt_date(r.get("last_modified")),
+            comm_cell(r), terms_cell(r), fmt_date(r.get("last_modified")),
         ])
     lines.extend(md_table(BASE_HEADERS, BASE_ALIGNS, rows))
     lines.append("")

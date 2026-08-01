@@ -85,6 +85,11 @@ LICENSE_LEGEND = {
         "No": "非商用：免费许可不含商用权利，商用须另购许可（如 Krea-2 社区许可、FAIPL）。",
         "Review": "待人工复核：许可为 other/自定义或未明确，商用属性需人工确认。",
     },
+    "commercial_terms": (
+        "commercial_use 的审计补充说明：明示商用条件（如营收门槛、须购买商业许可等）。"
+        "优先取 data/license_overrides.json 中 fallback/link 的手工 commercial_terms 字段，"
+        "否则按 commercial_use 自动生成默认说明。"
+    ),
 }
 
 FAMILY_RULES = [
@@ -109,9 +114,17 @@ FAMILY_RULES = [
 CSV_FIELDS = [
     "name", "provider", "family", "kind", "categories", "hf_id",
     "file_count", "license", "license_url", "license_source",
-    "commercial_use", "downloads", "likes", "pipeline_tag",
+    "commercial_use", "commercial_terms", "downloads", "likes", "pipeline_tag",
     "last_modified", "status",
 ]
+
+# Auto-generated commercial-conditions text used when no manual override
+# (fallback/link "commercial_terms") exists for a repo.
+DEFAULT_TERMS = {
+    "Yes": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+    "No": "Non-commercial license: free use excludes commercial rights; commercial use requires a purchased license.",
+    "Review": "Custom or undeclared license; commercial conditions require human review of the license text.",
+}
 
 
 def family_of(repo):
@@ -248,10 +261,20 @@ def fetch_one(repo, meta, fallbacks, links):
             link_url = spdx
             source = "spdx" if source == "cardata" else source + "+spdx"
 
+    final_commercial = commercial or assess_commercial(lic)
+    terms = ""
+    if repo in links and links[repo].get("commercial_terms"):
+        terms = links[repo]["commercial_terms"]
+    elif repo in fallbacks and fallbacks[repo].get("commercial_terms"):
+        terms = fallbacks[repo]["commercial_terms"]
+    if not terms:
+        terms = DEFAULT_TERMS.get(final_commercial, DEFAULT_TERMS["Review"])
+
     row["license"] = lic
     row["license_url"] = link_url
     row["license_source"] = source
-    row["commercial_use"] = commercial or assess_commercial(lic)
+    row["commercial_use"] = final_commercial
+    row["commercial_terms"] = terms
     row["downloads"] = info.get("downloads", "")
     row["likes"] = info.get("likes", "")
     row["pipeline_tag"] = info.get("pipeline_tag") or ""
@@ -287,7 +310,8 @@ def main():
         "_usage": (
             "HuggingFace 模型仓库许可对照（仓库级）。license 取自 HF cardData 或 fallback（空声明时依上游补齐）；"
             "license_url 为协议原文链接（来源记于 license_source，含义见 _license_legend）；"
-            "commercial_use 含义见 _license_legend（Yes 可商用 / No 非商用须另购 / Review 待复核）。"
+            "commercial_use 含义见 _license_legend（Yes 可商用 / No 非商用须另购 / Review 待复核）；"
+            "commercial_terms 为该标记的审计补充说明（有条件商用的营收门槛等），含义见 _license_legend。"
             "数据来源：HF API + data/license_overrides.json 人工校正。本文件可直接作为对外交换资料。"
         ),
         "_license_legend": LICENSE_LEGEND,

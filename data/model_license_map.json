@@ -1,11 +1,11 @@
 {
-  "_generated_at": "2026-08-01T14:58:35.881331+00:00",
+  "_generated_at": "2026-08-01T17:34:57.620858+00:00",
   "_sources": [
     "models_manifest.json",
     "licenses_output.json",
     "base_models.json"
   ],
-  "_usage": "filename 为键查询。license 为建议填入值，license_url 为协议原文链接（carddata/fallback/link 来源记于 license_source）；commercial 为 Review/待确认 时需人工复核。derivative=true 的条目已向上溯源至 base_model，base_license 依据基础模型原声明，base_license_url 为其协议链接。本文件可直接作为对外交换资料。",
+  "_usage": "filename 为键查询。license 为建议填入值，license_url 为协议原文链接（carddata/fallback/link 来源记于 license_source）；commercial 为 Review/待确认 时需人工复核；commercial_terms 为该标记的审计补充说明（有条件商用的营收门槛等）。derivative=true 的条目已向上溯源至 base_model，base_license 依据基础模型原声明，base_license_url 为其协议链接，base_commercial_terms 为基础模型的商用条件说明。本文件可直接作为对外交换资料。",
   "_license_legend": {
     "license_source": {
       "spdx": "标准 SPDX 许可（如 apache-2.0/mit）；license_url 自动指向 spdx.org 官方协议页。",
@@ -20,7 +20,8 @@
       "Yes": "可商用（宽松开源协议，如 Apache-2.0 / MIT）。",
       "No": "非商用：免费许可不含商用权利，商用须另购许可（如 Krea-2 社区许可、FAIPL）。",
       "Review": "待人工复核：许可为 other/自定义或未明确，商用属性需人工确认。"
-    }
+    },
+    "commercial_terms": "commercial_use 的审计补充说明：明示商用条件（如营收门槛、须购买商业许可等）。优先取 data/license_overrides.json 中 fallback/link 的手工 commercial_terms 字段，否则按 commercial_use 自动生成默认说明。"
   },
   "derivative_markers": [
     "nsfw",
@@ -44,11 +45,13 @@
       "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
       "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "controlnet",
@@ -59,11 +62,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "controlnet",
@@ -74,11 +79,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "sams",
@@ -89,11 +96,13 @@
       "license_url": "https://github.com/facebookresearch/segment-anything/blob/main/LICENSE",
       "license_source": "fallback:facebook/sam-vit-huge+link",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "sams",
@@ -104,11 +113,13 @@
       "license_url": "https://github.com/facebookresearch/segment-anything/blob/main/LICENSE",
       "license_source": "fallback:facebook/sam-vit-huge+link",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "LLM",
@@ -119,11 +130,13 @@
       "license_url": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
       "license_source": "cardata",
       "commercial": "Review",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "Qwen3.5-9B",
       "base_repo": "Qwen/Qwen3.5-9B",
       "base_license": "apache-2.0",
       "base_license_url": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
-      "base_commercial": "Yes"
+      "base_commercial": "Yes",
+      "base_commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions."
     },
     {
       "category": "LLM",
@@ -134,11 +147,13 @@
       "license_url": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
       "license_source": "cardata",
       "commercial": "Review",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "Qwen3.5-9B",
       "base_repo": "Qwen/Qwen3.5-9B",
       "base_license": "apache-2.0",
       "base_license_url": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
-      "base_commercial": "Yes"
+      "base_commercial": "Yes",
+      "base_commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions."
     },
     {
       "category": "diffusion_models",
@@ -149,11 +164,13 @@
       "license_url": "https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
       "license_source": "fallback:alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "text_encoders",
@@ -164,11 +181,13 @@
       "license_url": "https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
       "license_source": "fallback:alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "model_patches",
@@ -179,11 +198,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "SEEDVR2",
@@ -194,11 +215,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "SEEDVR2",
@@ -209,11 +232,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -224,11 +249,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -239,11 +266,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -254,11 +283,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -269,11 +300,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -284,11 +317,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -299,11 +334,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -314,11 +351,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -329,11 +368,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -344,11 +385,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -359,11 +402,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "checkpoints",
@@ -374,11 +419,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Review",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "Qwen-Image-Edit",
       "base_repo": "Qwen/Qwen-Image-Edit-2511",
       "base_license": "apache-2.0",
       "base_license_url": "https://spdx.org/licenses/Apache-2.0.html",
-      "base_commercial": "Yes"
+      "base_commercial": "Yes",
+      "base_commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions."
     },
     {
       "category": "diffusion_models",
@@ -389,11 +436,13 @@
       "license_url": "LICENSE.md",
       "license_source": "cardata",
       "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "text_encoders",
@@ -404,11 +453,13 @@
       "license_url": "LICENSE.md",
       "license_source": "cardata",
       "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "upscale_models",
@@ -419,11 +470,13 @@
       "license_url": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html",
       "license_source": "spdx",
       "commercial": "No",
+      "commercial_terms": "Non-commercial license: free use excludes commercial rights; commercial use requires a purchased license.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "model_patches",
@@ -434,11 +487,13 @@
       "license_url": "LICENSE",
       "license_source": "cardata",
       "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "text_encoders",
@@ -449,11 +504,13 @@
       "license_url": "https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "Black Forest Labs FLUX.2-dev license - non-commercial; commercial use requires a separate license from BFL.",
       "base_model": "Qwen3-8B",
       "base_repo": "Qwen/Qwen3-8B",
       "base_license": "apache-2.0",
       "base_license_url": "https://huggingface.co/Qwen/Qwen3-8B/blob/main/LICENSE",
-      "base_commercial": "Yes"
+      "base_commercial": "Yes",
+      "base_commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions."
     },
     {
       "category": "sams",
@@ -464,11 +521,13 @@
       "license_url": "https://github.com/facebookresearch/segment-anything/blob/main/LICENSE",
       "license_source": "fallback:facebook/sam-vit-huge+link",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "checkpoints",
@@ -479,11 +538,13 @@
       "license_url": "https://freedevproject.org/faipl-1.0-sd/",
       "license_source": "cardata",
       "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "controlnet",
@@ -494,11 +555,13 @@
       "license_url": "https://freedevproject.org/faipl-1.0-sd/",
       "license_source": "fallback:ChenkinNoob/Chenkin-UniControl-XL+link",
       "commercial": "No",
+      "commercial_terms": "Fair AI Public License 1.0 SD (FAIPL) - non-commercial use only.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "checkpoints",
@@ -509,11 +572,13 @@
       "license_url": "https://spdx.org/licenses/MIT.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "lsnet",
@@ -524,11 +589,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "lsnet",
@@ -539,11 +606,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -554,11 +623,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -569,11 +640,13 @@
       "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
       "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "text_encoders",
@@ -584,11 +657,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Review",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "UMT5-XXL",
       "base_repo": "Wan-AI/Wan2.1-T2V-14B",
       "base_license": "apache-2.0",
       "base_license_url": "https://spdx.org/licenses/Apache-2.0.html",
-      "base_commercial": "Yes"
+      "base_commercial": "Yes",
+      "base_commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions."
     },
     {
       "category": "vae",
@@ -599,11 +674,13 @@
       "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
       "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -614,11 +691,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -629,11 +708,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -644,11 +725,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -659,11 +742,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -674,11 +759,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "Wan2.2",
       "base_repo": "Wan-AI/Wan2.2-Animate-14B",
       "base_license": "apache-2.0",
       "base_license_url": "https://spdx.org/licenses/Apache-2.0.html",
-      "base_commercial": "Yes"
+      "base_commercial": "Yes",
+      "base_commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions."
     },
     {
       "category": "vae",
@@ -689,11 +776,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -704,11 +793,13 @@
       "license_url": "https://spdx.org/licenses/MIT.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -719,11 +810,13 @@
       "license_url": "https://spdx.org/licenses/MIT.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "checkpoints",
@@ -734,11 +827,13 @@
       "license_url": "https://github.com/facebookresearch/sam3/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -749,11 +844,13 @@
       "license_url": "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B",
       "license_source": "fallback:Wan-AI/Wan2.2-Animate-14B",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -764,11 +861,13 @@
       "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
       "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -779,11 +878,13 @@
       "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
       "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "detection",
@@ -794,11 +895,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "detection",
@@ -809,11 +912,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "detection",
@@ -824,11 +929,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -839,11 +946,13 @@
       "license_url": "https://spdx.org/licenses/MIT.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -854,11 +963,13 @@
       "license_url": "https://huggingface.co/KimberleyJSN/melbandroformer/blob/main/README.md",
       "license_source": "fallback:KimberleyJSN/melbandroformer+link",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "model_patches",
@@ -869,11 +980,13 @@
       "license_url": "https://spdx.org/licenses/MIT.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "audio_encoders",
@@ -884,11 +997,13 @@
       "license_url": "https://spdx.org/licenses/MIT.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -899,11 +1014,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -914,11 +1031,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -929,11 +1048,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "fallback:Lightricks/LTX-2.3+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "Gemma-3-12B",
       "base_repo": "google/gemma-3-12b-it",
       "base_license": "gemma",
       "base_license_url": "https://ai.google.dev/gemma/terms",
-      "base_commercial": "Review"
+      "base_commercial": "Review",
+      "base_commercial_terms": "Google Gemma Terms of Use govern (not OSI open source); commercial use permitted subject to those terms."
     },
     {
       "category": "loras",
@@ -944,11 +1065,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "text_encoders",
@@ -959,11 +1082,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "text_encoders",
@@ -974,11 +1099,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "fallback:Lightricks/LTX-2.3+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "latent_upscale_models",
@@ -989,11 +1116,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "vae",
@@ -1004,11 +1133,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "vae",
@@ -1019,11 +1150,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "vae",
@@ -1034,11 +1167,13 @@
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "text_encoders",
@@ -1049,11 +1184,13 @@
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "license_source": "cardata+link",
       "commercial": "No",
+      "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -1061,14 +1198,16 @@
       "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
       "derivative": false,
       "license": "apache-2.0",
-      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
-      "license_source": "spdx",
-      "commercial": "Yes",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
+      "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -1076,14 +1215,16 @@
       "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
       "derivative": false,
       "license": "apache-2.0",
-      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
-      "license_source": "spdx",
-      "commercial": "Yes",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
+      "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -1091,14 +1232,16 @@
       "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
       "derivative": false,
       "license": "apache-2.0",
-      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
-      "license_source": "spdx",
-      "commercial": "Yes",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
+      "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -1106,14 +1249,16 @@
       "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
       "derivative": false,
       "license": "apache-2.0",
-      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
-      "license_source": "spdx",
-      "commercial": "Yes",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
+      "commercial": "Review",
+      "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1124,11 +1269,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1139,11 +1286,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1154,11 +1303,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1169,11 +1320,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1184,11 +1337,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1199,11 +1354,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1214,11 +1371,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1229,11 +1388,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1244,11 +1405,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1259,11 +1422,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1274,11 +1439,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1289,11 +1456,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1304,11 +1473,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1319,11 +1490,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1334,11 +1507,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1349,11 +1524,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1364,11 +1541,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1379,11 +1558,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1394,11 +1575,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1409,11 +1592,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1424,11 +1609,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1439,11 +1626,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1454,11 +1643,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1469,11 +1660,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1484,11 +1677,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1499,11 +1694,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1514,11 +1711,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1529,11 +1728,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1544,11 +1745,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1559,11 +1762,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1574,11 +1779,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1589,11 +1796,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1604,11 +1813,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1619,11 +1830,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1634,11 +1847,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1649,11 +1864,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1664,11 +1881,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1679,11 +1898,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1694,11 +1915,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1709,11 +1932,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1724,11 +1949,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1739,11 +1966,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1754,11 +1983,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1769,11 +2000,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1784,11 +2017,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1799,11 +2034,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1814,11 +2051,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1829,11 +2068,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1844,11 +2085,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1859,11 +2102,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1874,11 +2119,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1889,11 +2136,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1904,11 +2153,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1919,11 +2170,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1934,11 +2187,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1949,11 +2204,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1964,11 +2221,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1979,11 +2238,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -1994,11 +2255,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -2009,11 +2272,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -2024,11 +2289,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -2039,11 +2306,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -2054,11 +2323,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "qwen-tts",
@@ -2069,11 +2340,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "sam3dbody",
@@ -2084,11 +2357,13 @@
       "license_url": "https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE",
       "license_source": "cardata",
       "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "sam3dbody",
@@ -2099,11 +2374,13 @@
       "license_url": "https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE",
       "license_source": "cardata",
       "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "sam3dbody",
@@ -2114,11 +2391,13 @@
       "license_url": "https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE",
       "license_source": "cardata",
       "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -2129,11 +2408,13 @@
       "license_url": "https://spdx.org/licenses/MIT.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -2144,11 +2425,13 @@
       "license_url": "https://spdx.org/licenses/MIT.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "sharp",
@@ -2159,11 +2442,13 @@
       "license_url": "https://github.com/apple/ml-sharp/blob/main/LICENSE",
       "license_source": "cardata+link",
       "commercial": "Review",
+      "commercial_terms": "Apple Sample Code license (apple-amlr) - personal, non-exclusive use; commercial redistribution subject to Apple's terms, review required.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -2174,11 +2459,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -2189,11 +2476,13 @@
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "license_source": "cardata+link",
       "commercial": "No",
+      "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -2204,11 +2493,13 @@
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "license_source": "cardata+link",
       "commercial": "No",
+      "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -2219,11 +2510,13 @@
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "license_source": "fallback:krea/Krea-2-Turbo+link",
       "commercial": "No",
+      "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "vae",
@@ -2234,11 +2527,13 @@
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "license_source": "cardata+link",
       "commercial": "No",
+      "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "liveportrait",
@@ -2249,11 +2544,13 @@
       "license_url": "https://huggingface.co/spaces/KlingTeam/LivePortrait/blob/main/LICENSE",
       "license_source": "fallback:KwaiVGI/LivePortrait+link",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "liveportrait",
@@ -2264,11 +2561,13 @@
       "license_url": "https://huggingface.co/spaces/KlingTeam/LivePortrait/blob/main/LICENSE",
       "license_source": "fallback:KwaiVGI/LivePortrait+link",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "liveportrait",
@@ -2279,11 +2578,13 @@
       "license_url": "https://huggingface.co/spaces/KlingTeam/LivePortrait/blob/main/LICENSE",
       "license_source": "fallback:KwaiVGI/LivePortrait+link",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "liveportrait",
@@ -2294,11 +2595,13 @@
       "license_url": "https://huggingface.co/spaces/KlingTeam/LivePortrait/blob/main/LICENSE",
       "license_source": "fallback:KwaiVGI/LivePortrait+link",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "liveportrait",
@@ -2309,11 +2612,13 @@
       "license_url": "https://huggingface.co/spaces/KlingTeam/LivePortrait/blob/main/LICENSE",
       "license_source": "fallback:KwaiVGI/LivePortrait+link",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "ultralytics",
@@ -2324,11 +2629,13 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "diffusion_models",
@@ -2339,11 +2646,13 @@
       "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
       "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "loras",
@@ -2354,11 +2663,13 @@
       "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
       "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     },
     {
       "category": "model_patches",
@@ -2369,11 +2680,13 @@
       "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
       "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
       "base_license_url": "",
-      "base_commercial": ""
+      "base_commercial": "",
+      "base_commercial_terms": ""
     }
   ]
 }

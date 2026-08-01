@@ -70,11 +70,13 @@ def resolve_derivative(filename, repo, repo_lic, bases, lic_by_repo):
         "license_url": repo_license_url(repo_lic),
         "license_source": repo_license_source(repo_lic),
         "commercial": "Review",
+        "commercial_terms": (repo_lic.get("commercial_terms") or "").strip(),
         "base_model": "",
         "base_repo": "",
         "base_license": "",
         "base_license_url": "",
         "base_commercial": "",
+        "base_commercial_terms": "",
     }
     base = base_match(bases, filename, repo)
     if not base:
@@ -98,6 +100,7 @@ def resolve_derivative(filename, repo, repo_lic, bases, lic_by_repo):
         "base_license": bl,
         "base_license_url": repo_license_url(be),
         "base_commercial": (be.get("commercial_use") or "").strip() or "Review",
+        "base_commercial_terms": (be.get("commercial_terms") or "").strip(),
     })
     return out
 
@@ -109,11 +112,13 @@ def resolve_plain(repo, repo_lic):
         "license_url": repo_license_url(repo_lic),
         "license_source": repo_license_source(repo_lic),
         "commercial": "",
+        "commercial_terms": (repo_lic.get("commercial_terms") or "").strip(),
         "base_model": "",
         "base_repo": "",
         "base_license": "",
         "base_license_url": "",
         "base_commercial": "",
+        "base_commercial_terms": "",
     }
     if not repo:
         out["license"] = "待确认（无HF来源）"
@@ -168,11 +173,13 @@ def main():
             "license_url": res["license_url"],
             "license_source": res["license_source"],
             "commercial": res["commercial"],
+            "commercial_terms": res["commercial_terms"],
             "base_model": res["base_model"],
             "base_repo": res["base_repo"],
             "base_license": res["base_license"],
             "base_license_url": res["base_license_url"],
             "base_commercial": res["base_commercial"],
+            "base_commercial_terms": res["base_commercial_terms"],
         })
 
     with_link = sum(1 for e in entries if e["license_url"])
@@ -181,8 +188,10 @@ def main():
         "_sources": ["models_manifest.json", "licenses_output.json", "base_models.json"],
         "_usage": (
             "filename 为键查询。license 为建议填入值，license_url 为协议原文链接（carddata/fallback/link 来源记于 license_source）；"
-            "commercial 为 Review/待确认 时需人工复核。derivative=true 的条目已向上溯源至 base_model，"
-            "base_license 依据基础模型原声明，base_license_url 为其协议链接。本文件可直接作为对外交换资料。"
+            "commercial 为 Review/待确认 时需人工复核；commercial_terms 为该标记的审计补充说明（有条件商用的营收门槛等）。"
+            "derivative=true 的条目已向上溯源至 base_model，base_license 依据基础模型原声明，"
+            "base_license_url 为其协议链接，base_commercial_terms 为基础模型的商用条件说明。"
+            "本文件可直接作为对外交换资料。"
         ),
         "_license_legend": lic.get("_license_legend"),
         "derivative_markers": list(DERIVATIVE_MARKERS),

@@ -30,12 +30,13 @@ FAMILY_ORDER = [
 ]
 
 TRACKED_COLS = [
-    ("Model", "30%"), ("Provider", "9%"), ("License", "20%"),
-    ("Commercial", "10%"), ("Files", "6%"), ("Downloads", "8%"), ("Updated", "17%"),
+    ("Model", "22%"), ("Provider", "7%"), ("License", "13%"),
+    ("Commercial", "7%"), ("Commercial terms", "26%"),
+    ("Files", "5%"), ("Downloads", "6%"), ("Updated", "14%"),
 ]
 BASE_COLS = [
-    ("Base model", "34%"), ("Provider", "12%"), ("License", "22%"),
-    ("Commercial", "12%"), ("Updated", "20%"),
+    ("Base model", "26%"), ("Provider", "10%"), ("License", "18%"),
+    ("Commercial", "10%"), ("Commercial terms", "26%"), ("Updated", "10%"),
 ]
 
 COMM_STYLE = {"Yes": "yes", "No": "no", "Review": "rev"}
@@ -88,6 +89,10 @@ def comm_cell(r):
     return '<span class="badge {}">{}</span>'.format(cls, c)
 
 
+def terms_cell(r):
+    return esc(r.get("commercial_terms")) or "-"
+
+
 def table(cols, rows):
     out = ['<table><colgroup>']
     for _, w in cols:
@@ -122,7 +127,8 @@ def family_block(tracked):
         for r in group:
             rows.append([
                 model_cell(r), esc(r.get("provider")), license_cell(r), comm_cell(r),
-                fmt_int(r.get("file_count")), fmt_int(r.get("downloads")), fmt_date(r.get("last_modified")),
+                terms_cell(r), fmt_int(r.get("file_count")), fmt_int(r.get("downloads")),
+                fmt_date(r.get("last_modified")),
             ])
         parts.append(table(TRACKED_COLS, rows))
         parts.append("</section>")
@@ -137,7 +143,7 @@ def base_block(base_rows):
     for r in base_rows:
         rows.append([
             model_cell(r), esc(r.get("provider")), license_cell(r), comm_cell(r),
-            fmt_date(r.get("last_modified")),
+            terms_cell(r), fmt_date(r.get("last_modified")),
         ])
     return ('<section><h3 id="base">Base model declarations (for derivative tracing)</h3>'
             '<p class="muted">Original models that derivatives trace up to. Marked per each model\'s own declaration.</p>'
@@ -186,6 +192,7 @@ def build_page(rows):
                 '<span class="badge yes">Yes</span> = usable commercially (permissive, e.g. Apache-2.0/MIT) &nbsp; '
                 '<span class="badge no">No</span> = non-commercial (incl. licenses where commercial use must be purchased) &nbsp; '
                 '<span class="badge rev">Review</span> = needs human review (other/custom/undeclared). '
+                '<b>Commercial terms</b> column states the exact conditions (e.g. revenue thresholds, purchased licenses). '
                 '<b>All links open in a new tab.</b> Fixed column widths for easy comparison.</div>')
     body.append("<h2>Tracked models</h2>")
     body.append(family_block(tracked))
