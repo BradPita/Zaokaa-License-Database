@@ -39,7 +39,7 @@ BASE_COLS = [
     ("Commercial", "10%"), ("Commercial terms", "26%"), ("Updated", "10%"),
 ]
 
-COMM_STYLE = {"Yes": "yes", "No": "no", "Review": "rev"}
+COMM_STYLE = {"Yes": "yes", "No": "no", "Conditional": "cond", "Review": "rev"}
 
 
 def esc(s):
@@ -171,6 +171,7 @@ td[num], th[align=right], td[align=right] { text-align: right; }
 .badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 12px; font-weight: 600; }
 .badge.yes { background: #dafbe1; color: #1a7f37; }
 .badge.no  { background: #ffebe9; color: #cf222e; }
+.badge.cond { background: #ddf4ff; color: #0969da; }
 .badge.rev { background: #fff8c5; color: #9a6700; }
 .src { color: #656d76; font-size: 12px; }
 """
@@ -191,6 +192,7 @@ def build_page(rows):
     body.append('<div class="legend"><b>Commercial:</b> '
                 '<span class="badge yes">Yes</span> = usable commercially (permissive, e.g. Apache-2.0/MIT) &nbsp; '
                 '<span class="badge no">No</span> = non-commercial (incl. licenses where commercial use must be purchased) &nbsp; '
+                '<span class="badge cond">Conditional</span> = commercial use allowed when stated conditions are met (e.g. Krea-2 &lt; US$1M / LTX-2 &lt; US$10M company-wide annual revenue); above the threshold a purchased license is required &nbsp; '
                 '<span class="badge rev">Review</span> = needs human review (other/custom/undeclared). '
                 '<b>Commercial terms</b> column states the exact conditions (e.g. revenue thresholds, purchased licenses). '
                 '<b>All links open in a new tab.</b> Fixed column widths for easy comparison.</div>')

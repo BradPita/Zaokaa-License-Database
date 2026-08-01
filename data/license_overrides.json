@@ -32,7 +32,7 @@
     {
       "repo": "Comfy-Org/ltx-2",
       "license": "other",
-      "commercial_use": "Review",
+      "commercial_use": "Conditional",
       "source_repo": "Lightricks/LTX-2.3",
       "note": "repackage of LTX-Video; upstream declares a custom 'other' license",
       "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models."
@@ -48,7 +48,7 @@
     {
       "repo": "uzumix/krea2filterbypass3.safetensors",
       "license": "other",
-      "commercial_use": "No",
+      "commercial_use": "Conditional",
       "source_repo": "krea/Krea-2-Turbo",
       "note": "Krea-2 LoRA (base_model krea/Krea-2-Turbo); upstream Krea-2 weights under Krea 2 Community License v1 (2026-06-22) - not open source; free use incl. commercial under US$1M company-wide annual revenue, >=US$1M requires Enterprise License (opensource@krea.ai); AUP + content-filter obligations. Authoritative text: krea-ai/krea-2 LICENSE.pdf; use policy: https://www.krea.ai/krea-2-use-policy.",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply."
@@ -80,7 +80,7 @@
       "repo": "Comfy-Org/Krea-2",
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "note": "Krea 2 Community License v1 (2026-06-22) - not open source; free use incl. commercial under US$1M company-wide annual revenue, >=US$1M requires Enterprise License (opensource@krea.ai); AUP + content-filter obligations. Authoritative text: krea-ai/krea-2 LICENSE.pdf; use policy: https://www.krea.ai/krea-2-use-policy.",
-      "commercial_use": "No",
+      "commercial_use": "Conditional",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply."
     },
     {
@@ -92,31 +92,35 @@
       "repo": "Lightricks/LTX-2.3",
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "note": "LTX-2 license (source: Lightricks/LTX-2)",
+      "commercial_use": "Conditional",
       "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models."
     },
     {
       "repo": "Comfy-Org/ltx-2",
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "note": "LTX-2 license (repackage)",
+      "commercial_use": "Conditional",
       "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models."
     },
     {
       "repo": "Kijai/LTX2.3_comfy",
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "note": "LTX-2 license (repackage)",
+      "commercial_use": "Conditional",
       "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models."
     },
     {
       "repo": "oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint",
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
       "note": "LTX-2 license (LoRA)",
+      "commercial_use": "Conditional",
       "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models."
     },
     {
       "repo": "joyfox/LTX2.3-ICEdit-Insight",
       "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
-      "commercial_use": "Review",
-      "note": "repo declares apache-2.0 but cardData base_model is Lightricks/LTX-2.3; LTX-2.3 weights are under the LTX-2 Community License - per Krea-2 precedent (declared code license != weights license), linked to authoritative LTX-2 LICENSE and flagged Review.",
+      "commercial_use": "Conditional",
+      "note": "repo declares apache-2.0 but cardData base_model is Lightricks/LTX-2.3; LTX-2.3 weights are under the LTX-2 Community License - per Krea-2 precedent (declared code license != weights license), linked to authoritative LTX-2 LICENSE and flagged Conditional.",
       "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models."
     },
     {
@@ -142,6 +146,7 @@
       "repo": "uzumix/krea2filterbypass3.safetensors",
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "note": "Krea 2 Community License v1 (2026-06-22) - not open source; free use incl. commercial under US$1M company-wide annual revenue, >=US$1M requires Enterprise License (opensource@krea.ai); AUP + content-filter obligations. Authoritative text: krea-ai/krea-2 LICENSE.pdf; use policy: https://www.krea.ai/krea-2-use-policy.",
+      "commercial_use": "Conditional",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply."
     },
     {
@@ -174,7 +179,7 @@
       "repo": "conradlocke/krea2-identity-edit",
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "note": "Krea 2 Community License v1 (2026-06-22) - not open source; free use incl. commercial under US$1M company-wide annual revenue, >=US$1M requires Enterprise License (opensource@krea.ai); AUP + content-filter obligations. Authoritative text: krea-ai/krea-2 LICENSE.pdf; use policy: https://www.krea.ai/krea-2-use-policy.",
-      "commercial_use": "No",
+      "commercial_use": "Conditional",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply."
     },
     {

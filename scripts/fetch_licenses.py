@@ -83,6 +83,7 @@ LICENSE_LEGEND = {
     "commercial_use": {
         "Yes": "可商用（宽松开源协议，如 Apache-2.0 / MIT）。",
         "No": "非商用：免费许可不含商用权利，商用须另购许可（如 Krea-2 社区许可、FAIPL）。",
+        "Conditional": "有条件商用：满足条款条件（如营收门槛）即可商用，超过门槛须购买商业许可（如 Krea-2 <US$1M、LTX-2 <US$10M 年营收）。",
         "Review": "待人工复核：许可为 other/自定义或未明确，商用属性需人工确认。",
     },
     "commercial_terms": (
@@ -123,6 +124,7 @@ CSV_FIELDS = [
 DEFAULT_TERMS = {
     "Yes": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
     "No": "Non-commercial license: free use excludes commercial rights; commercial use requires a purchased license.",
+    "Conditional": "Conditional-commercial license: commercial use permitted when stated conditions are met (e.g. revenue threshold); above the threshold a purchased/commercial license is required.",
     "Review": "Custom or undeclared license; commercial conditions require human review of the license text.",
 }
 

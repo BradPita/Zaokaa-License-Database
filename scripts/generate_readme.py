@@ -39,7 +39,7 @@ TRACKED_ALIGNS = ["left", "left", "left", "center", "left", "right", "right", "l
 BASE_HEADERS = ["Base model", "Provider", "License", "Commercial", "Commercial terms", "Updated"]
 BASE_ALIGNS = ["left", "left", "left", "center", "left", "left"]
 
-COMM_EMOJI = {"Yes": "Yes", "No": "No", "Review": "Review"}
+COMM_EMOJI = {"Yes": "Yes", "No": "No", "Conditional": "Conditional", "Review": "Review"}
 
 
 def cell_escape(s):
