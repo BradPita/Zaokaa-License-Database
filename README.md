@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-01 14:30 UTC · 59 tracked repos + 7 base models_
+_Last updated: 2026-08-01 14:41 UTC · 59 tracked repos + 7 base models_
 
 ## Tracked models
 
@@ -191,7 +191,7 @@ _Last updated: 2026-08-01 14:30 UTC · 59 tracked repos + 7 base models_
 <tr>
 <td align="left"><a href="https://huggingface.co/Comfy-Org/Krea-2" target="_blank" rel="noopener noreferrer">Comfy-​Org/​Krea-​2</a></td>
 <td align="left">Comfy-Org</td>
-<td align="left"><a href="https://www.krea.ai/krea-2-licensing" target="_blank" rel="noopener noreferrer">other</a></td>
+<td align="left"><a href="https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf" target="_blank" rel="noopener noreferrer">other</a></td>
 <td align="center">No</td>
 <td align="right">3</td>
 <td align="right">10</td>
@@ -200,7 +200,7 @@ _Last updated: 2026-08-01 14:30 UTC · 59 tracked repos + 7 base models_
 <tr>
 <td align="left"><a href="https://huggingface.co/conradlocke/krea2-identity-edit" target="_blank" rel="noopener noreferrer">conradlocke/​krea2-​identity-​edit</a></td>
 <td align="left">conradlocke</td>
-<td align="left"><a href="https://www.krea.ai/krea-2-licensing" target="_blank" rel="noopener noreferrer">other</a></td>
+<td align="left"><a href="https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf" target="_blank" rel="noopener noreferrer">other</a></td>
 <td align="center">No</td>
 <td align="right">1</td>
 <td align="right">0</td>
@@ -209,7 +209,7 @@ _Last updated: 2026-08-01 14:30 UTC · 59 tracked repos + 7 base models_
 <tr>
 <td align="left"><a href="https://huggingface.co/uzumix/krea2filterbypass3.safetensors" target="_blank" rel="noopener noreferrer">uzumix/​krea2filterbypass3.safetensors</a></td>
 <td align="left">uzumix</td>
-<td align="left"><a href="https://www.krea.ai/krea-2-licensing" target="_blank" rel="noopener noreferrer">other</a></td>
+<td align="left"><a href="https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf" target="_blank" rel="noopener noreferrer">other</a></td>
 <td align="center">No</td>
 <td align="right">1</td>
 <td align="right">4,130</td>

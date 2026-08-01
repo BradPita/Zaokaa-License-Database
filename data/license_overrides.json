@@ -48,7 +48,7 @@
       "license": "other",
       "commercial_use": "No",
       "source_repo": "krea/Krea-2-Turbo",
-      "note": "Krea-2 LoRA (base_model krea/Krea-2-Turbo); upstream Krea-2 weights under community license (non-commercial; commercial requires purchase per krea.ai/krea-2-licensing)"
+      "note": "Krea-2 LoRA (base_model krea/Krea-2-Turbo); upstream Krea-2 weights under community license (authoritative LICENSE.pdf at krea-ai/krea-2; use policy https://www.krea.ai/krea-2-use-policy). Free use non-commercial; commercial requires purchase."
     },
     {
       "repo": "Kijai/LivePortrait_safetensors",
@@ -75,8 +75,8 @@
   "links": [
     {
       "repo": "Comfy-Org/Krea-2",
-      "license_url": "https://www.krea.ai/krea-2-licensing",
-      "note": "Krea-2 model weights under community license (non-commercial; commercial requires purchase). GitHub Apache LICENSE is code only.",
+      "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
+      "note": "Krea-2 community license (authoritative LICENSE.pdf). Use policy: https://www.krea.ai/krea-2-use-policy. Free use non-commercial; commercial requires purchase.",
       "commercial_use": "No"
     },
     {
@@ -121,8 +121,8 @@
     },
     {
       "repo": "uzumix/krea2filterbypass3.safetensors",
-      "license_url": "https://www.krea.ai/krea-2-licensing",
-      "note": "Krea-2 community license (weights, source: krea.ai/krea-2-licensing)"
+      "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
+      "note": "Krea-2 community license (authoritative LICENSE.pdf). Use policy: https://www.krea.ai/krea-2-use-policy. Free use non-commercial; commercial requires purchase."
     },
     {
       "repo": "Kijai/LivePortrait_safetensors",
@@ -151,8 +151,8 @@
     },
     {
       "repo": "conradlocke/krea2-identity-edit",
-      "license_url": "https://www.krea.ai/krea-2-licensing",
-      "note": "Krea-2 community license (weights, non-commercial; commercial requires purchase per krea.ai/krea-2-licensing)",
+      "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
+      "note": "Krea-2 community license (authoritative LICENSE.pdf). Use policy: https://www.krea.ai/krea-2-use-policy. Free use non-commercial; commercial requires purchase.",
       "commercial_use": "No"
     }
   ]

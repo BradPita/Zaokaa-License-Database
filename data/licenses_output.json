@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T14:30:02.210116+00:00",
+  "generated_at": "2026-08-01T14:41:17.284924+00:00",
   "repo_count": 66,
   "_sources": [
     "HuggingFace API (cardData)",
@@ -105,7 +105,7 @@
       "hf_id": "Comfy-Org/Krea-2",
       "file_count": 3,
       "license": "other",
-      "license_url": "https://www.krea.ai/krea-2-licensing",
+      "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "license_source": "cardata+link",
       "commercial_use": "No",
       "downloads": 10,
@@ -807,7 +807,7 @@
       "hf_id": "conradlocke/krea2-identity-edit",
       "file_count": 1,
       "license": "other",
-      "license_url": "https://www.krea.ai/krea-2-licensing",
+      "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "license_source": "cardata+link",
       "commercial_use": "No",
       "downloads": 0,
@@ -1185,7 +1185,7 @@
       "hf_id": "uzumix/krea2filterbypass3.safetensors",
       "file_count": 1,
       "license": "other",
-      "license_url": "https://www.krea.ai/krea-2-licensing",
+      "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
       "license_source": "fallback:krea/Krea-2-Turbo+link",
       "commercial_use": "No",
       "downloads": 4130,
