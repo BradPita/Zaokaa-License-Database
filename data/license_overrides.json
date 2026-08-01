@@ -63,6 +63,13 @@
       "commercial_use": "Yes",
       "source_repo": "KimberleyJSN/melbandroformer",
       "note": "repackage of MelBandRoformer; upstream KimberleyJSN/melbandroformer declares MIT"
+    },
+    {
+      "repo": "mashb1t/misc",
+      "license": "apache-2.0",
+      "commercial_use": "Yes",
+      "source_repo": "facebook/sam-vit-huge",
+      "note": "mixed misc repo; only tracked files (sam_vit_b/l/h) are original Segment Anything Model weights = Apache 2.0; repo also holds other models under different licenses (not tracked here)"
     }
   ],
   "links": [
@@ -130,6 +137,11 @@
       "repo": "apple/Sharp",
       "license_url": "https://github.com/apple/ml-sharp/blob/main/LICENSE",
       "note": "Apple SHARP (ml-sharp) license; Apple Sample Code terms - personal, non-exclusive (source: apple/ml-sharp GitHub)"
+    },
+    {
+      "repo": "mashb1t/misc",
+      "license_url": "https://github.com/facebookresearch/segment-anything/blob/main/LICENSE",
+      "note": "SAM Apache 2.0 license (source: facebookresearch/segment-anything GitHub)"
     }
   ]
 }

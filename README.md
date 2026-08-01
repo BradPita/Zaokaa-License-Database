@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-01 08:15 UTC · 59 tracked repos + 7 base models_
+_Last updated: 2026-08-01 08:27 UTC · 59 tracked repos + 7 base models_
 
 ## Tracked models
 
@@ -63,8 +63,8 @@ _Last updated: 2026-08-01 08:15 UTC · 59 tracked repos + 7 base models_
 | [Comfy-Org/Qwen-Image-Edit_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 821,932 | 2026-07-01 |
 | [Comfy-Org/Qwen-Image_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 1,846,848 | 2026-06-06 |
 | [Phr00t/Qwen-Image-Edit-Rapid-AIO](https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO) | Phr00t | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 0 | 2026-02-03 |
-| [QuantFunc/Nunchaku-Qwen-Image-EDIT-2511](https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511) | QuantFunc | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 4,396 | 2026-06-19 |
-| [fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA](https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA) | fal | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 63,422 | 2026-01-07 |
+| [QuantFunc/Nunchaku-Qwen-Image-EDIT-2511](https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511) | QuantFunc | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 4,418 | 2026-06-19 |
+| [fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA](https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA) | fal | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 62,244 | 2026-01-07 |
 | [lightx2v/Qwen-Image-2512-Lightning](https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 70,227 | 2026-01-15 |
 | [lightx2v/Qwen-Image-Edit-2511-Lightning](https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 289,282 | 2026-01-15 |
 | [lrzjason/QwenEdit_Consistance_Edit](https://huggingface.co/lrzjason/QwenEdit_Consistance_Edit) | lrzjason | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 0 | 2026-04-17 |
@@ -73,27 +73,27 @@ _Last updated: 2026-08-01 08:15 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Qwen/Qwen3-TTS-12Hz-0.6B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 424,964 | 2026-01-29 |
-| [Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 1,620,538 | 2026-01-29 |
-| [Qwen/Qwen3-TTS-12Hz-1.7B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 2,482,881 | 2026-01-23 |
-| [Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 2,452,950 | 2026-01-29 |
-| [Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 650,372 | 2026-01-29 |
-| [Qwen/Qwen3-TTS-Tokenizer-12Hz](https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 4 | 104,505 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-12Hz-0.6B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 421,115 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 1,603,747 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-12Hz-1.7B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 2,447,986 | 2026-01-23 |
+| [Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 2,400,018 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 12 | 626,206 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-Tokenizer-12Hz](https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 4 | 108,824 | 2026-01-29 |
 
 ### Qwen3-LLM
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF](https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF) | mradermacher | [apache-2.0](https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE) | Yes | 2 | 15,817 | 2026-03-10 |
+| [mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF](https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF) | mradermacher | [apache-2.0](https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE) | Yes | 2 | 15,844 | 2026-03-10 |
 
 ### LTX-Video
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
 | [Comfy-Org/ltx-2](https://huggingface.co/Comfy-Org/ltx-2) | Comfy-Org | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 2 | 0 | 2026-03-08 |
-| [Kijai/LTX2.3_comfy](https://huggingface.co/Kijai/LTX2.3_comfy) | Kijai | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 6 | 999,703 | 2026-07-28 |
-| [Lightricks/LTX-2.3](https://huggingface.co/Lightricks/LTX-2.3) | Lightricks | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 1 | 2,192,827 | 2026-07-09 |
-| [joyfox/LTX2.3-ICEdit-Insight](https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight) | joyfox | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 4 | 63,228 | 2026-07-23 |
+| [Kijai/LTX2.3_comfy](https://huggingface.co/Kijai/LTX2.3_comfy) | Kijai | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 6 | 979,712 | 2026-07-28 |
+| [Lightricks/LTX-2.3](https://huggingface.co/Lightricks/LTX-2.3) | Lightricks | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 1 | 2,128,047 | 2026-07-09 |
+| [joyfox/LTX2.3-ICEdit-Insight](https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight) | joyfox | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 4 | 62,815 | 2026-07-23 |
 | [oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint) | oumoumad | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Review | 1 | 0 | 2026-04-10 |
 
 ### Z-Image
@@ -139,7 +139,7 @@ _Last updated: 2026-08-01 08:15 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Comfy-Org/SDPose](https://huggingface.co/Comfy-Org/SDPose) | Comfy-Org | [mit](https://spdx.org/licenses/MIT.html) | Yes | 1 | 25,368 | 2026-03-03 |
+| [Comfy-Org/SDPose](https://huggingface.co/Comfy-Org/SDPose) | Comfy-Org | [mit](https://spdx.org/licenses/MIT.html) | Yes | 1 | 25,259 | 2026-03-03 |
 | [Kijai/vitpose_comfy](https://huggingface.co/Kijai/vitpose_comfy) | Kijai | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 0 | 2025-09-23 |
 | [hr16/DWPose-TorchScript-BatchSize5](https://huggingface.co/hr16/DWPose-TorchScript-BatchSize5) | hr16 | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 0 | 2023-11-30 |
 | [yzd-v/DWPose](https://huggingface.co/yzd-v/DWPose) | yzd-v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 0 | 2023-08-22 |
@@ -162,7 +162,7 @@ _Last updated: 2026-08-01 08:15 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [circlestone-labs/Anima](https://huggingface.co/circlestone-labs/Anima) | circlestone-labs | [other](LICENSE.md) | Review | 2 | 851,880 | 2026-07-24 |
+| [circlestone-labs/Anima](https://huggingface.co/circlestone-labs/Anima) | circlestone-labs | [other](LICENSE.md) | Review | 2 | 843,139 | 2026-07-24 |
 | [kohya-ss/Anima-LLLite](https://huggingface.co/kohya-ss/Anima-LLLite) | kohya-ss | [other](LICENSE) | Review | 1 | 0 | 2026-05-20 |
 
 ### Kaloscope
@@ -181,8 +181,8 @@ _Last updated: 2026-08-01 08:15 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [ChenkinNoob/Chenkin-UniControl-XL](https://huggingface.co/ChenkinNoob/Chenkin-UniControl-XL) | ChenkinNoob | [fair-ai-public-license-1.0-sd](https://freedevproject.org/faipl-1.0-sd/) | No | 1 | 806 | 2026-04-10 |
-| [ChenkinNoob/ChenkinNoob-XL-V0.5](https://huggingface.co/ChenkinNoob/ChenkinNoob-XL-V0.5) | ChenkinNoob | [other](https://freedevproject.org/faipl-1.0-sd/) | Review | 1 | 36 | 2026-04-10 |
+| [ChenkinNoob/Chenkin-UniControl-XL](https://huggingface.co/ChenkinNoob/Chenkin-UniControl-XL) | ChenkinNoob | [fair-ai-public-license-1.0-sd](https://freedevproject.org/faipl-1.0-sd/) | No | 1 | 812 | 2026-04-10 |
+| [ChenkinNoob/ChenkinNoob-XL-V0.5](https://huggingface.co/ChenkinNoob/ChenkinNoob-XL-V0.5) | ChenkinNoob | [other](https://freedevproject.org/faipl-1.0-sd/) | Review | 1 | 35 | 2026-04-10 |
 
 ### Kim2091
 
@@ -206,7 +206,7 @@ _Last updated: 2026-08-01 08:15 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [mashb1t/misc](https://huggingface.co/mashb1t/misc) | mashb1t | - | Review | 3 | 0 | 2024-06-16 |
+| [mashb1t/misc](https://huggingface.co/mashb1t/misc) | mashb1t | [apache-2.0](https://github.com/facebookresearch/segment-anything/blob/main/LICENSE) | Yes | 3 | 0 | 2024-06-16 |
 
 ### Base model declarations (for derivative tracing)
 
