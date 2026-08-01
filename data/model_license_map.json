@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-01T07:50:43.535968+00:00",
+  "_generated_at": "2026-08-01T08:01:40.216104+00:00",
   "_sources": [
     "models_manifest.json",
     "licenses_output.json",
@@ -17,7 +17,7 @@
   ],
   "file_count": 156,
   "derivative_count": 7,
-  "files_with_license_url": 144,
+  "files_with_license_url": 145,
   "files": [
     {
       "category": "clip_vision",
@@ -2199,9 +2199,9 @@
       "filename": "krea2filterbypass3.safetensors",
       "hf_repo": "uzumix/krea2filterbypass3.safetensors",
       "derivative": false,
-      "license": "待确认（HF未声明许可）",
-      "license_url": "",
-      "license_source": "cardata",
+      "license": "other",
+      "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
+      "license_source": "fallback:krea/Krea-2-Turbo+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",

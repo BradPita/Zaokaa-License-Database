@@ -42,6 +42,13 @@
       "commercial_use": "No",
       "source_repo": "ChenkinNoob/Chenkin-UniControl-XL",
       "note": "non-commercial per fair-ai-public-license-1.0-sd; stated in README, no LICENSE file"
+    },
+    {
+      "repo": "uzumix/krea2filterbypass3.safetensors",
+      "license": "other",
+      "commercial_use": "Review",
+      "source_repo": "krea/Krea-2-Turbo",
+      "note": "Krea-2 LoRA (base_model krea/Krea-2-Turbo); upstream GitHub LICENSE.md is Apache 2.0 but the HF model is gated, so commercial use kept under Review"
     }
   ],
   "links": [
@@ -89,6 +96,11 @@
       "repo": "ChenkinNoob/Chenkin-UniControl-XL",
       "license_url": "https://freedevproject.org/faipl-1.0-sd/",
       "note": "Fair AI Public License 1.0 SD (source: freedevproject.org)"
+    },
+    {
+      "repo": "uzumix/krea2filterbypass3.safetensors",
+      "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
+      "note": "Krea-2 license (source: krea-ai/krea-2 GitHub)"
     }
   ]
 }
