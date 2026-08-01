@@ -9,7 +9,7 @@ The `data/model_license_map.json` artifact feeds a downstream compliance tool: i
 ## How it works
 
 1. `scripts/extract_manifest.py` - reads a `model_checker.py`-style manifest and writes `data/models_manifest.json` (local filename -> Hugging Face repo; distribution-brand entries scrubbed). Re-run when the pipeline's model set changes.
-2. `scripts/fetch_licenses.py` - queries the <a href="https://huggingface.co/docs/huggingface_hub" target="_blank" rel="noopener noreferrer">Hugging Face Hub REST API</a> for each unique repo's `cardData.license` -> `data/licenses_output.csv` + `.json` (one row per repo, including base models).
+2. `scripts/fetch_licenses.py` - queries the [Hugging Face Hub REST API](https://huggingface.co/docs/huggingface_hub) for each unique repo's `cardData.license` -> `data/licenses_output.csv` + `.json` (one row per repo, including base models).
 3. `scripts/build_lookup.py` - joins the manifest + licenses + `data/base_models.json` -> `data/model_license_map.json` (filename -> license, with derivative tracing).
 4. `scripts/generate_readme.py` - renders the table below.
 5. `.github/workflows/update_licenses.yml` - re-runs steps 2–4 weekly and auto-commits results.
