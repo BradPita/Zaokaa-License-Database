@@ -1,11 +1,11 @@
 {
-  "_generated_at": "2026-08-01T07:24:04.408603+00:00",
+  "_generated_at": "2026-08-01T07:26:05.829421+00:00",
   "_sources": [
     "models_manifest.json",
     "licenses_output.json",
     "base_models.json"
   ],
-  "_usage": "filename 为键查询。license 字段为建议填入值；commercial 为 Review/待确认 时需人工复核。derivative=true 的条目已向上溯源至 base_model，其 base_license 依据基础模型原声明。",
+  "_usage": "filename 为键查询。license 为建议填入值，license_url 为协议原文链接（carddata/fallback/link 来源记于 license_source）；commercial 为 Review/待确认 时需人工复核。derivative=true 的条目已向上溯源至 base_model，base_license 依据基础模型原声明，base_license_url 为其协议链接。本文件可直接作为对外交换资料。",
   "derivative_markers": [
     "nsfw",
     "abliterated",
@@ -17,6 +17,7 @@
   ],
   "file_count": 156,
   "derivative_count": 7,
+  "files_with_license_url": 36,
   "files": [
     {
       "category": "clip_vision",
@@ -24,10 +25,13 @@
       "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+      "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -36,10 +40,13 @@
       "hf_repo": "hr16/DWPose-TorchScript-BatchSize5",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -48,10 +55,13 @@
       "hf_repo": "yzd-v/DWPose",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -60,10 +70,13 @@
       "hf_repo": "mashb1t/misc",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -72,10 +85,13 @@
       "hf_repo": "mashb1t/misc",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -84,10 +100,13 @@
       "hf_repo": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
       "derivative": true,
       "license": "待确认（衍生/合并模型）",
+      "license_url": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "Qwen3.5-9B",
       "base_repo": "Qwen/Qwen3.5-9B",
       "base_license": "apache-2.0",
+      "base_license_url": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
       "base_commercial": "Yes"
     },
     {
@@ -96,10 +115,13 @@
       "hf_repo": "mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF",
       "derivative": true,
       "license": "待确认（衍生/合并模型）",
+      "license_url": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "Qwen3.5-9B",
       "base_repo": "Qwen/Qwen3.5-9B",
       "base_license": "apache-2.0",
+      "base_license_url": "https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE",
       "base_commercial": "Yes"
     },
     {
@@ -108,10 +130,13 @@
       "hf_repo": "Comfy-Org/z_image_turbo",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
+      "license_source": "fallback:alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -120,10 +145,13 @@
       "hf_repo": "Comfy-Org/z_image_turbo",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
+      "license_source": "fallback:alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -132,10 +160,13 @@
       "hf_repo": "alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -144,10 +175,13 @@
       "hf_repo": "numz/SeedVR2_comfyUI",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -156,10 +190,13 @@
       "hf_repo": "numz/SeedVR2_comfyUI",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -168,10 +205,13 @@
       "hf_repo": "Comfy-Org/Qwen-Image_ComfyUI",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -180,10 +220,13 @@
       "hf_repo": "lightx2v/Qwen-Image-2512-Lightning",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -192,10 +235,13 @@
       "hf_repo": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -204,10 +250,13 @@
       "hf_repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -216,10 +265,13 @@
       "hf_repo": "lightx2v/Qwen-Image-Edit-2511-Lightning",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -228,10 +280,13 @@
       "hf_repo": "fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -240,10 +295,13 @@
       "hf_repo": "lrzjason/Anything2Real_2601",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -252,10 +310,13 @@
       "hf_repo": "lrzjason/QwenEdit_Consistance_Edit",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -264,10 +325,13 @@
       "hf_repo": "QuantFunc/Nunchaku-Qwen-Image-EDIT-2511",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -276,10 +340,13 @@
       "hf_repo": "QuantFunc/Nunchaku-Qwen-Image-EDIT-2511",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -288,10 +355,13 @@
       "hf_repo": "Phr00t/Qwen-Image-Edit-Rapid-AIO",
       "derivative": true,
       "license": "待确认（衍生/合并模型）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "Qwen-Image-Edit",
       "base_repo": "Qwen/Qwen-Image-Edit-2511",
       "base_license": "apache-2.0",
+      "base_license_url": "",
       "base_commercial": "Yes"
     },
     {
@@ -300,10 +370,13 @@
       "hf_repo": "circlestone-labs/Anima",
       "derivative": false,
       "license": "other",
+      "license_url": "LICENSE.md",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -312,10 +385,13 @@
       "hf_repo": "circlestone-labs/Anima",
       "derivative": false,
       "license": "other",
+      "license_url": "LICENSE.md",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -324,10 +400,13 @@
       "hf_repo": "Kim2091/AnimeSharp",
       "derivative": false,
       "license": "cc-by-nc-sa-4.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "No",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -336,10 +415,13 @@
       "hf_repo": "kohya-ss/Anima-LLLite",
       "derivative": false,
       "license": "other",
+      "license_url": "LICENSE",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -348,10 +430,13 @@
       "hf_repo": "silveroxides/FLUX.2-dev-fp8_scaled",
       "derivative": true,
       "license": "待确认（衍生/合并模型）",
+      "license_url": "LICENSE.md",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "Qwen3-8B",
       "base_repo": "Qwen/Qwen3-8B",
       "base_license": "apache-2.0",
+      "base_license_url": "https://huggingface.co/Qwen/Qwen3-8B/blob/main/LICENSE",
       "base_commercial": "Yes"
     },
     {
@@ -360,10 +445,13 @@
       "hf_repo": "mashb1t/misc",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -372,10 +460,13 @@
       "hf_repo": "ChenkinNoob/ChenkinNoob-XL-V0.5",
       "derivative": false,
       "license": "other",
+      "license_url": "https://freedevproject.org/faipl-1.0-sd/",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -384,10 +475,13 @@
       "hf_repo": "ChenkinNoob/Chenkin-UniControl-XL",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -396,10 +490,13 @@
       "hf_repo": "Comfy-Org/SDPose",
       "derivative": false,
       "license": "mit",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -408,10 +505,13 @@
       "hf_repo": "heathcliff01/Kaloscope",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -420,10 +520,13 @@
       "hf_repo": "heathcliff01/Kaloscope",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -432,10 +535,13 @@
       "hf_repo": "Comfy-Org/Bernini-R",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -444,10 +550,13 @@
       "hf_repo": "Kijai/WanVideo_comfy",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+      "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -456,10 +565,13 @@
       "hf_repo": "rzgar/NSFW-Wan-UMT5-XXL-V2",
       "derivative": true,
       "license": "待确认（衍生/合并模型）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "UMT5-XXL",
       "base_repo": "Wan-AI/Wan2.1-T2V-14B",
       "base_license": "apache-2.0",
+      "base_license_url": "",
       "base_commercial": "Yes"
     },
     {
@@ -468,10 +580,13 @@
       "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+      "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -480,10 +595,13 @@
       "hf_repo": "rzgar/Bernini-R-LightX2V-4step-loras",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -492,10 +610,13 @@
       "hf_repo": "rzgar/Bernini-R-LightX2V-4step-loras",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -504,10 +625,13 @@
       "hf_repo": "rzgar/Wan2.2_I2V_LightX2V_2Step",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -516,10 +640,13 @@
       "hf_repo": "rzgar/Wan2.2_I2V_LightX2V_2Step",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -528,10 +655,13 @@
       "hf_repo": "FX-FeiHou/wan2.2-Remix",
       "derivative": true,
       "license": "待确认（衍生/合并模型）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "Wan2.2",
       "base_repo": "Wan-AI/Wan2.2-Animate-14B",
       "base_license": "apache-2.0",
+      "base_license_url": "",
       "base_commercial": "Yes"
     },
     {
@@ -540,10 +670,13 @@
       "hf_repo": "spacepxl/Wan2.1-VAE-upscale2x",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -552,10 +685,13 @@
       "hf_repo": "Comfy-Org/SCAIL-2",
       "derivative": false,
       "license": "mit",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -564,10 +700,13 @@
       "hf_repo": "Comfy-Org/SCAIL-2",
       "derivative": false,
       "license": "mit",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -576,10 +715,13 @@
       "hf_repo": "Comfy-Org/sam3.1",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/facebookresearch/sam3/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -588,10 +730,13 @@
       "hf_repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.2-Animate-14B",
+      "license_source": "fallback:Wan-AI/Wan2.2-Animate-14B",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -600,10 +745,13 @@
       "hf_repo": "Kijai/WanVideo_comfy",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+      "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -612,10 +760,13 @@
       "hf_repo": "Kijai/WanVideo_comfy",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+      "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -624,10 +775,13 @@
       "hf_repo": "Kijai/vitpose_comfy",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -636,10 +790,13 @@
       "hf_repo": "Kijai/vitpose_comfy",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -648,10 +805,13 @@
       "hf_repo": "Wan-AI/Wan2.2-Animate-14B",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -660,10 +820,13 @@
       "hf_repo": "Kijai/wav2vec2_safetensors",
       "derivative": false,
       "license": "mit",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -672,10 +835,13 @@
       "hf_repo": "Kijai/MelBandRoFormer_comfy",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -684,10 +850,13 @@
       "hf_repo": "Kijai/wav2vec2_safetensors",
       "derivative": false,
       "license": "mit",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -696,10 +865,13 @@
       "hf_repo": "Kijai/wav2vec2_safetensors",
       "derivative": false,
       "license": "mit",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -708,10 +880,13 @@
       "hf_repo": "Kijai/LTX2.3_comfy",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -720,10 +895,13 @@
       "hf_repo": "Kijai/LTX2.3_comfy",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -732,10 +910,13 @@
       "hf_repo": "Comfy-Org/ltx-2",
       "derivative": true,
       "license": "待确认（衍生/合并模型）",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "fallback:Lightricks/LTX-2.3+link",
       "commercial": "Review",
       "base_model": "Gemma-3-12B",
       "base_repo": "google/gemma-3-12b-it",
       "base_license": "gemma",
+      "base_license_url": "",
       "base_commercial": "Review"
     },
     {
@@ -744,10 +925,13 @@
       "hf_repo": "oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -756,10 +940,13 @@
       "hf_repo": "Kijai/LTX2.3_comfy",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -768,10 +955,13 @@
       "hf_repo": "Comfy-Org/ltx-2",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "fallback:Lightricks/LTX-2.3+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -780,10 +970,13 @@
       "hf_repo": "Lightricks/LTX-2.3",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -792,10 +985,13 @@
       "hf_repo": "Kijai/LTX2.3_comfy",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -804,10 +1000,13 @@
       "hf_repo": "Kijai/LTX2.3_comfy",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -816,10 +1015,13 @@
       "hf_repo": "Kijai/LTX2.3_comfy",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -828,10 +1030,13 @@
       "hf_repo": "Comfy-Org/Krea-2",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -840,10 +1045,13 @@
       "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -852,10 +1060,13 @@
       "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -864,10 +1075,13 @@
       "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -876,10 +1090,13 @@
       "hf_repo": "joyfox/LTX2.3-ICEdit-Insight",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -888,10 +1105,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -900,10 +1120,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -912,10 +1135,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -924,10 +1150,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-Tokenizer-12Hz",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -936,10 +1165,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -948,10 +1180,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -960,10 +1195,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -972,10 +1210,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -984,10 +1225,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -996,10 +1240,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1008,10 +1255,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1020,10 +1270,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1032,10 +1285,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1044,10 +1300,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1056,10 +1315,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1068,10 +1330,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1080,10 +1345,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1092,10 +1360,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1104,10 +1375,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1116,10 +1390,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1128,10 +1405,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1140,10 +1420,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1152,10 +1435,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1164,10 +1450,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1176,10 +1465,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1188,10 +1480,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1200,10 +1495,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1212,10 +1510,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1224,10 +1525,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1236,10 +1540,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1248,10 +1555,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1260,10 +1570,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1272,10 +1585,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1284,10 +1600,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1296,10 +1615,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1308,10 +1630,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1320,10 +1645,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1332,10 +1660,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1344,10 +1675,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1356,10 +1690,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1368,10 +1705,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1380,10 +1720,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1392,10 +1735,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1404,10 +1750,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1416,10 +1765,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1428,10 +1780,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1440,10 +1795,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1452,10 +1810,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1464,10 +1825,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1476,10 +1840,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1488,10 +1855,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1500,10 +1870,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1512,10 +1885,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1524,10 +1900,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1536,10 +1915,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1548,10 +1930,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1560,10 +1945,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1572,10 +1960,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1584,10 +1975,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1596,10 +1990,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1608,10 +2005,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1620,10 +2020,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1632,10 +2035,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1644,10 +2050,13 @@
       "hf_repo": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1656,10 +2065,13 @@
       "hf_repo": "jetjodh/sam-3d-body-dinov3",
       "derivative": false,
       "license": "other",
+      "license_url": "https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1668,10 +2080,13 @@
       "hf_repo": "jetjodh/sam-3d-body-dinov3",
       "derivative": false,
       "license": "other",
+      "license_url": "https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1680,10 +2095,13 @@
       "hf_repo": "jetjodh/sam-3d-body-dinov3",
       "derivative": false,
       "license": "other",
+      "license_url": "https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1692,10 +2110,13 @@
       "hf_repo": "MIUProject/VNCCS_PoseStudio_Klein",
       "derivative": false,
       "license": "mit",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1704,10 +2125,13 @@
       "hf_repo": "MIUProject/VNCCS_PoseStudio",
       "derivative": false,
       "license": "mit",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1716,10 +2140,13 @@
       "hf_repo": "apple/Sharp",
       "derivative": false,
       "license": "apple-amlr",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1728,10 +2155,13 @@
       "hf_repo": "Comfy-Org/Bernini-R",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1740,10 +2170,13 @@
       "hf_repo": "Comfy-Org/Krea-2",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1752,10 +2185,13 @@
       "hf_repo": "conradlocke/krea2-identity-edit",
       "derivative": false,
       "license": "other",
+      "license_url": "https://krea.ai/krea-2-licensing",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1764,10 +2200,13 @@
       "hf_repo": "uzumix/krea2filterbypass3.safetensors",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1776,10 +2215,13 @@
       "hf_repo": "Comfy-Org/Krea-2",
       "derivative": false,
       "license": "other",
+      "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1788,10 +2230,13 @@
       "hf_repo": "Kijai/LivePortrait_safetensors",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1800,10 +2245,13 @@
       "hf_repo": "Kijai/LivePortrait_safetensors",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1812,10 +2260,13 @@
       "hf_repo": "Kijai/LivePortrait_safetensors",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1824,10 +2275,13 @@
       "hf_repo": "Kijai/LivePortrait_safetensors",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1836,10 +2290,13 @@
       "hf_repo": "Kijai/LivePortrait_safetensors",
       "derivative": false,
       "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Review",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1848,10 +2305,13 @@
       "hf_repo": "Bingsu/adetailer",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "",
+      "license_source": "cardata",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1860,10 +2320,13 @@
       "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+      "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1872,10 +2335,13 @@
       "hf_repo": "Kijai/WanVideo_comfy",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+      "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     },
     {
@@ -1884,10 +2350,13 @@
       "hf_repo": "Kijai/WanVideo_comfy",
       "derivative": false,
       "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+      "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
+      "base_license_url": "",
       "base_commercial": ""
     }
   ]

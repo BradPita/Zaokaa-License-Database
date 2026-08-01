@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
 """
-Build the filename -> license lookup consumed by downstream compliance tooling.
+Build the filename -> license lookup consumed by downstream compliance tooling
+(and shareable with clients).
 
 Joins:
   data/models_manifest.json   (filename -> hf_repo)
-  data/licenses_output.json   (hf_repo -> license)
+  data/licenses_output.json   (hf_repo -> license, license_url, license_source)
   data/base_models.json       (original model registry)
 into:
-  data/model_license_map.json (filename -> license, with base-model tracing)
+  data/model_license_map.json (filename -> license, license_url, license_source,
+  with base-model tracing for derivatives).
 
 Derivative policy (per spec):
   Files whose name contains a derivative marker
   (nsfw / abliterated / remix / rapid / aio / merge / finetune) are DOWNGRADED
   to "Review", but each is traced UP to its original base model so the
   association is queryable. The base model itself is marked according to its
-  OWN declaration on its original HF repo.
+  OWN declaration on its original HF repo; base_license_url links to that
+  declaration / authoritative license text.
 
 Stdlib only.
 """
@@ -52,16 +55,34 @@ def base_match(bases, filename, repo):
     return None
 
 
+def repo_license_url(repo_lic):
+    return (repo_lic.get("license_url") or "").strip()
+
+
+def repo_license_source(repo_lic):
+    return (repo_lic.get("license_source") or "").strip()
+
+
 def resolve_derivative(filename, repo, repo_lic, bases, lic_by_repo):
+    out = {
+        "derivative": True,
+        "license": "待确认（衍生/合并模型）",
+        "license_url": repo_license_url(repo_lic),
+        "license_source": repo_license_source(repo_lic),
+        "commercial": "Review",
+        "base_model": "",
+        "base_repo": "",
+        "base_license": "",
+        "base_license_url": "",
+        "base_commercial": "",
+    }
     base = base_match(bases, filename, repo)
-    out = {"derivative": True, "license": "待确认（衍生/合并模型）", "commercial": "Review"}
     if not base:
-        out.update({"base_model": "未识别", "base_repo": "", "base_license": "待确认", "base_commercial": "Review"})
+        out.update({"base_model": "未识别", "base_license": "待确认", "base_commercial": "Review"})
         return out
     base_repo = base.get("hf_repo", "")
     be = lic_by_repo.get(base_repo, {})
     base_license = (be.get("license") or "").strip()
-    base_commercial = (be.get("commercial_use") or "").strip()
     base_status = (be.get("status") or "").strip()
     if not base_repo:
         bl = "待确认（无基础仓库）"
@@ -75,14 +96,25 @@ def resolve_derivative(filename, repo, repo_lic, bases, lic_by_repo):
         "base_model": base.get("display", ""),
         "base_repo": base_repo,
         "base_license": bl,
-        "base_commercial": base_commercial or "Review",
+        "base_license_url": repo_license_url(be),
+        "base_commercial": (be.get("commercial_use") or "").strip() or "Review",
     })
     return out
 
 
 def resolve_plain(repo, repo_lic):
-    out = {"derivative": False, "license": "", "commercial": "",
-           "base_model": "", "base_repo": "", "base_license": "", "base_commercial": ""}
+    out = {
+        "derivative": False,
+        "license": "",
+        "license_url": repo_license_url(repo_lic),
+        "license_source": repo_license_source(repo_lic),
+        "commercial": "",
+        "base_model": "",
+        "base_repo": "",
+        "base_license": "",
+        "base_license_url": "",
+        "base_commercial": "",
+    }
     if not repo:
         out["license"] = "待确认（无HF来源）"
         out["commercial"] = "Review"
@@ -133,27 +165,34 @@ def main():
             "hf_repo": repo,
             "derivative": res["derivative"],
             "license": res["license"],
+            "license_url": res["license_url"],
+            "license_source": res["license_source"],
             "commercial": res["commercial"],
             "base_model": res["base_model"],
             "base_repo": res["base_repo"],
             "base_license": res["base_license"],
+            "base_license_url": res["base_license_url"],
             "base_commercial": res["base_commercial"],
         })
 
+    with_link = sum(1 for e in entries if e["license_url"])
     out = {
         "_generated_at": datetime.now(timezone.utc).isoformat(),
         "_sources": ["models_manifest.json", "licenses_output.json", "base_models.json"],
         "_usage": (
-            "filename 为键查询。license 字段为建议填入值；commercial 为 Review/待确认 时需人工复核。"
-            "derivative=true 的条目已向上溯源至 base_model，其 base_license 依据基础模型原声明。"
+            "filename 为键查询。license 为建议填入值，license_url 为协议原文链接（carddata/fallback/link 来源记于 license_source）；"
+            "commercial 为 Review/待确认 时需人工复核。derivative=true 的条目已向上溯源至 base_model，"
+            "base_license 依据基础模型原声明，base_license_url 为其协议链接。本文件可直接作为对外交换资料。"
         ),
         "derivative_markers": list(DERIVATIVE_MARKERS),
         "file_count": len(entries),
         "derivative_count": deriv_count,
+        "files_with_license_url": with_link,
         "files": entries,
     }
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("Wrote {} entries ({} derivative) -> {}".format(len(entries), deriv_count, OUT))
+    print("Wrote {} entries ({} derivative, {} with license_url) -> {}".format(
+        len(entries), deriv_count, with_link, OUT))
     return 0
 
 

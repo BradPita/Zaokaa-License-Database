@@ -52,6 +52,23 @@ NC_MARKERS = (
     "cc-by-nc", "nc-sa", "nc-nd",
 )
 
+# Authoritative SPDX license page for well-known standard licenses, used to give
+# every such model a clickable license link when the repo provides none.
+SPDX_URLS = {
+    "apache-2.0": "https://spdx.org/licenses/Apache-2.0.html",
+    "mit": "https://spdx.org/licenses/MIT.html",
+    "bsd-2-clause": "https://spdx.org/licenses/BSD-2-Clause.html",
+    "bsd-3-clause": "https://spdx.org/licenses/BSD-3-Clause.html",
+    "mpl-2.0": "https://spdx.org/licenses/MPL-2.0.html",
+    "isc": "https://spdx.org/licenses/ISC.html",
+    "unlicense": "https://spdx.org/licenses/Unlicense.html",
+    "cc0-1.0": "https://spdx.org/licenses/CC0-1.0.html",
+    "cc-by-4.0": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "cc-by-sa-4.0": "https://spdx.org/licenses/CC-BY-SA-4.0.html",
+    "cc-by-nc-4.0": "https://spdx.org/licenses/CC-BY-NC-4.0.html",
+    "cc-by-nc-sa-4.0": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html",
+}
+
 FAMILY_RULES = [
     ("wan2", "Wan"), ("wan", "Wan"), ("wanvideo", "Wan"),
     ("krea", "Krea"), ("flux", "FLUX"),
@@ -204,6 +221,12 @@ def fetch_one(repo, meta, fallbacks, links):
     if repo in links:
         link_url = links[repo].get("license_url", "")
         source = source + "+link" if source != "cardata" else "cardata+link"
+
+    if not link_url and lic:
+        spdx = SPDX_URLS.get(lic.lower().split(",")[0].strip())
+        if spdx:
+            link_url = spdx
+            source = "spdx" if source == "cardata" else source + "+spdx"
 
     row["license"] = lic
     row["license_url"] = link_url
