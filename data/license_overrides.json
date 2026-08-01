@@ -49,6 +49,13 @@
       "commercial_use": "Review",
       "source_repo": "krea/Krea-2-Turbo",
       "note": "Krea-2 LoRA (base_model krea/Krea-2-Turbo); upstream GitHub LICENSE.md is Apache 2.0 but the HF model is gated, so commercial use kept under Review"
+    },
+    {
+      "repo": "Kijai/LivePortrait_safetensors",
+      "license": "mit",
+      "commercial_use": "Yes",
+      "source_repo": "KwaiVGI/LivePortrait",
+      "note": "repackage of LivePortrait weights; upstream LICENSE is MIT (Kuaishou 2024)"
     }
   ],
   "links": [
@@ -101,6 +108,11 @@
       "repo": "uzumix/krea2filterbypass3.safetensors",
       "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
       "note": "Krea-2 license (source: krea-ai/krea-2 GitHub)"
+    },
+    {
+      "repo": "Kijai/LivePortrait_safetensors",
+      "license_url": "https://huggingface.co/spaces/KlingTeam/LivePortrait/blob/main/LICENSE",
+      "note": "LivePortrait MIT license (source: KlingTeam/LivePortrait space)"
     }
   ]
 }
