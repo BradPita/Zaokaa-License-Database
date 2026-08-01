@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-01T08:27:26.814212+00:00",
+  "_generated_at": "2026-08-01T08:35:16.571010+00:00",
   "_sources": [
     "models_manifest.json",
     "licenses_output.json",
@@ -17,7 +17,7 @@
   ],
   "file_count": 156,
   "derivative_count": 7,
-  "files_with_license_url": 155,
+  "files_with_license_url": 156,
   "files": [
     {
       "category": "clip_vision",
@@ -655,8 +655,8 @@
       "hf_repo": "FX-FeiHou/wan2.2-Remix",
       "derivative": true,
       "license": "待确认（衍生/合并模型）",
-      "license_url": "",
-      "license_source": "cardata",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "cardata+link",
       "commercial": "Review",
       "base_model": "Wan2.2",
       "base_repo": "Wan-AI/Wan2.2-Animate-14B",

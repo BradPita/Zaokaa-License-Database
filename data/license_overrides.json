@@ -142,6 +142,11 @@
       "repo": "mashb1t/misc",
       "license_url": "https://github.com/facebookresearch/segment-anything/blob/main/LICENSE",
       "note": "SAM Apache 2.0 license (source: facebookresearch/segment-anything GitHub)"
+    },
+    {
+      "repo": "FX-FeiHou/wan2.2-Remix",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "note": "remix declares 'other' (no LICENSE file); base model Wan2.2 is Apache 2.0 - upstream Apache license linked as reference/proof; remix status kept Review"
     }
   ]
 }

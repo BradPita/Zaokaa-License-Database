@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T08:27:26.767536+00:00",
+  "generated_at": "2026-08-01T08:35:16.511662+00:00",
   "repo_count": 66,
   "models": [
     {
@@ -263,8 +263,8 @@
       "hf_id": "FX-FeiHou/wan2.2-Remix",
       "file_count": 1,
       "license": "other",
-      "license_url": "",
-      "license_source": "cardata",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "cardata+link",
       "commercial_use": "Review",
       "downloads": 2,
       "likes": 509,
@@ -1094,7 +1094,7 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial_use": "Yes",
-      "downloads": 164,
+      "downloads": 163,
       "likes": 10,
       "pipeline_tag": "",
       "last_modified": "2026-07-17T01:06:32.000Z",
