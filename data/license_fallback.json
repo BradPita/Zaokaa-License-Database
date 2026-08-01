@@ -1,0 +1,10 @@
+{
+  "_comment": "License fallback for repackaged repos that do not redeclare a license in their Hugging Face cardData. When a tracked repo's cardData.license is empty, fetch_licenses fills in the license declared by its upstream/original repo listed here. Only entries whose upstream license is confidently known are included; uncertain community repos are left as Review.",
+  "fallbacks": [
+    { "repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged", "license": "apache-2.0", "commercial_use": "Yes", "source_repo": "Wan-AI/Wan2.1-T2V-14B", "note": "repackage of Wan2.1" },
+    { "repo": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged", "license": "apache-2.0", "commercial_use": "Yes", "source_repo": "Wan-AI/Wan2.2-Animate-14B", "note": "repackage of Wan2.2" },
+    { "repo": "Comfy-Org/z_image_turbo", "license": "apache-2.0", "commercial_use": "Yes", "source_repo": "alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1", "note": "repackage of Alibaba Z-Image-Turbo" },
+    { "repo": "Kijai/WanVideo_comfy", "license": "apache-2.0", "commercial_use": "Yes", "source_repo": "Wan-AI/Wan2.1-T2V-14B", "note": "repackage of Wan video models" },
+    { "repo": "Comfy-Org/ltx-2", "license": "other", "commercial_use": "Review", "source_repo": "Lightricks/LTX-2.3", "note": "repackage of LTX-Video; upstream declares a custom 'other' license" }
+  ]
+}

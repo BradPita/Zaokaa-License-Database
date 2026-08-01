@@ -9,8 +9,12 @@ Sources (merged, de-duplicated by repo):
 
 Queries the public Hub REST API for each repo's cardData.license and writes
 data/licenses_output.csv + .json (one row per repo, with a `kind` column).
-No external dependencies beyond the Python standard library.
 
+License fallback: when a repackaged repo declares no license in its cardData,
+the license is filled from its upstream/original repo via data/license_fallback.json
+(license_source = "fallback:<repo>"). Declared licenses are never overridden.
+
+No external dependencies beyond the Python standard library.
 Set HF_TOKEN for a higher rate limit / gated-model metadata (optional).
 """
 from __future__ import annotations
@@ -29,6 +33,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "models_manifest.json"
 EXTRA = ROOT / "data" / "extra_models.json"
 BASE = ROOT / "data" / "base_models.json"
+FALLBACK = ROOT / "data" / "license_fallback.json"
 OUT_CSV = ROOT / "data" / "licenses_output.csv"
 OUT_JSON = ROOT / "data" / "licenses_output.json"
 HF_API = "https://huggingface.co/api/models/{repo_id}"
@@ -65,8 +70,9 @@ FAMILY_RULES = [
 
 CSV_FIELDS = [
     "name", "provider", "family", "kind", "categories", "hf_id",
-    "file_count", "license", "license_url", "commercial_use",
-    "downloads", "likes", "pipeline_tag", "last_modified", "status",
+    "file_count", "license", "license_url", "license_source",
+    "commercial_use", "downloads", "likes", "pipeline_tag",
+    "last_modified", "status",
 ]
 
 
@@ -78,6 +84,16 @@ def family_of(repo):
     return repo.split("/")[0]
 
 
+def load_fallbacks():
+    if not FALLBACK.exists():
+        return {}
+    data = json.loads(FALLBACK.read_text(encoding="utf-8"))
+    out = {}
+    for fb in data.get("fallbacks", []):
+        out[fb["repo"]] = fb
+    return out
+
+
 def load_repos():
     """Return {repo: {'kind','categories':set,'files':int}} merged from sources."""
     repos = {}
@@ -86,7 +102,6 @@ def load_repos():
         if not repo:
             return
         r = repos.setdefault(repo, {"kind": kind, "categories": set(), "files": 0})
-        # tracked takes precedence over base
         if kind == "tracked":
             r["kind"] = "tracked"
         r["files"] += 1
@@ -153,7 +168,7 @@ def parse_license(card_data):
     return lic.strip(), (link or "").strip()
 
 
-def fetch_one(repo, meta):
+def fetch_one(repo, meta, fallbacks):
     row = {k: "" for k in CSV_FIELDS}
     row["name"] = repo
     row["provider"] = repo.split("/")[0]
@@ -171,6 +186,15 @@ def fetch_one(repo, meta):
 
     card = info.get("cardData") or {}
     lic, link = parse_license(card)
+    row["license_source"] = "carddata"
+
+    if not lic and repo in fallbacks:
+        fb = fallbacks[repo]
+        lic = fb.get("license", "")
+        src = fb.get("source_repo", "")
+        link = "https://huggingface.co/" + src if src else ""
+        row["license_source"] = "fallback:" + src
+
     row["license"] = lic
     row["license_url"] = link
     row["commercial_use"] = assess_commercial(lic)
@@ -187,11 +211,12 @@ def main():
     if not repos:
         print("No repos found. Run extract_manifest.py first.", file=sys.stderr)
         return 1
-    print("Tracking {} repos".format(len(repos)))
+    fallbacks = load_fallbacks()
+    print("Tracking {} repos ({} fallbacks)".format(len(repos), len(fallbacks)))
     rows = []
     for i, (repo, meta) in enumerate(sorted(repos.items()), 1):
         print("[{}/{}] ({}) {}".format(i, len(repos), meta["kind"], repo))
-        rows.append(fetch_one(repo, meta))
+        rows.append(fetch_one(repo, meta, fallbacks))
         if i < len(repos):
             time.sleep(REQUEST_DELAY)
 
@@ -211,7 +236,8 @@ def main():
 
     ok = sum(1 for r in rows if r["status"] == "ok")
     nf = sum(1 for r in rows if r["status"] == "not_found")
-    print("Done. ok={} not_found={}".format(ok, nf))
+    fb_used = sum(1 for r in rows if r["license_source"].startswith("fallback"))
+    print("Done. ok={} not_found={} fallback_applied={}".format(ok, nf, fb_used))
     return 0
 
 
