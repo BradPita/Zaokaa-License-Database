@@ -48,7 +48,7 @@
       "license": "other",
       "commercial_use": "No",
       "source_repo": "krea/Krea-2-Turbo",
-      "note": "Krea-2 LoRA (base_model krea/Krea-2-Turbo); upstream Krea-2 weights under community license (authoritative LICENSE.pdf at krea-ai/krea-2; use policy https://www.krea.ai/krea-2-use-policy). Free use non-commercial; commercial requires purchase."
+      "note": "Krea-2 LoRA (base_model krea/Krea-2-Turbo); upstream Krea-2 weights under Krea 2 Community License v1 (2026-06-22) - not open source; free use incl. commercial under US$1M company-wide annual revenue, >=US$1M requires Enterprise License (opensource@krea.ai); AUP + content-filter obligations. Authoritative text: krea-ai/krea-2 LICENSE.pdf; use policy: https://www.krea.ai/krea-2-use-policy."
     },
     {
       "repo": "Kijai/LivePortrait_safetensors",
@@ -76,7 +76,7 @@
     {
       "repo": "Comfy-Org/Krea-2",
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
-      "note": "Krea-2 community license (authoritative LICENSE.pdf). Use policy: https://www.krea.ai/krea-2-use-policy. Free use non-commercial; commercial requires purchase.",
+      "note": "Krea 2 Community License v1 (2026-06-22) - not open source; free use incl. commercial under US$1M company-wide annual revenue, >=US$1M requires Enterprise License (opensource@krea.ai); AUP + content-filter obligations. Authoritative text: krea-ai/krea-2 LICENSE.pdf; use policy: https://www.krea.ai/krea-2-use-policy.",
       "commercial_use": "No"
     },
     {
@@ -122,7 +122,7 @@
     {
       "repo": "uzumix/krea2filterbypass3.safetensors",
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
-      "note": "Krea-2 community license (authoritative LICENSE.pdf). Use policy: https://www.krea.ai/krea-2-use-policy. Free use non-commercial; commercial requires purchase."
+      "note": "Krea 2 Community License v1 (2026-06-22) - not open source; free use incl. commercial under US$1M company-wide annual revenue, >=US$1M requires Enterprise License (opensource@krea.ai); AUP + content-filter obligations. Authoritative text: krea-ai/krea-2 LICENSE.pdf; use policy: https://www.krea.ai/krea-2-use-policy."
     },
     {
       "repo": "Kijai/LivePortrait_safetensors",
@@ -152,7 +152,7 @@
     {
       "repo": "conradlocke/krea2-identity-edit",
       "license_url": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
-      "note": "Krea-2 community license (authoritative LICENSE.pdf). Use policy: https://www.krea.ai/krea-2-use-policy. Free use non-commercial; commercial requires purchase.",
+      "note": "Krea 2 Community License v1 (2026-06-22) - not open source; free use incl. commercial under US$1M company-wide annual revenue, >=US$1M requires Enterprise License (opensource@krea.ai); AUP + content-filter obligations. Authoritative text: krea-ai/krea-2 LICENSE.pdf; use policy: https://www.krea.ai/krea-2-use-policy.",
       "commercial_use": "No"
     }
   ]
