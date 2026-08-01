@@ -70,6 +70,23 @@ SPDX_URLS = {
     "cc-by-nc-sa-4.0": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html",
 }
 
+LICENSE_LEGEND = {
+    "license_source": {
+        "spdx": "标准 SPDX 许可（如 apache-2.0/mit）；license_url 自动指向 spdx.org 官方协议页。",
+        "cardata": "许可取自 HuggingFace 仓库 cardData.license 声明；仓库未另附协议链接。",
+        "cardata+link": "cardData 声明的许可 + 经 data/license_overrides.json 附加的权威协议原文链接。",
+        "cardata+spdx": "cardData 声明的标准 SPDX 许可 + 自动补的 spdx.org 链接。",
+        "fallback:<repo>": "cardData 未声明许可；许可由上游仓库 <repo> 推断补齐。",
+        "fallback:<repo>+link": "由上游 <repo> 推断补齐 + 附加的权威协议原文链接。",
+        "fallback:<repo>+spdx": "由上游 <repo> 推断补齐 + 自动补的 spdx.org 链接。",
+    },
+    "commercial_use": {
+        "Yes": "可商用（宽松开源协议，如 Apache-2.0 / MIT）。",
+        "No": "非商用：免费许可不含商用权利，商用须另购许可（如 Krea-2 社区许可、FAIPL）。",
+        "Review": "待人工复核：许可为 other/自定义或未明确，商用属性需人工确认。",
+    },
+}
+
 FAMILY_RULES = [
     ("wan2", "Wan"), ("wan", "Wan"), ("wanvideo", "Wan"),
     ("krea", "Krea"), ("flux", "FLUX"),
@@ -222,6 +239,8 @@ def fetch_one(repo, meta, fallbacks, links):
     if repo in links:
         link_url = links[repo].get("license_url", "")
         source = source + "+link" if source != "cardata" else "cardata+link"
+        if links[repo].get("commercial_use"):
+            commercial = links[repo]["commercial_use"]
 
     if not link_url and lic:
         spdx = SPDX_URLS.get(lic.lower().split(",")[0].strip())
@@ -264,6 +283,14 @@ def main():
     snapshot = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "repo_count": len(rows),
+        "_sources": ["HuggingFace API (cardData)", "data/models_manifest.json", "data/license_overrides.json (manual fallbacks+links)"],
+        "_usage": (
+            "HuggingFace 模型仓库许可对照（仓库级）。license 取自 HF cardData 或 fallback（空声明时依上游补齐）；"
+            "license_url 为协议原文链接（来源记于 license_source，含义见 _license_legend）；"
+            "commercial_use 含义见 _license_legend（Yes 可商用 / No 非商用须另购 / Review 待复核）。"
+            "数据来源：HF API + data/license_overrides.json 人工校正。本文件可直接作为对外交换资料。"
+        ),
+        "_license_legend": LICENSE_LEGEND,
         "models": rows,
     }
     with OUT_JSON.open("w", encoding="utf-8") as f:

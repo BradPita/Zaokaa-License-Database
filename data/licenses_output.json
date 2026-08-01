@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-08-01T08:35:16.511662+00:00",
+  "generated_at": "2026-08-01T08:47:43.438335+00:00",
   "repo_count": 66,
+  "_sources": [
+    "HuggingFace API (cardData)",
+    "data/models_manifest.json",
+    "data/license_overrides.json (manual fallbacks+links)"
+  ],
+  "_usage": "HuggingFace 模型仓库许可对照（仓库级）。license 取自 HF cardData 或 fallback（空声明时依上游补齐）；license_url 为协议原文链接（来源记于 license_source，含义见 _license_legend）；commercial_use 含义见 _license_legend（Yes 可商用 / No 非商用须另购 / Review 待复核）。数据来源：HF API + data/license_overrides.json 人工校正。本文件可直接作为对外交换资料。",
+  "_license_legend": {
+    "license_source": {
+      "spdx": "标准 SPDX 许可（如 apache-2.0/mit）；license_url 自动指向 spdx.org 官方协议页。",
+      "cardata": "许可取自 HuggingFace 仓库 cardData.license 声明；仓库未另附协议链接。",
+      "cardata+link": "cardData 声明的许可 + 经 data/license_overrides.json 附加的权威协议原文链接。",
+      "cardata+spdx": "cardData 声明的标准 SPDX 许可 + 自动补的 spdx.org 链接。",
+      "fallback:<repo>": "cardData 未声明许可；许可由上游仓库 <repo> 推断补齐。",
+      "fallback:<repo>+link": "由上游 <repo> 推断补齐 + 附加的权威协议原文链接。",
+      "fallback:<repo>+spdx": "由上游 <repo> 推断补齐 + 自动补的 spdx.org 链接。"
+    },
+    "commercial_use": {
+      "Yes": "可商用（宽松开源协议，如 Apache-2.0 / MIT）。",
+      "No": "非商用：免费许可不含商用权利，商用须另购许可（如 Krea-2 社区许可、FAIPL）。",
+      "Review": "待人工复核：许可为 other/自定义或未明确，商用属性需人工确认。"
+    }
+  },
   "models": [
     {
       "name": "Bingsu/adetailer",
@@ -83,9 +105,9 @@
       "hf_id": "Comfy-Org/Krea-2",
       "file_count": 3,
       "license": "other",
-      "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
+      "license_url": "https://www.krea.ai/krea-2-licensing",
       "license_source": "cardata+link",
-      "commercial_use": "Review",
+      "commercial_use": "No",
       "downloads": 10,
       "likes": 395,
       "pipeline_tag": "",
@@ -285,7 +307,7 @@
       "license_source": "cardata+link",
       "commercial_use": "Review",
       "downloads": 979712,
-      "likes": 562,
+      "likes": 563,
       "pipeline_tag": "",
       "last_modified": "2026-07-28T20:47:36.000Z",
       "status": "ok"
@@ -339,7 +361,7 @@
       "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial_use": "Yes",
       "downloads": 1834935,
-      "likes": 2456,
+      "likes": 2457,
       "pipeline_tag": "",
       "last_modified": "2026-06-13T16:56:23.000Z",
       "status": "ok"
@@ -785,9 +807,9 @@
       "hf_id": "conradlocke/krea2-identity-edit",
       "file_count": 1,
       "license": "other",
-      "license_url": "https://krea.ai/krea-2-licensing",
-      "license_source": "cardata",
-      "commercial_use": "Review",
+      "license_url": "https://www.krea.ai/krea-2-licensing",
+      "license_source": "cardata+link",
+      "commercial_use": "No",
       "downloads": 0,
       "likes": 590,
       "pipeline_tag": "",
@@ -1076,7 +1098,7 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial_use": "Yes",
-      "downloads": 18640,
+      "downloads": 18947,
       "likes": 50,
       "pipeline_tag": "image-to-image",
       "last_modified": "2026-07-02T23:53:12.000Z",
@@ -1112,7 +1134,7 @@
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial_use": "Yes",
-      "downloads": 1314,
+      "downloads": 1315,
       "likes": 9,
       "pipeline_tag": "text-to-image",
       "last_modified": "2026-07-17T06:23:33.000Z",
@@ -1163,10 +1185,10 @@
       "hf_id": "uzumix/krea2filterbypass3.safetensors",
       "file_count": 1,
       "license": "other",
-      "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
+      "license_url": "https://www.krea.ai/krea-2-licensing",
       "license_source": "fallback:krea/Krea-2-Turbo+link",
-      "commercial_use": "Review",
-      "downloads": 4093,
+      "commercial_use": "No",
+      "downloads": 4130,
       "likes": 2,
       "pipeline_tag": "text-to-image",
       "last_modified": "2026-07-08T10:11:33.000Z",

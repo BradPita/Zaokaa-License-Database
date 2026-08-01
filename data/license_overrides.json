@@ -46,9 +46,9 @@
     {
       "repo": "uzumix/krea2filterbypass3.safetensors",
       "license": "other",
-      "commercial_use": "Review",
+      "commercial_use": "No",
       "source_repo": "krea/Krea-2-Turbo",
-      "note": "Krea-2 LoRA (base_model krea/Krea-2-Turbo); upstream GitHub LICENSE.md is Apache 2.0 but the HF model is gated, so commercial use kept under Review"
+      "note": "Krea-2 LoRA (base_model krea/Krea-2-Turbo); upstream Krea-2 weights under community license (non-commercial; commercial requires purchase per krea.ai/krea-2-licensing)"
     },
     {
       "repo": "Kijai/LivePortrait_safetensors",
@@ -75,8 +75,9 @@
   "links": [
     {
       "repo": "Comfy-Org/Krea-2",
-      "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
-      "note": "Krea-2 community license (source: krea-ai/krea-2)"
+      "license_url": "https://www.krea.ai/krea-2-licensing",
+      "note": "Krea-2 model weights under community license (non-commercial; commercial requires purchase). GitHub Apache LICENSE is code only.",
+      "commercial_use": "No"
     },
     {
       "repo": "Comfy-Org/sam3.1",
@@ -120,8 +121,8 @@
     },
     {
       "repo": "uzumix/krea2filterbypass3.safetensors",
-      "license_url": "https://github.com/krea-ai/krea-2/blob/main/LICENSE.md",
-      "note": "Krea-2 license (source: krea-ai/krea-2 GitHub)"
+      "license_url": "https://www.krea.ai/krea-2-licensing",
+      "note": "Krea-2 community license (weights, source: krea.ai/krea-2-licensing)"
     },
     {
       "repo": "Kijai/LivePortrait_safetensors",
@@ -147,6 +148,12 @@
       "repo": "FX-FeiHou/wan2.2-Remix",
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "note": "remix declares 'other' (no LICENSE file); base model Wan2.2 is Apache 2.0 - upstream Apache license linked as reference/proof; remix status kept Review"
+    },
+    {
+      "repo": "conradlocke/krea2-identity-edit",
+      "license_url": "https://www.krea.ai/krea-2-licensing",
+      "note": "Krea-2 community license (weights, non-commercial; commercial requires purchase per krea.ai/krea-2-licensing)",
+      "commercial_use": "No"
     }
   ]
 }

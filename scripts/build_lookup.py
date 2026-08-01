@@ -184,6 +184,7 @@ def main():
             "commercial 为 Review/待确认 时需人工复核。derivative=true 的条目已向上溯源至 base_model，"
             "base_license 依据基础模型原声明，base_license_url 为其协议链接。本文件可直接作为对外交换资料。"
         ),
+        "_license_legend": lic.get("_license_legend"),
         "derivative_markers": list(DERIVATIVE_MARKERS),
         "file_count": len(entries),
         "derivative_count": deriv_count,

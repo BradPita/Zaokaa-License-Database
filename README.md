@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-01 08:35 UTC · 59 tracked repos + 7 base models_
+_Last updated: 2026-08-01 08:47 UTC · 59 tracked repos + 7 base models_
 
 ## Tracked models
 
@@ -39,7 +39,7 @@ _Last updated: 2026-08-01 08:35 UTC · 59 tracked repos + 7 base models_
 | [Kijai/WanVideo_comfy](https://huggingface.co/Kijai/WanVideo_comfy) | Kijai | [apache-2.0](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) | Yes | 5 | 1,834,935 | 2026-06-13 |
 | [Wan-AI/Wan2.2-Animate-14B](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B) | Wan-AI | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 20,293 | 2025-11-05 |
 | [rzgar/NSFW-Wan-UMT5-XXL-V2](https://huggingface.co/rzgar/NSFW-Wan-UMT5-XXL-V2) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 163 | 2026-07-17 |
-| [rzgar/Wan2.2_I2V_LightX2V_2Step](https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 1,314 | 2026-07-17 |
+| [rzgar/Wan2.2_I2V_LightX2V_2Step](https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 1,315 | 2026-07-17 |
 | [spacepxl/Wan2.1-VAE-upscale2x](https://huggingface.co/spacepxl/Wan2.1-VAE-upscale2x) | spacepxl | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 1 | 49,026 | 2025-10-26 |
 
 ### FLUX
@@ -52,9 +52,9 @@ _Last updated: 2026-08-01 08:35 UTC · 59 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
-| [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) | Comfy-Org | [other](https://github.com/krea-ai/krea-2/blob/main/LICENSE.md) | Review | 3 | 10 | 2026-07-20 |
-| [conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit) | conradlocke | [other](https://krea.ai/krea-2-licensing) | Review | 1 | 0 | 2026-07-29 |
-| [uzumix/krea2filterbypass3.safetensors](https://huggingface.co/uzumix/krea2filterbypass3.safetensors) | uzumix | [other](https://github.com/krea-ai/krea-2/blob/main/LICENSE.md) | Review | 1 | 4,093 | 2026-07-08 |
+| [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) | Comfy-Org | [other](https://www.krea.ai/krea-2-licensing) | No | 3 | 10 | 2026-07-20 |
+| [conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit) | conradlocke | [other](https://www.krea.ai/krea-2-licensing) | No | 1 | 0 | 2026-07-29 |
+| [uzumix/krea2filterbypass3.safetensors](https://huggingface.co/uzumix/krea2filterbypass3.safetensors) | uzumix | [other](https://www.krea.ai/krea-2-licensing) | No | 1 | 4,130 | 2026-07-08 |
 
 ### Qwen-Image
 
@@ -108,7 +108,7 @@ _Last updated: 2026-08-01 08:35 UTC · 59 tracked repos + 7 base models_
 | Model | Provider | License | Commercial | Files | Downloads | Updated |
 |---|---|---|---|---|---|---|
 | [Comfy-Org/Bernini-R](https://huggingface.co/Comfy-Org/Bernini-R) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 0 | 2026-06-30 |
-| [rzgar/Bernini-R-LightX2V-4step-loras](https://huggingface.co/rzgar/Bernini-R-LightX2V-4step-loras) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 18,640 | 2026-07-02 |
+| [rzgar/Bernini-R-LightX2V-4step-loras](https://huggingface.co/rzgar/Bernini-R-LightX2V-4step-loras) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | 2 | 18,947 | 2026-07-02 |
 
 ### SCAIL
 
