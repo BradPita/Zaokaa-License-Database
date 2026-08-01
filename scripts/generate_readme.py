@@ -6,10 +6,16 @@ Reads data/licenses_output.csv (one row per tracked/base HF repo) and replaces
 everything between <!-- LICENSE_TABLE_START --> and <!-- LICENSE_TABLE_END -->
 in README.md. Tracked repos are grouped by model family; base models (used for
 derivative tracing) are listed in a separate section. Stdlib only.
+
+Tables are emitted as HTML (not GFM markdown) so that:
+  * column widths are fixed and identical across every family table (fixed
+    <colgroup> proportions) -> fields line up, easy at-a-glance comparison; and
+  * links open in a new tab (target=_blank) instead of navigating away.
 """
 from __future__ import annotations
 
 import csv
+import html
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -27,14 +33,46 @@ FAMILY_ORDER = [
     "LivePortrait", "Pose", "PoseStudio", "Audio", "Anima", "Kaloscope",
 ]
 
+# (header, width, align) - identical proportions for every family table so
+# columns line up across tables and stay easy to compare at a glance.
+TRACKED_COLS = [
+    ("Model", "30%", "left"),
+    ("Provider", "9%", "left"),
+    ("License", "20%", "left"),
+    ("Commercial", "10%", "center"),
+    ("Files", "6%", "right"),
+    ("Downloads", "8%", "right"),
+    ("Updated", "17%", "left"),
+]
+BASE_COLS = [
+    ("Base model", "34%", "left"),
+    ("Provider", "12%", "left"),
+    ("License", "22%", "left"),
+    ("Commercial", "12%", "center"),
+    ("Updated", "20%", "left"),
+]
 
-def esc(s):
-    return str(s or "").replace("|", "\\|").replace("\n", " ").strip()
+# Zero-width space lets long repo/license names wrap instead of stretching a
+# column wide (keeps widths consistent across tables).
+WBR = "\u200b"
+
+
+def esc_text(s):
+    return html.escape(str(s or "").replace("\n", " ").strip(), quote=False)
+
+
+def esc_attr(s):
+    return html.escape(str(s or "").strip(), quote=True)
+
+
+def wrappable(s):
+    """Insert zero-width break opportunities at separators so long strings wrap."""
+    return s.replace("/", "/" + WBR).replace("-", "-" + WBR)
 
 
 def fmt_date(s):
     s = str(s or "").strip()
-    return s[:10] if s else ""
+    return s[:10] if s else "-"
 
 
 def fmt_int(s):
@@ -49,23 +87,46 @@ def load_rows():
         return list(csv.DictReader(f))
 
 
+def anchor(url, text, wrappable_text=False):
+    body = wrappable(esc_text(text)) if wrappable_text else esc_text(text)
+    return '<a href="{}" target="_blank" rel="noopener noreferrer">{}</a>'.format(esc_attr(url), body)
+
+
 def model_cell(row):
-    name = esc(row.get("name"))
-    hf_id = esc(row.get("hf_id"))
+    name = esc_text(row.get("name"))
+    hf_id = (row.get("hf_id") or "").strip()
     status = row.get("status", "")
     if status == "ok" and hf_id:
-        return "[{}]({})".format(name, "https://huggingface.co/" + hf_id)
+        return anchor("https://huggingface.co/" + hf_id, row.get("name"), wrappable_text=True)
     if status == "not_found":
-        return "{} · _not found on Hub_".format(name)
+        return '{} &middot; <em>not found on Hub</em>'.format(name)
     return name
 
 
 def license_cell(row):
-    lic = esc(row.get("license")) or "-"
-    link = esc(row.get("license_url"))
-    if lic != "-" and link:
-        return "[{}]({})".format(lic, link)
+    lic = esc_text(row.get("license")) or "-"
+    link_url = (row.get("license_url") or "").strip()
+    if lic != "-" and link_url:
+        return anchor(link_url, row.get("license"), wrappable_text=True)
     return lic
+
+
+def html_table(cols, rows):
+    out = ["<table>", "<colgroup>"]
+    for _, width, _ in cols:
+        out.append('<col width="{}">'.format(width))
+    out.append("</colgroup>")
+    out.extend(["<thead>", "<tr>"])
+    for header, _, align in cols:
+        out.append('<th align="{}">{}</th>'.format(align, esc_text(header)))
+    out.extend(["</tr>", "</thead>", "<tbody>"])
+    for cells in rows:
+        out.append("<tr>")
+        for i, cell in enumerate(cells):
+            out.append('<td align="{}">{}</td>'.format(cols[i][2], cell))
+        out.append("</tr>")
+    out.extend(["</tbody>", "</table>"])
+    return out
 
 
 def family_section(tracked):
@@ -81,16 +142,15 @@ def family_section(tracked):
         group.sort(key=lambda r: r.get("name", ""))
         lines.append("### {}".format(fam))
         lines.append("")
-        lines.append("| Model | Provider | License | Commercial | Files | Downloads | Updated |")
-        lines.append("|---|---|---|---|---|---|---|")
+        rows = []
         for r in group:
-            comm = esc(r.get("commercial_use")) or "Review"
-            cells = [
-                model_cell(r), esc(r.get("provider")), license_cell(r), comm,
+            comm = esc_text(r.get("commercial_use")) or "Review"
+            rows.append([
+                model_cell(r), esc_text(r.get("provider")), license_cell(r), comm,
                 fmt_int(r.get("file_count")), fmt_int(r.get("downloads")),
                 fmt_date(r.get("last_modified")),
-            ]
-            lines.append("| " + " | ".join(cells) + " |")
+            ])
+        lines.extend(html_table(TRACKED_COLS, rows))
         lines.append("")
     return lines
 
@@ -103,13 +163,15 @@ def base_section(base_rows):
     lines.append("")
     lines.append("> Original models that derivatives trace up to. Marked per each model's own declaration.")
     lines.append("")
-    lines.append("| Base model | Repo | License | Commercial | Updated |")
-    lines.append("|---|---|---|---|---|")
     base_rows.sort(key=lambda r: r.get("name", ""))
+    rows = []
     for r in base_rows:
-        comm = esc(r.get("commercial_use")) or "Review"
-        cells = [model_cell(r), esc(r.get("provider")), license_cell(r), comm, fmt_date(r.get("last_modified"))]
-        lines.append("| " + " | ".join(cells) + " |")
+        comm = esc_text(r.get("commercial_use")) or "Review"
+        rows.append([
+            model_cell(r), esc_text(r.get("provider")), license_cell(r), comm,
+            fmt_date(r.get("last_modified")),
+        ])
+    lines.extend(html_table(BASE_COLS, rows))
     lines.append("")
     return lines
 
