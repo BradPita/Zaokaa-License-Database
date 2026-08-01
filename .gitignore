@@ -6,3 +6,4 @@ __pycache__/
 # Local-only files (never committed)
 data/model_checker.py
 data/scrub_terms.json
+DEV_GUIDE.md
