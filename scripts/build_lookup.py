@@ -31,6 +31,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "models_manifest.json"
+EXTRA = ROOT / "data" / "extra_models.json"
 LIC = ROOT / "data" / "licenses_output.json"
 BASE = ROOT / "data" / "base_models.json"
 OUT = ROOT / "data" / "model_license_map.json"
@@ -151,9 +152,19 @@ def main():
     lic_by_repo = {m["hf_id"]: m for m in lic.get("models", [])}
     bases = load_bases()
 
+    # manifest 之外的手工补充模型（data/extra_models.json，与 manifest files 同构）；manifest 优先、按 filename 去重
+    files = list(manifest.get("files", []))
+    seen = {f.get("filename", "") for f in files}
+    if EXTRA.exists():
+        for f in json.loads(EXTRA.read_text(encoding="utf-8")).get("files", []):
+            fn = f.get("filename", "")
+            if fn and fn not in seen:
+                seen.add(fn)
+                files.append(f)
+
     entries = []
     deriv_count = 0
-    for f in manifest.get("files", []):
+    for f in files:
         filename = f.get("filename", "")
         repo = f.get("hf_repo", "")
         repo_lic = lic_by_repo.get(repo, {})
@@ -183,9 +194,12 @@ def main():
         })
 
     with_link = sum(1 for e in entries if e["license_url"])
+    sources = ["models_manifest.json", "licenses_output.json", "base_models.json"]
+    if EXTRA.exists():
+        sources.insert(1, "extra_models.json")
     out = {
         "_generated_at": datetime.now(timezone.utc).isoformat(),
-        "_sources": ["models_manifest.json", "licenses_output.json", "base_models.json"],
+        "_sources": sources,
         "_usage": (
             "filename 为键查询。license 为建议填入值，license_url 为协议原文链接（carddata/fallback/link 来源记于 license_source）；"
             "commercial 为 Review/待确认 时需人工复核；commercial_terms 为该标记的审计补充说明（有条件商用的营收门槛等）。"

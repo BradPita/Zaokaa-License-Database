@@ -1,0 +1,23 @@
+{
+  "_comment": "Ad-hoc production models not in model_checker.py manifest (added 2026-08-02 from SimpAI production log.html Base Model values). Same shape as models_manifest.json files.",
+  "files": [
+    {
+      "category": "diffusion_models",
+      "filename": "flux1-fill-dev-OneReward_fp8.safetensors",
+      "hf_repo": "Comfy-Org/OneReward_repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/OneReward_repackaged/resolve/main/split_files/diffusion_models/flux.1-fill-dev-OneReward-transformer_fp8.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf",
+      "hf_repo": "QuantStack/Wan2.2-I2V-A14B-GGUF",
+      "hf_url": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "wan2.1_14B_SCAIL_2_fp8_scaled.safetensors",
+      "hf_repo": "Comfy-Org/SCAIL-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/SCAIL-2/resolve/main/diffusion_models/wan2.1_14B_SCAIL_2_fp8_scaled.safetensors"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T18:08:35.962566+00:00",
-  "repo_count": 66,
+  "generated_at": "2026-08-01T19:12:42.326087+00:00",
+  "repo_count": 68,
   "_sources": [
     "HuggingFace API (cardData)",
     "data/models_manifest.json",
@@ -122,6 +122,25 @@
       "status": "ok"
     },
     {
+      "name": "Comfy-Org/OneReward_repackaged",
+      "provider": "Comfy-Org",
+      "family": "Comfy-Org",
+      "kind": "tracked",
+      "categories": "diffusion_models",
+      "hf_id": "Comfy-Org/OneReward_repackaged",
+      "file_count": 1,
+      "license": "cc-by-nc-4.0",
+      "license_url": "https://spdx.org/licenses/CC-BY-NC-4.0.html",
+      "license_source": "spdx",
+      "commercial_use": "No",
+      "commercial_terms": "Non-commercial license: free use excludes commercial rights; commercial use requires a purchased license.",
+      "downloads": 7893,
+      "likes": 11,
+      "pipeline_tag": "",
+      "last_modified": "2025-09-21T14:52:17.000Z",
+      "status": "ok"
+    },
+    {
       "name": "Comfy-Org/Qwen-Image-Edit_ComfyUI",
       "provider": "Comfy-Org",
       "family": "Qwen-Image",
@@ -166,7 +185,7 @@
       "kind": "tracked",
       "categories": "diffusion_models, loras",
       "hf_id": "Comfy-Org/SCAIL-2",
-      "file_count": 2,
+      "file_count": 3,
       "license": "mit",
       "license_url": "https://spdx.org/licenses/MIT.html",
       "license_source": "spdx",
@@ -325,7 +344,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "downloads": 979712,
-      "likes": 567,
+      "likes": 568,
       "pipeline_tag": "",
       "last_modified": "2026-07-28T20:47:36.000Z",
       "status": "ok"
@@ -540,6 +559,25 @@
       "status": "ok"
     },
     {
+      "name": "QuantStack/Wan2.2-I2V-A14B-GGUF",
+      "provider": "QuantStack",
+      "family": "Wan",
+      "kind": "tracked",
+      "categories": "diffusion_models",
+      "hf_id": "QuantStack/Wan2.2-I2V-A14B-GGUF",
+      "file_count": 1,
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial_use": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "downloads": 330923,
+      "likes": 379,
+      "pipeline_tag": "image-to-video",
+      "last_modified": "2025-07-29T13:04:00.000Z",
+      "status": "ok"
+    },
+    {
       "name": "Qwen/Qwen-Image",
       "provider": "Qwen",
       "family": "Qwen-Image",
@@ -667,7 +705,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 2447986,
-      "likes": 459,
+      "likes": 460,
       "pipeline_tag": "",
       "last_modified": "2026-01-23T05:25:33.000Z",
       "status": "ok"
@@ -1104,7 +1142,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 15844,
-      "likes": 33,
+      "likes": 34,
       "pipeline_tag": "",
       "last_modified": "2026-03-10T06:43:50.000Z",
       "status": "ok"
