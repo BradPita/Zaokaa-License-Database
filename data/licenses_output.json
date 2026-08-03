@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T20:38:42.855928+00:00",
+  "generated_at": "2026-08-03T01:52:10.698533+00:00",
   "repo_count": 68,
   "_sources": [
     "HuggingFace API (cardData)",
@@ -306,7 +306,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 5352247,
-      "likes": 796,
+      "likes": 797,
       "pipeline_tag": "",
       "last_modified": "2026-07-02T13:20:16.000Z",
       "status": "ok"
@@ -477,7 +477,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "downloads": 2118434,
-      "likes": 1746,
+      "likes": 1747,
       "pipeline_tag": "image-to-video",
       "last_modified": "2026-08-02T09:45:28.000Z",
       "status": "ok"
@@ -572,7 +572,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 339324,
-      "likes": 381,
+      "likes": 382,
       "pipeline_tag": "image-to-video",
       "last_modified": "2025-07-29T13:04:00.000Z",
       "status": "ok"
@@ -629,7 +629,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 9317038,
-      "likes": 1660,
+      "likes": 1661,
       "pipeline_tag": "image-text-to-text",
       "last_modified": "2025-04-06T16:23:01.000Z",
       "status": "ok"
