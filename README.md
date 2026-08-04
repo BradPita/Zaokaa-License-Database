@@ -12,7 +12,7 @@ The `data/model_license_map.json` artifact feeds a downstream compliance tool: i
 2. `scripts/fetch_licenses.py` - queries the [Hugging Face Hub REST API](https://huggingface.co/docs/huggingface_hub) for each unique repo's `cardData.license` -> `data/licenses_output.csv` + `.json` (one row per repo, including base models).
 3. `scripts/build_lookup.py` - joins the manifest + licenses + `data/base_models.json` -> `data/model_license_map.json` (filename -> license, with derivative tracing).
 4. `scripts/generate_readme.py` - renders the table below.
-5. `.github/workflows/update_licenses.yml` - re-runs steps 2–4 weekly and auto-commits results.
+5. `.github/workflows/update_licenses.yml` - pulls the latest manifest from the upstream model list, then re-runs steps 2–4 hourly and auto-commits only when data actually changed (no-op runs skip committing).
 
 No web scraping, no API key required for public metadata. Pure stdlib Python.
 
@@ -261,7 +261,7 @@ Set `HF_TOKEN` for a higher rate limit / gated-model metadata (optional).
 
 ## Trigger a manual update
 
-GitHub -> **Actions** -> *Update Model Licenses* -> **Run workflow**. Also runs every Monday 00:00 UTC.
+GitHub -> **Actions** -> *Update Model Licenses* -> **Run workflow**. Also runs automatically every hour (minute 0); runs that find no license/data changes commit nothing.
 
 ## Downstream compliance integration
 

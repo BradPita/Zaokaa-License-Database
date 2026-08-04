@@ -305,12 +305,6 @@ def main():
         if i < len(repos):
             time.sleep(REQUEST_DELAY)
 
-    OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-    with OUT_CSV.open("w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=CSV_FIELDS)
-        w.writeheader()
-        w.writerows(rows)
-
     snapshot = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "repo_count": len(rows),
@@ -325,8 +319,32 @@ def main():
         "_license_legend": LICENSE_LEGEND,
         "models": rows,
     }
-    with OUT_JSON.open("w", encoding="utf-8") as f:
-        json.dump(snapshot, f, ensure_ascii=False, indent=2)
+
+    # 防空提交：忽略 generated_at 与易变的 HF 统计（downloads/likes/last_modified）做内容比对，
+    # 只有许可相关数据真正变化时才重写 JSON/CSV，避免每小时 CI 产生纯 churn 提交。
+    def norm(s):
+        n = {k: v for k, v in s.items() if k != "generated_at"}
+        n["models"] = [
+            {k: v for k, v in r.items() if k not in ("downloads", "likes", "last_modified")}
+            for r in s.get("models", [])
+        ]
+        return n
+
+    changed = True
+    if OUT_JSON.exists():
+        try:
+            old = json.loads(OUT_JSON.read_text(encoding="utf-8"))
+            changed = norm(snapshot) != norm(old)
+        except Exception:
+            changed = True
+    if changed:
+        OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
+        with OUT_CSV.open("w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+            w.writeheader()
+            w.writerows(rows)
+        with OUT_JSON.open("w", encoding="utf-8") as f:
+            json.dump(snapshot, f, ensure_ascii=False, indent=2)
 
     ok = sum(1 for r in rows if r["status"] == "ok")
     nf = sum(1 for r in rows if r["status"] == "not_found")

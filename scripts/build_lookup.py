@@ -214,9 +214,21 @@ def main():
         "files_with_license_url": with_link,
         "files": entries,
     }
-    OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("Wrote {} entries ({} derivative, {} with license_url) -> {}".format(
-        len(entries), deriv_count, with_link, OUT))
+    # 防空提交：仅当内容（忽略 _generated_at）变化时才重写，避免每小时 CI 产生纯 churn。
+    changed = True
+    if OUT.exists():
+        try:
+            old = json.loads(OUT.read_text(encoding="utf-8"))
+            old.pop("_generated_at", None)
+            changed = old != {k: v for k, v in out.items() if k != "_generated_at"}
+        except Exception:
+            changed = True
+    if changed:
+        OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+        print("Wrote {} entries ({} derivative, {} with license_url) -> {}".format(
+            len(entries), deriv_count, with_link, OUT))
+    else:
+        print("No license-relevant changes (kept existing {})".format(OUT))
     return 0
 
 

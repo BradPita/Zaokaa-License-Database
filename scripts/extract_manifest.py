@@ -109,7 +109,17 @@ def main():
     }
     op = Path(args.out)
     op.parent.mkdir(parents=True, exist_ok=True)
-    op.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    # 防空提交：仅当内容（忽略时间戳）变化时才重写，避免每小时 CI 产生纯时间戳 churn。
+    changed = True
+    if op.exists():
+        try:
+            old = json.loads(op.read_text(encoding="utf-8"))
+            old.pop("_extracted_at", None)
+            changed = old != {k: v for k, v in out.items() if k != "_extracted_at"}
+        except Exception:
+            changed = True
+    if changed:
+        op.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Extracted {} files / {} repos (scrubbed {} entries) -> {}".format(
         out["file_count"], out["repo_count"], dropped, op))
     return 0

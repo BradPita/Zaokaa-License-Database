@@ -14,11 +14,13 @@ from __future__ import annotations
 
 import csv
 import html
+import json
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CSV_FILE = ROOT / "data" / "licenses_output.csv"
+LIC_JSON = ROOT / "data" / "licenses_output.json"
 OUT = ROOT / "docs" / "index.html"
 PAGES_URL = "https://bradpita.github.io/Zaokaa-License-Database/"
 
@@ -40,6 +42,19 @@ BASE_COLS = [
 ]
 
 COMM_STYLE = {"Yes": "yes", "No": "no", "Conditional": "cond", "Review": "rev"}
+
+
+def data_timestamp():
+    """Use the stable generated_at from licenses_output.json so the page only
+    changes when license data actually changed (no timestamp-only churn)."""
+    try:
+        lic = json.loads(LIC_JSON.read_text(encoding="utf-8"))
+        ts = (lic.get("generated_at") or "").strip()
+        if ts:
+            return ts[:16].replace("T", " ") + " UTC"
+    except Exception:
+        pass
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
 
 def esc(s):
@@ -178,7 +193,7 @@ td[num], th[align=right], td[align=right] { text-align: right; }
 
 
 def build_page(rows):
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    ts = data_timestamp()
     tracked = [r for r in rows if r.get("kind") != "base"]
     base = [r for r in rows if r.get("kind") == "base"]
     with_url = sum(1 for r in tracked if (r.get("license_url") or "").strip())

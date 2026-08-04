@@ -16,12 +16,14 @@ the top of the table block).
 from __future__ import annotations
 
 import csv
+import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CSV_FILE = ROOT / "data" / "licenses_output.csv"
+LIC_JSON = ROOT / "data" / "licenses_output.json"
 README = ROOT / "README.md"
 START = "<!-- LICENSE_TABLE_START -->"
 END = "<!-- LICENSE_TABLE_END -->"
@@ -40,6 +42,19 @@ BASE_HEADERS = ["Base model", "Provider", "License", "Commercial", "Commercial t
 BASE_ALIGNS = ["left", "left", "left", "center", "left", "left"]
 
 COMM_EMOJI = {"Yes": "Yes", "No": "No", "Conditional": "Conditional", "Review": "Review"}
+
+
+def data_timestamp():
+    """Use the stable generated_at from licenses_output.json so README only
+    changes when license data actually changed (no timestamp-only churn)."""
+    try:
+        lic = json.loads(LIC_JSON.read_text(encoding="utf-8"))
+        ts = (lic.get("generated_at") or "").strip()
+        if ts:
+            return ts[:16].replace("T", " ") + " UTC"
+    except Exception:
+        pass
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
 
 def cell_escape(s):
@@ -156,7 +171,7 @@ def base_section(base_rows):
 
 def build_block(rows):
     lines = []
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    ts = data_timestamp()
     tracked = [r for r in rows if r.get("kind") != "base"]
     base = [r for r in rows if r.get("kind") == "base"]
     lines.append("_Last updated: {} | {} tracked repos + {} base models_".format(ts, len(tracked), len(base)))
