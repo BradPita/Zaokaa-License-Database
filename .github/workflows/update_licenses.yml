@@ -27,6 +27,22 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Fetch model manifest from author repo (Windecay/SimpAI_Studio)
+        run: curl -fsSL https://raw.githubusercontent.com/Windecay/SimpAI_Studio/main/model_checker.py -o data/model_checker.py
+
+      - name: Restore scrub terms (private, from Actions secret)
+        env:
+          SCRUB_TERMS: ${{ secrets.SCRUB_TERMS }}
+        run: |
+          if [ -z "$SCRUB_TERMS" ]; then
+            echo "::error::SCRUB_TERMS secret is not configured; aborting to avoid leaking internal distribution entries into the public manifest."
+            exit 1
+          fi
+          echo "$SCRUB_TERMS" > data/scrub_terms.json
+
+      - name: Extract manifest (scrubbed)
+        run: python scripts/extract_manifest.py --checker data/model_checker.py --scrub data/scrub_terms.json
+
       - name: Fetch licenses
         run: python scripts/fetch_licenses.py
 
@@ -43,7 +59,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/licenses_output.csv data/licenses_output.json data/model_license_map.json README.md docs/index.html
+          git add data/models_manifest.json data/licenses_output.csv data/licenses_output.json data/model_license_map.json README.md docs/index.html
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

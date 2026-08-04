@@ -222,6 +222,13 @@
       "license_url": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html",
       "note": "CC BY-NC-SA 4.0: non-commercial; attribution + share-alike required; commercial use needs separate permission from author.",
       "commercial_terms": "CC BY-NC-SA 4.0: non-commercial use only; attribution + share-alike required; commercial use needs separate permission from the author."
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "license_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+      "commercial_use": "Conditional",
+      "note": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); Applicable Territory excludes EU/UK/South Korea/USA; commercial UI must display 'MiniMax H3'; AUP (Exhibit A) applies.",
+      "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies."
     }
   ]
 }

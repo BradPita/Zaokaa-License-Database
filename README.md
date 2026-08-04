@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-04 05:38 UTC | 61 tracked repos + 7 base models_
+_Last updated: 2026-08-04 05:58 UTC | 64 tracked repos + 7 base models_
 
 > **[View the formatted table online](https://bradpita.github.io/Zaokaa-License-Database/)** - fixed column widths for side-by-side comparison and every link opens in a new tab (not possible inside GitHub's README).
 
@@ -174,6 +174,12 @@ _Last updated: 2026-08-04 05:38 UTC | 61 tracked repos + 7 base models_
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
 | [heathcliff01/Kaloscope](https://huggingface.co/heathcliff01/Kaloscope) | heathcliff01 | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 0 | 2025-10-20 |
 
+### Alissonerdx
+
+| Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
+| :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
+| [Alissonerdx/BFS-Best-Face-Swap](https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap) | Alissonerdx | [mit](https://spdx.org/licenses/MIT.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 115,837 | 2026-07-30 |
+
 ### Bingsu
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
@@ -191,7 +197,9 @@ _Last updated: 2026-08-04 05:38 UTC | 61 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
+| [Comfy-Org/MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3) | Comfy-Org | [other](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE) | Conditional | MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies. | 5 | 2 | 2026-08-03 |
 | [Comfy-Org/OneReward_repackaged](https://huggingface.co/Comfy-Org/OneReward_repackaged) | Comfy-Org | [cc-by-nc-4.0](https://spdx.org/licenses/CC-BY-NC-4.0.html) | No | Non-commercial license: free use excludes commercial rights; commercial use requires a purchased license. | 1 | 8,230 | 2025-09-21 |
+| [Comfy-Org/mediapipe](https://huggingface.co/Comfy-Org/mediapipe) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 0 | 2026-05-21 |
 
 ### Kim2091
 

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T05:38:21.338996+00:00",
-  "repo_count": 68,
+  "generated_at": "2026-08-04T05:58:08.508466+00:00",
+  "repo_count": 71,
   "_sources": [
     "HuggingFace API (cardData)",
     "data/models_manifest.json",
@@ -26,6 +26,25 @@
     "commercial_terms": "commercial_use 的审计补充说明：明示商用条件（如营收门槛、须购买商业许可等）。优先取 data/license_overrides.json 中 fallback/link 的手工 commercial_terms 字段，否则按 commercial_use 自动生成默认说明。"
   },
   "models": [
+    {
+      "name": "Alissonerdx/BFS-Best-Face-Swap",
+      "provider": "Alissonerdx",
+      "family": "Alissonerdx",
+      "kind": "tracked",
+      "categories": "loras",
+      "hf_id": "Alissonerdx/BFS-Best-Face-Swap",
+      "file_count": 1,
+      "license": "mit",
+      "license_url": "https://spdx.org/licenses/MIT.html",
+      "license_source": "spdx",
+      "commercial_use": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "downloads": 115837,
+      "likes": 741,
+      "pipeline_tag": "image-to-image",
+      "last_modified": "2026-07-30T11:15:48.000Z",
+      "status": "ok"
+    },
     {
       "name": "Bingsu/adetailer",
       "provider": "Bingsu",
@@ -119,6 +138,25 @@
       "likes": 406,
       "pipeline_tag": "",
       "last_modified": "2026-07-20T09:43:43.000Z",
+      "status": "ok"
+    },
+    {
+      "name": "Comfy-Org/MiniMax-H3",
+      "provider": "Comfy-Org",
+      "family": "Comfy-Org",
+      "kind": "tracked",
+      "categories": "diffusion_models, text_encoders, vae",
+      "hf_id": "Comfy-Org/MiniMax-H3",
+      "file_count": 5,
+      "license": "other",
+      "license_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+      "license_source": "cardata+link",
+      "commercial_use": "Conditional",
+      "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
+      "downloads": 2,
+      "likes": 475,
+      "pipeline_tag": "",
+      "last_modified": "2026-08-03T12:20:03.000Z",
       "status": "ok"
     },
     {
@@ -271,6 +309,25 @@
       "likes": 142,
       "pipeline_tag": "",
       "last_modified": "2026-03-08T17:36:30.000Z",
+      "status": "ok"
+    },
+    {
+      "name": "Comfy-Org/mediapipe",
+      "provider": "Comfy-Org",
+      "family": "Comfy-Org",
+      "kind": "tracked",
+      "categories": "detection",
+      "hf_id": "Comfy-Org/mediapipe",
+      "file_count": 1,
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial_use": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "downloads": 0,
+      "likes": 14,
+      "pipeline_tag": "",
+      "last_modified": "2026-05-21T05:21:52.000Z",
       "status": "ok"
     },
     {
@@ -591,7 +648,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 201008,
-      "likes": 2564,
+      "likes": 2565,
       "pipeline_tag": "text-to-image",
       "last_modified": "2025-08-18T02:42:19.000Z",
       "status": "ok"
@@ -895,7 +952,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
       "downloads": 0,
-      "likes": 606,
+      "likes": 607,
       "pipeline_tag": "",
       "last_modified": "2026-07-29T16:32:13.000Z",
       "status": "ok"
