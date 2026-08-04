@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T05:58:08.508466+00:00",
+  "generated_at": "2026-08-04T06:00:32.950492+00:00",
   "repo_count": 71,
   "_sources": [
     "HuggingFace API (cardData)",
@@ -154,7 +154,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
       "downloads": 2,
-      "likes": 475,
+      "likes": 476,
       "pipeline_tag": "",
       "last_modified": "2026-08-03T12:20:03.000Z",
       "status": "ok"
