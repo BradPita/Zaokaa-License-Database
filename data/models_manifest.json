@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-08-04T05:59:14.723820+00:00",
-  "file_count": 163,
-  "repo_count": 62,
+  "_extracted_at": "2026-08-06T07:37:16.434220+00:00",
+  "file_count": 164,
+  "repo_count": 64,
   "scrubbed_entries": 321,
   "files": [
     {
@@ -973,9 +973,15 @@
     },
     {
       "category": "vae",
-      "filename": "minimax_h3_video_vae_fp16.safetensors",
-      "hf_repo": "Comfy-Org/MiniMax-H3",
-      "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_fp16.safetensors"
+      "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+      "hf_repo": "Kijai/MiniMax-H3-experimental",
+      "hf_url": "https://huggingface.co/Kijai/MiniMax-H3-experimental/resolve/main/minimax_h3_video_vae_int8_convrot.safetensors"
+    },
+    {
+      "category": "vae_approx",
+      "filename": "taeh3.safetensors",
+      "hf_repo": "Kijai/MiniMax-H3-TAE",
+      "hf_url": "https://huggingface.co/Kijai/MiniMax-H3-TAE/resolve/main/vae_approx/taeh3.safetensors"
     },
     {
       "category": "vae",
