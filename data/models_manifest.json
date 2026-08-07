@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-08-06T07:37:16.434220+00:00",
-  "file_count": 164,
-  "repo_count": 64,
+  "_extracted_at": "2026-08-07T19:44:50.625223+00:00",
+  "file_count": 165,
+  "repo_count": 65,
   "scrubbed_entries": 321,
   "files": [
     {
@@ -964,6 +964,12 @@
       "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
       "hf_repo": "Comfy-Org/MiniMax-H3",
       "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+      "hf_repo": "Kijai/MiniMax-H3_comfy",
+      "hf_url": "https://huggingface.co/Kijai/MiniMax-H3_comfy/resolve/main/loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors"
     },
     {
       "category": "text_encoders",
