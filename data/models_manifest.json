@@ -1,7 +1,7 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-08-12T10:52:33.862195+00:00",
-  "file_count": 164,
+  "_extracted_at": "2026-08-14T01:09:33.277059+00:00",
+  "file_count": 163,
   "repo_count": 64,
   "scrubbed_entries": 321,
   "files": [
@@ -958,12 +958,6 @@
       "filename": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
       "hf_repo": "Comfy-Org/MiniMax-H3",
       "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors"
-    },
-    {
-      "category": "diffusion_models",
-      "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
-      "hf_repo": "Comfy-Org/MiniMax-H3",
-      "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
     },
     {
       "category": "text_encoders",

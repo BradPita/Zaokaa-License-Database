@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-12T10:53:51.291186+00:00",
+  "_generated_at": "2026-08-14T01:10:55.295499+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,9 +34,9 @@
     "merge",
     "finetune"
   ],
-  "file_count": 167,
+  "file_count": 166,
   "derivative_count": 7,
-  "files_with_license_url": 166,
+  "files_with_license_url": 165,
   "files": [
     {
       "category": "clip_vision",
@@ -2727,23 +2727,6 @@
     {
       "category": "diffusion_models",
       "filename": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
-      "hf_repo": "Comfy-Org/MiniMax-H3",
-      "derivative": false,
-      "license": "other",
-      "license_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
-      "license_source": "cardata+link",
-      "commercial": "Conditional",
-      "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
-      "base_model": "",
-      "base_repo": "",
-      "base_license": "",
-      "base_license_url": "",
-      "base_commercial": "",
-      "base_commercial_terms": ""
-    },
-    {
-      "category": "diffusion_models",
-      "filename": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
       "hf_repo": "Comfy-Org/MiniMax-H3",
       "derivative": false,
       "license": "other",
