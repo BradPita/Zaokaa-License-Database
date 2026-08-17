@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-17T05:28:04.685780+00:00",
+  "_generated_at": "2026-08-17T12:25:47.266102+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,7 +34,7 @@
     "merge",
     "finetune"
   ],
-  "file_count": 157,
+  "file_count": 158,
   "derivative_count": 6,
   "files_with_license_url": 156,
   "files": [
@@ -2649,6 +2649,23 @@
       "license_source": "cardata+link",
       "commercial": "Conditional",
       "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "latent_upscale_models",
+      "filename": "minimax_h3_latent_upscaler_3d_bf16.safetensors",
+      "hf_repo": "LBH-123-AI/Minimax_h3_latent_Upscaler",
+      "derivative": false,
+      "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
+      "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",

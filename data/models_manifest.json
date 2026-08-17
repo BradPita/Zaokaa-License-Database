@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-08-15T06:21:28.041950+00:00",
-  "file_count": 154,
-  "repo_count": 61,
+  "_extracted_at": "2026-08-17T12:24:32.777401+00:00",
+  "file_count": 155,
+  "repo_count": 62,
   "scrubbed_entries": 321,
   "files": [
     {
@@ -928,6 +928,12 @@
       "filename": "minimax_h3_audio_vae_fp32.safetensors",
       "hf_repo": "Comfy-Org/MiniMax-H3",
       "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors"
+    },
+    {
+      "category": "latent_upscale_models",
+      "filename": "minimax_h3_latent_upscaler_3d_bf16.safetensors",
+      "hf_repo": "LBH-123-AI/Minimax_h3_latent_Upscaler",
+      "hf_url": "https://huggingface.co/LBH-123-AI/Minimax_h3_latent_Upscaler/resolve/main/minimax_h3_latent_upscaler_3d_bf16.safetensors"
     }
   ]
 }
