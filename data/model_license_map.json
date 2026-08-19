@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-17T12:25:47.266102+00:00",
+  "_generated_at": "2026-08-19T03:40:07.385734+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,9 +34,9 @@
     "merge",
     "finetune"
   ],
-  "file_count": 158,
+  "file_count": 159,
   "derivative_count": 6,
-  "files_with_license_url": 156,
+  "files_with_license_url": 157,
   "files": [
     {
       "category": "clip_vision",
@@ -840,6 +840,23 @@
     {
       "category": "loras",
       "filename": "wan2.1_SCAIL_2_DPO_lora_bf16.safetensors",
+      "hf_repo": "Comfy-Org/SCAIL-2",
+      "derivative": false,
+      "license": "mit",
+      "license_url": "https://spdx.org/licenses/MIT.html",
+      "license_source": "spdx",
+      "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "loras",
+      "filename": "wan2.1_SCAIL_2_relight_lora_bf16.safetensors",
       "hf_repo": "Comfy-Org/SCAIL-2",
       "derivative": false,
       "license": "mit",

@@ -1,7 +1,7 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-08-17T12:24:32.777401+00:00",
-  "file_count": 155,
+  "_extracted_at": "2026-08-19T03:38:47.025724+00:00",
+  "file_count": 156,
   "repo_count": 62,
   "scrubbed_entries": 321,
   "files": [
@@ -292,6 +292,12 @@
       "filename": "wan2.1_SCAIL_2_DPO_lora_bf16.safetensors",
       "hf_repo": "Comfy-Org/SCAIL-2",
       "hf_url": "https://huggingface.co/Comfy-Org/SCAIL-2/resolve/main/loras/wan2.1_SCAIL_2_DPO_lora_bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "wan2.1_SCAIL_2_relight_lora_bf16.safetensors",
+      "hf_repo": "Comfy-Org/SCAIL-2",
+      "hf_url": "https://huggingface.co/Comfy-Org/SCAIL-2/resolve/main/loras/wan2.1_SCAIL_2_relight_lora_bf16.safetensors"
     },
     {
       "category": "checkpoints",
