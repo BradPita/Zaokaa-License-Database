@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-21 19:20 UTC | 64 tracked repos + 7 base models_
+_Last updated: 2026-08-21 20:16 UTC | 64 tracked repos + 7 base models_
 
 > **[View the formatted table online](https://bradpita.github.io/Zaokaa-License-Database/)** - fixed column widths for side-by-side comparison and every link opens in a new tab (not possible inside GitHub's README).
 
@@ -203,7 +203,7 @@ _Last updated: 2026-08-21 19:20 UTC | 64 tracked repos + 7 base models_
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
 | [Kijai/MiniMax-H3-TAE](https://huggingface.co/Kijai/MiniMax-H3-TAE) | Kijai | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 0 | 2026-08-05 |
-| Kijai/MiniMax-H3-experimental - _not found on Hub_ | Kijai | - | Review | - | 1 | - | - |
+| [Kijai/MiniMax-H3-experimental](https://huggingface.co/Kijai/MiniMax-H3-experimental) | Kijai | - | Review | Custom or undeclared license; commercial conditions require human review of the license text. | 1 | 0 | 2026-08-08 |
 
 ### Kim2091
 

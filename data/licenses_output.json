@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T19:20:34.565179+00:00",
+  "generated_at": "2026-08-21T20:16:41.868660+00:00",
   "repo_count": 71,
   "_sources": [
     "HuggingFace API (cardData)",
@@ -154,7 +154,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
       "downloads": 16255989,
-      "likes": 1483,
+      "likes": 1484,
       "pipeline_tag": "",
       "last_modified": "2026-08-17T06:04:24.000Z",
       "status": "ok"
@@ -435,14 +435,14 @@
       "file_count": 1,
       "license": "",
       "license_url": "",
-      "license_source": "",
-      "commercial_use": "",
-      "commercial_terms": "",
-      "downloads": "",
-      "likes": "",
+      "license_source": "cardata",
+      "commercial_use": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
+      "downloads": 0,
+      "likes": 253,
       "pipeline_tag": "",
-      "last_modified": "",
-      "status": "not_found"
+      "last_modified": "2026-08-08T13:32:49.000Z",
+      "status": "ok"
     },
     {
       "name": "Kijai/WanVideo_comfy",
