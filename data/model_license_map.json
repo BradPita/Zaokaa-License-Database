@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-08-21T06:31:38.110382+00:00",
+  "_generated_at": "2026-08-21T19:20:34.604697+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -2627,11 +2627,11 @@
       "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
       "hf_repo": "Kijai/MiniMax-H3-experimental",
       "derivative": false,
-      "license": "待确认（HF未声明许可）",
+      "license": "待确认（HF仓库未找到）",
       "license_url": "",
-      "license_source": "cardata",
+      "license_source": "",
       "commercial": "Review",
-      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
+      "commercial_terms": "",
       "base_model": "",
       "base_repo": "",
       "base_license": "",

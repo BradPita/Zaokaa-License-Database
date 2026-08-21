@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-21 06:31 UTC | 64 tracked repos + 7 base models_
+_Last updated: 2026-08-21 19:20 UTC | 64 tracked repos + 7 base models_
 
 > **[View the formatted table online](https://bradpita.github.io/Zaokaa-License-Database/)** - fixed column widths for side-by-side comparison and every link opens in a new tab (not possible inside GitHub's README).
 
@@ -35,99 +35,99 @@ _Last updated: 2026-08-21 06:31 UTC | 64 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/Wan_2.1_ComfyUI_repackaged](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 3 | 2,542,387 | 2026-08-17 |
-| [Comfy-Org/Wan_2.2_ComfyUI_Repackaged](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 4,949,469 | 2026-08-17 |
+| [Comfy-Org/Wan_2.1_ComfyUI_repackaged](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 3 | 2,545,896 | 2026-08-17 |
+| [Comfy-Org/Wan_2.2_ComfyUI_Repackaged](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 4,990,870 | 2026-08-17 |
 | [FX-FeiHou/wan2.2-Remix](https://huggingface.co/FX-FeiHou/wan2.2-Remix) | FX-FeiHou | [other](https://spdx.org/licenses/Apache-2.0.html) | Review | Custom or undeclared license; commercial conditions require human review of the license text. | 1 | 8 | 2026-03-24 |
-| [Kijai/WanVideo_comfy](https://huggingface.co/Kijai/WanVideo_comfy) | Kijai | [apache-2.0](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 5 | 1,685,633 | 2026-06-13 |
-| [QuantStack/Wan2.2-I2V-A14B-GGUF](https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF) | QuantStack | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 242,767 | 2025-07-29 |
-| [Wan-AI/Wan2.2-Animate-14B](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B) | Wan-AI | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 18,888 | 2025-11-05 |
-| [rzgar/NSFW-Wan-UMT5-XXL-V2](https://huggingface.co/rzgar/NSFW-Wan-UMT5-XXL-V2) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 49 | 2026-07-17 |
-| [rzgar/Wan2.2_I2V_LightX2V_2Step](https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 941 | 2026-07-17 |
-| [spacepxl/Wan2.1-VAE-upscale2x](https://huggingface.co/spacepxl/Wan2.1-VAE-upscale2x) | spacepxl | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 31,102 | 2025-10-26 |
+| [Kijai/WanVideo_comfy](https://huggingface.co/Kijai/WanVideo_comfy) | Kijai | [apache-2.0](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 5 | 1,682,271 | 2026-06-13 |
+| [QuantStack/Wan2.2-I2V-A14B-GGUF](https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF) | QuantStack | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 239,781 | 2025-07-29 |
+| [Wan-AI/Wan2.2-Animate-14B](https://huggingface.co/Wan-AI/Wan2.2-Animate-14B) | Wan-AI | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 18,809 | 2025-11-05 |
+| [rzgar/NSFW-Wan-UMT5-XXL-V2](https://huggingface.co/rzgar/NSFW-Wan-UMT5-XXL-V2) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 51 | 2026-07-17 |
+| [rzgar/Wan2.2_I2V_LightX2V_2Step](https://huggingface.co/rzgar/Wan2.2_I2V_LightX2V_2Step) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 928 | 2026-07-17 |
+| [spacepxl/Wan2.1-VAE-upscale2x](https://huggingface.co/spacepxl/Wan2.1-VAE-upscale2x) | spacepxl | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 29,602 | 2025-10-26 |
 
 ### FLUX
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [silveroxides/FLUX.2-dev-fp8_scaled](https://huggingface.co/silveroxides/FLUX.2-dev-fp8_scaled) | silveroxides | [other](https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md) | No | Black Forest Labs FLUX.2 \[dev\] Non-Commercial License: non-commercial, non-production use; commercial use requires a separate license from BFL. | 1 | 14,269 | 2026-07-15 |
+| [silveroxides/FLUX.2-dev-fp8_scaled](https://huggingface.co/silveroxides/FLUX.2-dev-fp8_scaled) | silveroxides | [other](https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.md) | No | Black Forest Labs FLUX.2 \[dev\] Non-Commercial License: non-commercial, non-production use; commercial use requires a separate license from BFL. | 1 | 14,207 | 2026-07-15 |
 
 ### Krea
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) | Comfy-Org | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 3 | 2,099,207 | 2026-08-17 |
+| [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) | Comfy-Org | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 3 | 2,118,803 | 2026-08-17 |
 | [conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit) | conradlocke | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 1 | 0 | 2026-07-29 |
-| [uzumix/krea2filterbypass3.safetensors](https://huggingface.co/uzumix/krea2filterbypass3.safetensors) | uzumix | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 1 | 4,101 | 2026-07-08 |
+| [uzumix/krea2filterbypass3.safetensors](https://huggingface.co/uzumix/krea2filterbypass3.safetensors) | uzumix | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 1 | 4,156 | 2026-07-08 |
 
 ### Qwen-Image
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/Qwen-Image-Edit_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 1,228,134 | 2026-08-17 |
-| [Comfy-Org/Qwen-Image_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 1,846,804 | 2026-08-17 |
+| [Comfy-Org/Qwen-Image-Edit_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 1,253,306 | 2026-08-17 |
+| [Comfy-Org/Qwen-Image_ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 1,891,695 | 2026-08-17 |
 | [Phr00t/Qwen-Image-Edit-Rapid-AIO](https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO) | Phr00t | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 0 | 2026-02-03 |
-| [QuantFunc/Nunchaku-Qwen-Image-EDIT-2511](https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511) | QuantFunc | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 3,543 | 2026-06-19 |
-| [fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA](https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA) | fal | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 63,968 | 2026-01-07 |
-| [lightx2v/Qwen-Image-2512-Lightning](https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 75,979 | 2026-01-15 |
-| [lightx2v/Qwen-Image-Edit-2511-Lightning](https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 329,496 | 2026-01-15 |
+| [QuantFunc/Nunchaku-Qwen-Image-EDIT-2511](https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511) | QuantFunc | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 3,568 | 2026-06-19 |
+| [fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA](https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA) | fal | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 63,866 | 2026-01-07 |
+| [lightx2v/Qwen-Image-2512-Lightning](https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 76,511 | 2026-01-15 |
+| [lightx2v/Qwen-Image-Edit-2511-Lightning](https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 331,107 | 2026-01-15 |
 | [lrzjason/QwenEdit_Consistance_Edit](https://huggingface.co/lrzjason/QwenEdit_Consistance_Edit) | lrzjason | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 0 | 2026-04-17 |
 
 ### Qwen-TTS
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Qwen/Qwen3-TTS-12Hz-0.6B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 535,091 | 2026-01-29 |
-| [Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 1,398,381 | 2026-01-29 |
-| [Qwen/Qwen3-TTS-12Hz-1.7B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 3,075,139 | 2026-01-23 |
-| [Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 2,262,998 | 2026-01-29 |
-| [Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 399,293 | 2026-01-29 |
-| [Qwen/Qwen3-TTS-Tokenizer-12Hz](https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 4 | 173,341 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-12Hz-0.6B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 534,049 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 1,361,751 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-12Hz-1.7B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 3,086,214 | 2026-01-23 |
+| [Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 2,262,135 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 12 | 387,046 | 2026-01-29 |
+| [Qwen/Qwen3-TTS-Tokenizer-12Hz](https://huggingface.co/Qwen/Qwen3-TTS-Tokenizer-12Hz) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 4 | 171,765 | 2026-01-29 |
 
 ### Qwen3-LLM
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF](https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF) | mradermacher | [apache-2.0](https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 37,510 | 2026-03-10 |
+| [mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF](https://huggingface.co/mradermacher/Huihui-Qwen3.5-9B-abliterated-GGUF) | mradermacher | [apache-2.0](https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 37,617 | 2026-03-10 |
 
 ### LTX-Video
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [joyfox/LTX2.3-ICEdit-Insight](https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight) | joyfox | [apache-2.0](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Conditional | LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models. | 4 | 63,628 | 2026-07-23 |
+| [joyfox/LTX2.3-ICEdit-Insight](https://huggingface.co/joyfox/LTX2.3-ICEdit-Insight) | joyfox | [apache-2.0](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Conditional | LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models. | 4 | 62,378 | 2026-07-23 |
 | [oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint) | oumoumad | [other](https://github.com/Lightricks/LTX-2/blob/main/LICENSE) | Conditional | LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models. | 1 | 0 | 2026-04-10 |
 
 ### Z-Image
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/z_image_turbo](https://huggingface.co/Comfy-Org/z_image_turbo) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 6,149,401 | 2026-08-17 |
-| [alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1](https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1) | alibaba-pai | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 99,453 | 2026-02-26 |
+| [Comfy-Org/z_image_turbo](https://huggingface.co/Comfy-Org/z_image_turbo) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 6,191,388 | 2026-08-17 |
+| [alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1](https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union-2.1) | alibaba-pai | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 99,960 | 2026-02-26 |
 
 ### Bernini
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/Bernini-R](https://huggingface.co/Comfy-Org/Bernini-R) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 95,425 | 2026-08-17 |
-| [rzgar/Bernini-R-LightX2V-4step-loras](https://huggingface.co/rzgar/Bernini-R-LightX2V-4step-loras) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 9,542 | 2026-07-02 |
+| [Comfy-Org/Bernini-R](https://huggingface.co/Comfy-Org/Bernini-R) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 90,970 | 2026-08-17 |
+| [rzgar/Bernini-R-LightX2V-4step-loras](https://huggingface.co/rzgar/Bernini-R-LightX2V-4step-loras) | rzgar | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 9,277 | 2026-07-02 |
 
 ### SCAIL
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/SCAIL-2](https://huggingface.co/Comfy-Org/SCAIL-2) | Comfy-Org | [mit](https://spdx.org/licenses/MIT.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 4 | 338,944 | 2026-08-17 |
+| [Comfy-Org/SCAIL-2](https://huggingface.co/Comfy-Org/SCAIL-2) | Comfy-Org | [mit](https://spdx.org/licenses/MIT.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 4 | 336,261 | 2026-08-17 |
 
 ### SeedVR
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [numz/SeedVR2_comfyUI](https://huggingface.co/numz/SeedVR2_comfyUI) | numz | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 241,560 | 2025-11-09 |
+| [numz/SeedVR2_comfyUI](https://huggingface.co/numz/SeedVR2_comfyUI) | numz | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 247,164 | 2025-11-09 |
 
 ### Segment Anything
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/sam3.1](https://huggingface.co/Comfy-Org/sam3.1) | Comfy-Org | [other](https://github.com/facebookresearch/sam3/blob/main/LICENSE) | Yes | SAM License (Meta, 2025-11-19): royalty-free commercial use permitted, no revenue threshold; obligations: no reverse engineering of components, trade-control/ITAR compliance, acknowledge SAM in publications. | 1 | 145,845 | 2026-08-17 |
-| [jetjodh/sam-3d-body-dinov3](https://huggingface.co/jetjodh/sam-3d-body-dinov3) | jetjodh | [other](https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE) | Yes | SAM License (Meta, 2025-11-19): royalty-free commercial use permitted, no revenue threshold; obligations: no reverse engineering of components, trade-control/ITAR compliance, acknowledge SAM in publications. | 3 | 1,118 | 2025-11-25 |
+| [Comfy-Org/sam3.1](https://huggingface.co/Comfy-Org/sam3.1) | Comfy-Org | [other](https://github.com/facebookresearch/sam3/blob/main/LICENSE) | Yes | SAM License (Meta, 2025-11-19): royalty-free commercial use permitted, no revenue threshold; obligations: no reverse engineering of components, trade-control/ITAR compliance, acknowledge SAM in publications. | 1 | 147,372 | 2026-08-17 |
+| [jetjodh/sam-3d-body-dinov3](https://huggingface.co/jetjodh/sam-3d-body-dinov3) | jetjodh | [other](https://huggingface.co/facebook/sam-3d-body-dinov3/blob/main/LICENSE) | Yes | SAM License (Meta, 2025-11-19): royalty-free commercial use permitted, no revenue threshold; obligations: no reverse engineering of components, trade-control/ITAR compliance, acknowledge SAM in publications. | 3 | 1,088 | 2025-11-25 |
 
 ### LivePortrait
 
@@ -139,7 +139,7 @@ _Last updated: 2026-08-21 06:31 UTC | 64 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/SDPose](https://huggingface.co/Comfy-Org/SDPose) | Comfy-Org | [mit](https://spdx.org/licenses/MIT.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 30,451 | 2026-08-17 |
+| [Comfy-Org/SDPose](https://huggingface.co/Comfy-Org/SDPose) | Comfy-Org | [mit](https://spdx.org/licenses/MIT.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 31,129 | 2026-08-17 |
 | [Kijai/vitpose_comfy](https://huggingface.co/Kijai/vitpose_comfy) | Kijai | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 0 | 2025-09-23 |
 | [hr16/DWPose-TorchScript-BatchSize5](https://huggingface.co/hr16/DWPose-TorchScript-BatchSize5) | hr16 | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 0 | 2023-11-30 |
 | [yzd-v/DWPose](https://huggingface.co/yzd-v/DWPose) | yzd-v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 0 | 2023-08-22 |
@@ -155,14 +155,14 @@ _Last updated: 2026-08-21 06:31 UTC | 64 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Kijai/MelBandRoFormer_comfy](https://huggingface.co/Kijai/MelBandRoFormer_comfy) | Kijai | [mit](https://huggingface.co/KimberleyJSN/melbandroformer/blob/main/README.md) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 93,143 | 2025-08-23 |
+| [Kijai/MelBandRoFormer_comfy](https://huggingface.co/Kijai/MelBandRoFormer_comfy) | Kijai | [mit](https://huggingface.co/KimberleyJSN/melbandroformer/blob/main/README.md) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 91,290 | 2025-08-23 |
 | [Kijai/wav2vec2_safetensors](https://huggingface.co/Kijai/wav2vec2_safetensors) | Kijai | [mit](https://spdx.org/licenses/MIT.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 3 | 0 | 2025-08-25 |
 
 ### Anima
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [circlestone-labs/Anima](https://huggingface.co/circlestone-labs/Anima) | circlestone-labs | [other](https://huggingface.co/circlestone-labs/Anima/raw/main/LICENSE.md) | No | CircleStone Labs Non-Commercial License v1.2: model & derivatives non-commercial, non-production; generated images (Outputs) may be used commercially; commercial model use requires a separate license (circlestone.ai); derivative of Cosmos-Predict2-2B - NVIDIA Open Model License applies to derivatives. | 2 | 791,317 | 2026-07-24 |
+| [circlestone-labs/Anima](https://huggingface.co/circlestone-labs/Anima) | circlestone-labs | [other](https://huggingface.co/circlestone-labs/Anima/raw/main/LICENSE.md) | No | CircleStone Labs Non-Commercial License v1.2: model & derivatives non-commercial, non-production; generated images (Outputs) may be used commercially; commercial model use requires a separate license (circlestone.ai); derivative of Cosmos-Predict2-2B - NVIDIA Open Model License applies to derivatives. | 2 | 790,009 | 2026-07-24 |
 | [kohya-ss/Anima-LLLite](https://huggingface.co/kohya-ss/Anima-LLLite) | kohya-ss | [other](https://huggingface.co/kohya-ss/Anima-LLLite/raw/main/LICENSE) | No | CircleStone Labs Non-Commercial License v1.0 (same as Anima base): model & derivatives non-commercial, non-production; generated images (Outputs) may be used commercially; commercial model use requires a separate license (circlestone.ai). | 1 | 0 | 2026-08-02 |
 
 ### Kaloscope
@@ -175,35 +175,35 @@ _Last updated: 2026-08-21 06:31 UTC | 64 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Alissonerdx/BFS-Best-Face-Swap](https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap) | Alissonerdx | [mit](https://spdx.org/licenses/MIT.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 123,648 | 2026-08-10 |
+| [Alissonerdx/BFS-Best-Face-Swap](https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap) | Alissonerdx | [mit](https://spdx.org/licenses/MIT.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 123,823 | 2026-08-10 |
 
 ### Bingsu
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Bingsu/adetailer](https://huggingface.co/Bingsu/adetailer) | Bingsu | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 10,298,807 | 2024-11-21 |
+| [Bingsu/adetailer](https://huggingface.co/Bingsu/adetailer) | Bingsu | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 10,248,973 | 2024-11-21 |
 
 ### ChenkinNoob
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [ChenkinNoob/Chenkin-UniControl-XL](https://huggingface.co/ChenkinNoob/Chenkin-UniControl-XL) | ChenkinNoob | [fair-ai-public-license-1.0-sd](https://freedevproject.org/faipl-1.0-sd/) | No | Fair AI Public License 1.0 SD (FAIPL) - non-commercial use only. | 1 | 989 | 2026-04-10 |
-| [ChenkinNoob/ChenkinNoob-XL-V0.5](https://huggingface.co/ChenkinNoob/ChenkinNoob-XL-V0.5) | ChenkinNoob | [other](https://freedevproject.org/faipl-1.0-sd/) | No | Fair AI Public License 1.0 SD (FAIPL) - non-commercial use only (same as base model Chenkin-UniControl-XL). | 1 | 35 | 2026-04-10 |
+| [ChenkinNoob/Chenkin-UniControl-XL](https://huggingface.co/ChenkinNoob/Chenkin-UniControl-XL) | ChenkinNoob | [fair-ai-public-license-1.0-sd](https://freedevproject.org/faipl-1.0-sd/) | No | Fair AI Public License 1.0 SD (FAIPL) - non-commercial use only. | 1 | 379 | 2026-04-10 |
+| [ChenkinNoob/ChenkinNoob-XL-V0.5](https://huggingface.co/ChenkinNoob/ChenkinNoob-XL-V0.5) | ChenkinNoob | [other](https://freedevproject.org/faipl-1.0-sd/) | No | Fair AI Public License 1.0 SD (FAIPL) - non-commercial use only (same as base model Chenkin-UniControl-XL). | 1 | 33 | 2026-04-10 |
 
 ### Comfy-Org
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [Comfy-Org/MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3) | Comfy-Org | [other](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE) | Conditional | MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies. | 3 | 15,721,667 | 2026-08-17 |
-| [Comfy-Org/OneReward_repackaged](https://huggingface.co/Comfy-Org/OneReward_repackaged) | Comfy-Org | [cc-by-nc-4.0](https://spdx.org/licenses/CC-BY-NC-4.0.html) | No | Non-commercial license: free use excludes commercial rights; commercial use requires a purchased license. | 1 | 8,179 | 2026-08-17 |
-| [Comfy-Org/mediapipe](https://huggingface.co/Comfy-Org/mediapipe) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 4,984 | 2026-08-17 |
+| [Comfy-Org/MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3) | Comfy-Org | [other](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE) | Conditional | MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies. | 3 | 16,255,989 | 2026-08-17 |
+| [Comfy-Org/OneReward_repackaged](https://huggingface.co/Comfy-Org/OneReward_repackaged) | Comfy-Org | [cc-by-nc-4.0](https://spdx.org/licenses/CC-BY-NC-4.0.html) | No | Non-commercial license: free use excludes commercial rights; commercial use requires a purchased license. | 1 | 8,120 | 2026-08-17 |
+| [Comfy-Org/mediapipe](https://huggingface.co/Comfy-Org/mediapipe) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 4,976 | 2026-08-17 |
 
 ### Kijai
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
 | [Kijai/MiniMax-H3-TAE](https://huggingface.co/Kijai/MiniMax-H3-TAE) | Kijai | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 0 | 2026-08-05 |
-| [Kijai/MiniMax-H3-experimental](https://huggingface.co/Kijai/MiniMax-H3-experimental) | Kijai | - | Review | Custom or undeclared license; commercial conditions require human review of the license text. | 1 | 0 | 2026-08-08 |
+| Kijai/MiniMax-H3-experimental - _not found on Hub_ | Kijai | - | Review | - | 1 | - | - |
 
 ### Kim2091
 
@@ -221,13 +221,13 @@ _Last updated: 2026-08-21 06:31 UTC | 64 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [apple/Sharp](https://huggingface.co/apple/Sharp) | apple | [apple-amlr](https://github.com/apple/ml-sharp/blob/main/LICENSE) | Review | Apple Sample Code license (apple-amlr) - personal, non-exclusive use; commercial redistribution subject to Apple's terms, review required. | 1 | 2,749 | 2025-12-18 |
+| [apple/Sharp](https://huggingface.co/apple/Sharp) | apple | [apple-amlr](https://github.com/apple/ml-sharp/blob/main/LICENSE) | Review | Apple Sample Code license (apple-amlr) - personal, non-exclusive use; commercial redistribution subject to Apple's terms, review required. | 1 | 2,738 | 2025-12-18 |
 
 ### lrzjason
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [lrzjason/Anything2Real_2601](https://huggingface.co/lrzjason/Anything2Real_2601) | lrzjason | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 170,228 | 2026-01-28 |
+| [lrzjason/Anything2Real_2601](https://huggingface.co/lrzjason/Anything2Real_2601) | lrzjason | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 170,173 | 2026-01-28 |
 
 ### mashb1t
 
