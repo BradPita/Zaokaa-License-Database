@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-08-26 09:33 UTC | 64 tracked repos + 7 base models_
+_Last updated: 2026-08-26 10:26 UTC | 64 tracked repos + 7 base models_
 
 > **[View the formatted table online](https://bradpita.github.io/Zaokaa-License-Database/)** - fixed column widths for side-by-side comparison and every link opens in a new tab (not possible inside GitHub's README).
 
@@ -57,7 +57,7 @@ _Last updated: 2026-08-26 09:33 UTC | 64 tracked repos + 7 base models_
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
 | [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) | Comfy-Org | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 3 | 2,227,320 | 2026-08-17 |
 | [conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit) | conradlocke | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 1 | 0 | 2026-07-29 |
-| uzumix/krea2filterbypass3.safetensors - _not found on Hub_ | uzumix | - | Review | - | 1 | - | - |
+| [uzumix/krea2filterbypass3.safetensors](https://huggingface.co/uzumix/krea2filterbypass3.safetensors) | uzumix | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 1 | 4,745 | 2026-07-08 |
 
 ### Qwen-Image
 
@@ -68,7 +68,7 @@ _Last updated: 2026-08-26 09:33 UTC | 64 tracked repos + 7 base models_
 | [Phr00t/Qwen-Image-Edit-Rapid-AIO](https://huggingface.co/Phr00t/Qwen-Image-Edit-Rapid-AIO) | Phr00t | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 0 | 2026-02-03 |
 | [QuantFunc/Nunchaku-Qwen-Image-EDIT-2511](https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511) | QuantFunc | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 3,412 | 2026-06-19 |
 | [fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA](https://huggingface.co/fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA) | fal | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 64,040 | 2026-01-07 |
-| lightx2v/Qwen-Image-2512-Lightning - _not found on Hub_ | lightx2v | - | Review | - | 1 | - | - |
+| [lightx2v/Qwen-Image-2512-Lightning](https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 78,322 | 2026-01-15 |
 | [lightx2v/Qwen-Image-Edit-2511-Lightning](https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning) | lightx2v | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 339,133 | 2026-01-15 |
 | [lrzjason/QwenEdit_Consistance_Edit](https://huggingface.co/lrzjason/QwenEdit_Consistance_Edit) | lrzjason | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 0 | 2026-04-17 |
 
@@ -241,7 +241,7 @@ _Last updated: 2026-08-26 09:33 UTC | 64 tracked repos + 7 base models_
 
 | Base model | Provider | License | Commercial | Commercial terms | Updated |
 | :--- | :--- | :--- | :---: | :--- | :--- |
-| Qwen/Qwen-Image - _not found on Hub_ | Qwen | - | Review | - | - |
+| [Qwen/Qwen-Image](https://huggingface.co/Qwen/Qwen-Image) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2025-08-18 |
 | [Qwen/Qwen-Image-Edit-2511](https://huggingface.co/Qwen/Qwen-Image-Edit-2511) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2025-12-23 |
 | [Qwen/Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2025-04-06 |
 | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | Qwen | [apache-2.0](https://huggingface.co/Qwen/Qwen3-8B/blob/main/LICENSE) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2025-07-26 |
