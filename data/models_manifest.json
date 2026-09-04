@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-08-27T23:22:44.755860+00:00",
+  "_extracted_at": "2026-09-04T05:15:23.446778+00:00",
   "file_count": 159,
-  "repo_count": 64,
+  "repo_count": 65,
   "scrubbed_entries": 319,
   "files": [
     {
@@ -919,9 +919,9 @@
     },
     {
       "category": "diffusion_models",
-      "filename": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
-      "hf_repo": "Comfy-Org/MiniMax-H3",
-      "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors"
+      "filename": "minimax_h3_hybrid_fl2va_ref2va_b25-49-int8.safetensors",
+      "hf_repo": "smhfacct/Minimax-H3-fl2va-ref2va-hybrid-models",
+      "hf_url": "https://huggingface.co/smhfacct/Minimax-H3-fl2va-ref2va-hybrid-models/resolve/main/minimax_h3_hybrid_fl2va_ref2va_b25-49-int8.safetensors"
     },
     {
       "category": "loras",
