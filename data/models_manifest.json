@@ -1,9 +1,9 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-09-04T05:15:23.446778+00:00",
+  "_extracted_at": "2026-09-07T20:17:08.762945+00:00",
   "file_count": 159,
   "repo_count": 65,
-  "scrubbed_entries": 319,
+  "scrubbed_entries": 320,
   "files": [
     {
       "category": "clip_vision",
