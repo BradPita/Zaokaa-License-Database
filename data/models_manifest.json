@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-09-09T10:26:10.280628+00:00",
-  "file_count": 160,
-  "repo_count": 66,
+  "_extracted_at": "2026-09-09T14:55:17.568569+00:00",
+  "file_count": 163,
+  "repo_count": 69,
   "scrubbed_entries": 320,
   "files": [
     {
@@ -856,6 +856,24 @@
       "filename": "Krea2_Anything2RealCharacters-V3.safetensors",
       "hf_repo": "WarmBloodAban/Krea2_Anything2RealCharacters",
       "hf_url": "https://huggingface.co/WarmBloodAban/Krea2_Anything2RealCharacters/resolve/main/Krea2_Anything2RealCharacters-V3.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "depth-control-lora.safetensors",
+      "hf_repo": "Patil/Krea-2-depth-controlnet",
+      "hf_url": "https://huggingface.co/Patil/Krea-2-depth-controlnet/resolve/main/depth-control-lora.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "krea2_turbo_openpose_controlnet.safetensors",
+      "hf_repo": "thedeoxen/Krea-2-pose-controlnet",
+      "hf_url": "https://huggingface.co/thedeoxen/Krea-2-pose-controlnet/resolve/main/krea2_turbo_openpose_controlnet.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "krea2_anypaint_rank32.safetensors",
+      "hf_repo": "yijunwang2/krea2-anypaint",
+      "hf_url": "https://huggingface.co/yijunwang2/krea2-anypaint/resolve/main/krea2_anypaint_rank32.safetensors"
     },
     {
       "category": "loras",

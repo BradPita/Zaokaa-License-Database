@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09T10:27:29.864045+00:00",
-  "repo_count": 75,
+  "generated_at": "2026-09-09T14:56:44.603832+00:00",
+  "repo_count": 78,
   "_sources": [
     "HuggingFace API (cardData)",
     "data/models_manifest.json",
@@ -59,7 +59,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 9616238,
-      "likes": 765,
+      "likes": 766,
       "pipeline_tag": "",
       "last_modified": "2024-11-21T12:40:27.000Z",
       "status": "ok"
@@ -154,7 +154,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
       "downloads": 18804152,
-      "likes": 1739,
+      "likes": 1741,
       "pipeline_tag": "",
       "last_modified": "2026-09-06T16:55:14.000Z",
       "status": "ok"
@@ -597,6 +597,25 @@
       "status": "ok"
     },
     {
+      "name": "Patil/Krea-2-depth-controlnet",
+      "provider": "Patil",
+      "family": "Krea",
+      "kind": "tracked",
+      "categories": "loras",
+      "hf_id": "Patil/Krea-2-depth-controlnet",
+      "file_count": 1,
+      "license": "other",
+      "license_url": "https://www.krea.ai/krea-2-licensing",
+      "license_source": "cardata",
+      "commercial_use": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
+      "downloads": 0,
+      "likes": 148,
+      "pipeline_tag": "image-to-image",
+      "last_modified": "2026-07-03T21:41:21.000Z",
+      "status": "ok"
+    },
+    {
       "name": "Phr00t/Qwen-Image-Edit-Rapid-AIO",
       "provider": "Phr00t",
       "family": "Qwen-Image",
@@ -724,7 +743,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 13046829,
-      "likes": 1360,
+      "likes": 1361,
       "pipeline_tag": "text-generation",
       "last_modified": "2025-07-26T03:49:13.000Z",
       "status": "ok"
@@ -800,7 +819,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 2592396,
-      "likes": 1951,
+      "likes": 1952,
       "pipeline_tag": "text-to-speech",
       "last_modified": "2026-01-29T08:00:54.000Z",
       "status": "ok"
@@ -838,7 +857,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 220618,
-      "likes": 86,
+      "likes": 87,
       "pipeline_tag": "audio-to-audio",
       "last_modified": "2026-01-29T08:01:28.000Z",
       "status": "ok"
@@ -857,7 +876,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 11389211,
-      "likes": 1915,
+      "likes": 1916,
       "pipeline_tag": "image-text-to-text",
       "last_modified": "2026-03-02T00:51:43.000Z",
       "status": "ok"
@@ -990,7 +1009,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
       "downloads": 0,
-      "likes": 755,
+      "likes": 756,
       "pipeline_tag": "",
       "last_modified": "2026-07-29T16:32:13.000Z",
       "status": "ok"
@@ -1104,7 +1123,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "LTX-2 Community License (2026-01-05): free commercial use for entities with company-wide annual revenue below US$10M (affiliates aggregated); >=US$10M requires a paid commercial license (https://ltx.io/model/licensing); Attachment A bans commercial training of competing models.",
       "downloads": 42003,
-      "likes": 172,
+      "likes": 173,
       "pipeline_tag": "video-to-video",
       "last_modified": "2026-07-23T02:47:14.000Z",
       "status": "ok"
@@ -1142,7 +1161,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 1313916,
-      "likes": 876,
+      "likes": 879,
       "pipeline_tag": "image-to-video",
       "last_modified": "2026-09-04T09:00:09.000Z",
       "status": "ok"
@@ -1389,7 +1408,7 @@
       "commercial_use": "Review",
       "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "downloads": 0,
-      "likes": 227,
+      "likes": 229,
       "pipeline_tag": "text-to-video",
       "last_modified": "2026-08-16T22:53:44.000Z",
       "status": "ok"
@@ -1414,6 +1433,25 @@
       "status": "ok"
     },
     {
+      "name": "thedeoxen/Krea-2-pose-controlnet",
+      "provider": "thedeoxen",
+      "family": "Krea",
+      "kind": "tracked",
+      "categories": "loras",
+      "hf_id": "thedeoxen/Krea-2-pose-controlnet",
+      "file_count": 1,
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial_use": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "downloads": 10576,
+      "likes": 98,
+      "pipeline_tag": "image-to-image",
+      "last_modified": "2026-08-19T05:29:25.000Z",
+      "status": "ok"
+    },
+    {
       "name": "uzumix/krea2filterbypass3.safetensors",
       "provider": "uzumix",
       "family": "Krea",
@@ -1430,6 +1468,25 @@
       "likes": 7,
       "pipeline_tag": "text-to-image",
       "last_modified": "2026-07-08T10:11:33.000Z",
+      "status": "ok"
+    },
+    {
+      "name": "yijunwang2/krea2-anypaint",
+      "provider": "yijunwang2",
+      "family": "Wan",
+      "kind": "tracked",
+      "categories": "loras",
+      "hf_id": "yijunwang2/krea2-anypaint",
+      "file_count": 1,
+      "license": "other",
+      "license_url": "https://krea.ai/krea-2-licensing",
+      "license_source": "cardata",
+      "commercial_use": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
+      "downloads": 4688,
+      "likes": 19,
+      "pipeline_tag": "image-to-image",
+      "last_modified": "2026-08-03T13:35:00.000Z",
       "status": "ok"
     },
     {
