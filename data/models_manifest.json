@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-09-07T20:17:08.762945+00:00",
-  "file_count": 159,
-  "repo_count": 65,
+  "_extracted_at": "2026-09-09T10:26:10.280628+00:00",
+  "file_count": 160,
+  "repo_count": 66,
   "scrubbed_entries": 320,
   "files": [
     {
@@ -850,6 +850,12 @@
       "filename": "krea2_identity_edit_v1_2.safetensors",
       "hf_repo": "conradlocke/krea2-identity-edit",
       "hf_url": "https://huggingface.co/conradlocke/krea2-identity-edit/resolve/main/krea2_identity_edit_v1_2.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "Krea2_Anything2RealCharacters-V3.safetensors",
+      "hf_repo": "WarmBloodAban/Krea2_Anything2RealCharacters",
+      "hf_url": "https://huggingface.co/WarmBloodAban/Krea2_Anything2RealCharacters/resolve/main/Krea2_Anything2RealCharacters-V3.safetensors"
     },
     {
       "category": "loras",

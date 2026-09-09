@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-09-04T05:16:43.982137+00:00",
+  "_generated_at": "2026-09-09T10:27:29.911795+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,9 +34,9 @@
     "merge",
     "finetune"
   ],
-  "file_count": 162,
+  "file_count": 163,
   "derivative_count": 6,
-  "files_with_license_url": 157,
+  "files_with_license_url": 158,
   "files": [
     {
       "category": "clip_vision",
@@ -2428,6 +2428,23 @@
       "license_source": "cardata+link",
       "commercial": "Conditional",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "loras",
+      "filename": "Krea2_Anything2RealCharacters-V3.safetensors",
+      "hf_repo": "WarmBloodAban/Krea2_Anything2RealCharacters",
+      "derivative": false,
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
