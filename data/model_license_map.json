@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-09-09T14:56:44.652921+00:00",
+  "_generated_at": "2026-09-12T11:50:06.438808+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,9 +34,9 @@
     "merge",
     "finetune"
   ],
-  "file_count": 166,
+  "file_count": 167,
   "derivative_count": 6,
-  "files_with_license_url": 161,
+  "files_with_license_url": 162,
   "files": [
     {
       "category": "clip_vision",
@@ -2802,6 +2802,23 @@
       "license_source": "cardata",
       "commercial": "Review",
       "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "model_patches",
+      "filename": "minimax_h3_fun_controlnet_union_pruned_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/MiniMax-H3",
+      "derivative": false,
+      "license": "other",
+      "license_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE",
+      "license_source": "cardata+link",
+      "commercial": "Conditional",
+      "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",

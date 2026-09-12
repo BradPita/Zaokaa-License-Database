@@ -1,9 +1,9 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-09-09T14:55:17.568569+00:00",
-  "file_count": 163,
+  "_extracted_at": "2026-09-12T11:48:41.207596+00:00",
+  "file_count": 164,
   "repo_count": 69,
-  "scrubbed_entries": 320,
+  "scrubbed_entries": 321,
   "files": [
     {
       "category": "clip_vision",
@@ -982,6 +982,12 @@
       "filename": "minimax_h3_latent_upscaler_3d_bf16.safetensors",
       "hf_repo": "LBH-123-AI/Minimax_h3_latent_Upscaler",
       "hf_url": "https://huggingface.co/LBH-123-AI/Minimax_h3_latent_Upscaler/resolve/main/minimax_h3_latent_upscaler_3d_bf16.safetensors"
+    },
+    {
+      "category": "model_patches",
+      "filename": "minimax_h3_fun_controlnet_union_pruned_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/MiniMax-H3",
+      "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/model_patches/minimax_h3_fun_controlnet_union_pruned_int8_convrot.safetensors"
     }
   ]
 }
