@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-09-13 19:08 UTC | 69 tracked repos + 7 base models_
+_Last updated: 2026-09-13 21:58 UTC | 69 tracked repos + 7 base models_
 
 > **[View the formatted table online](https://bradpita.github.io/Zaokaa-License-Database/)** - fixed column widths for side-by-side comparison and every link opens in a new tab (not possible inside GitHub's README).
 
@@ -263,7 +263,7 @@ _Last updated: 2026-09-13 19:08 UTC | 69 tracked repos + 7 base models_
 | :--- | :--- | :--- | :---: | :--- | :--- |
 | [Qwen/Qwen-Image](https://huggingface.co/Qwen/Qwen-Image) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2025-08-18 |
 | [Qwen/Qwen-Image-Edit-2511](https://huggingface.co/Qwen/Qwen-Image-Edit-2511) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2025-12-23 |
-| Qwen/Qwen2.5-VL-7B-Instruct - _not found on Hub_ | Qwen | - | Review | - | - |
+| [Qwen/Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | Qwen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2025-04-06 |
 | [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) | Qwen | [apache-2.0](https://huggingface.co/Qwen/Qwen3-8B/blob/main/LICENSE) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2025-07-26 |
 | [Qwen/Qwen3.5-9B](https://huggingface.co/Qwen/Qwen3.5-9B) | Qwen | [apache-2.0](https://huggingface.co/Qwen/Qwen3.5-9B/blob/main/LICENSE) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2026-03-02 |
 | [Wan-AI/Wan2.1-T2V-14B](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B) | Wan-AI | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2025-03-12 |
