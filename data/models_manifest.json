@@ -1,9 +1,9 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-09-12T11:48:41.207596+00:00",
-  "file_count": 164,
-  "repo_count": 69,
-  "scrubbed_entries": 321,
+  "_extracted_at": "2026-09-13T12:57:40.227097+00:00",
+  "file_count": 161,
+  "repo_count": 67,
+  "scrubbed_entries": 275,
   "files": [
     {
       "category": "clip_vision",
@@ -148,18 +148,6 @@
       "filename": "qe2511_consis_alpha_patched.safetensors",
       "hf_repo": "lrzjason/QwenEdit_Consistance_Edit",
       "hf_url": "https://huggingface.co/lrzjason/QwenEdit_Consistance_Edit/resolve/main/qe2511_consis_alpha_patched.safetensors"
-    },
-    {
-      "category": "diffusion_models",
-      "filename": "nunchaku_qwen_image_2511_balance_int4.safetensors",
-      "hf_repo": "QuantFunc/Nunchaku-Qwen-Image-EDIT-2511",
-      "hf_url": "https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511/resolve/main/nunchaku_qwen_image_edit_2511_balance_int4.safetensors"
-    },
-    {
-      "category": "diffusion_models",
-      "filename": "nunchaku_qwen_image_2511_balance_fp4.safetensors",
-      "hf_repo": "QuantFunc/Nunchaku-Qwen-Image-EDIT-2511",
-      "hf_url": "https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511/resolve/main/nunchaku_qwen_image_edit_2511_balance_fp4.safetensors"
     },
     {
       "category": "checkpoints",
@@ -814,12 +802,6 @@
       "filename": "assets/mhr_model.pt",
       "hf_repo": "jetjodh/sam-3d-body-dinov3",
       "hf_url": "https://huggingface.co/jetjodh/sam-3d-body-dinov3/resolve/main/assets/mhr_model.pt"
-    },
-    {
-      "category": "loras",
-      "filename": "VNCCS_PoseStudioKlein9b_V1.safetensors",
-      "hf_repo": "MIUProject/VNCCS_PoseStudio_Klein",
-      "hf_url": "https://huggingface.co/MIUProject/VNCCS_PoseStudio_Klein/resolve/main/models/loras/Klein9b/VNCCS/VNCCS_PoseStudioKlein9b_V1.safetensors"
     },
     {
       "category": "loras",
