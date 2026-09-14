@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-09-13T12:59:05.382680+00:00",
+  "_generated_at": "2026-09-14T15:29:14.904270+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,9 +34,9 @@
     "merge",
     "finetune"
   ],
-  "file_count": 164,
+  "file_count": 165,
   "derivative_count": 6,
-  "files_with_license_url": 159,
+  "files_with_license_url": 160,
   "files": [
     {
       "category": "clip_vision",
@@ -2768,6 +2768,23 @@
       "license_source": "cardata+link",
       "commercial": "Conditional",
       "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "controlnet",
+      "filename": "dw-ll_ucoco_384.onnx",
+      "hf_repo": "yzd-v/DWPose",
+      "derivative": false,
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",

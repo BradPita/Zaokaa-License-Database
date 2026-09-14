@@ -1,7 +1,7 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-09-14T08:19:32.736066+00:00",
-  "file_count": 161,
+  "_extracted_at": "2026-09-14T15:27:51.703328+00:00",
+  "file_count": 162,
   "repo_count": 67,
   "scrubbed_entries": 277,
   "files": [
@@ -970,6 +970,12 @@
       "filename": "minimax_h3_fun_controlnet_union_pruned_int8_convrot.safetensors",
       "hf_repo": "Comfy-Org/MiniMax-H3",
       "hf_url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/model_patches/minimax_h3_fun_controlnet_union_pruned_int8_convrot.safetensors"
+    },
+    {
+      "category": "controlnet",
+      "filename": "dw-ll_ucoco_384.onnx",
+      "hf_repo": "yzd-v/DWPose",
+      "hf_url": "https://huggingface.co/yzd-v/DWPose/resolve/main/dw-ll_ucoco_384.onnx"
     }
   ]
 }
