@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-09-17T13:59:29.515800+00:00",
+  "_generated_at": "2026-09-17T17:57:12.012851+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -36,7 +36,7 @@
   ],
   "file_count": 165,
   "derivative_count": 6,
-  "files_with_license_url": 160,
+  "files_with_license_url": 161,
   "files": [
     {
       "category": "clip_vision",
@@ -417,11 +417,11 @@
       "filename": "anything2real_2601_A_final_patched.safetensors",
       "hf_repo": "lrzjason/Anything2Real_2601",
       "derivative": false,
-      "license": "待确认（HF仓库未找到）",
-      "license_url": "",
-      "license_source": "",
-      "commercial": "Review",
-      "commercial_terms": "",
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",

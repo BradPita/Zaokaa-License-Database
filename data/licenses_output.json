@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T13:59:29.463575+00:00",
+  "generated_at": "2026-09-17T17:57:11.954109+00:00",
   "repo_count": 76,
   "_sources": [
     "HuggingFace API (cardData)",
@@ -40,7 +40,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 130614,
-      "likes": 870,
+      "likes": 871,
       "pipeline_tag": "image-to-image",
       "last_modified": "2026-08-10T19:53:10.000Z",
       "status": "ok"
@@ -154,7 +154,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
       "downloads": 20042055,
-      "likes": 1876,
+      "likes": 1880,
       "pipeline_tag": "",
       "last_modified": "2026-09-15T17:05:30.000Z",
       "status": "ok"
@@ -230,7 +230,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 340450,
-      "likes": 116,
+      "likes": 117,
       "pipeline_tag": "",
       "last_modified": "2026-08-17T06:08:01.000Z",
       "status": "ok"
@@ -287,7 +287,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 5791806,
-      "likes": 875,
+      "likes": 876,
       "pipeline_tag": "image-to-video",
       "last_modified": "2026-08-17T06:09:43.000Z",
       "status": "ok"
@@ -439,7 +439,7 @@
       "commercial_use": "Review",
       "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "downloads": 0,
-      "likes": 467,
+      "likes": 471,
       "pipeline_tag": "",
       "last_modified": "2026-08-29T05:47:04.000Z",
       "status": "ok"
@@ -534,7 +534,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 0,
-      "likes": 296,
+      "likes": 297,
       "pipeline_tag": "",
       "last_modified": "2026-09-17T12:01:05.000Z",
       "status": "ok"
@@ -610,7 +610,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 0,
-      "likes": 2494,
+      "likes": 2496,
       "pipeline_tag": "text-to-image",
       "last_modified": "2026-02-03T02:10:35.000Z",
       "status": "ok"
@@ -648,7 +648,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 315522,
-      "likes": 2639,
+      "likes": 2641,
       "pipeline_tag": "text-to-image",
       "last_modified": "2025-08-18T02:42:19.000Z",
       "status": "ok"
@@ -667,7 +667,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 326998,
-      "likes": 1371,
+      "likes": 1372,
       "pipeline_tag": "image-to-image",
       "last_modified": "2025-12-23T13:13:52.000Z",
       "status": "ok"
@@ -686,7 +686,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 6911905,
-      "likes": 1712,
+      "likes": 1713,
       "pipeline_tag": "image-text-to-text",
       "last_modified": "2025-04-06T16:23:01.000Z",
       "status": "ok"
@@ -781,7 +781,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 2605750,
-      "likes": 1975,
+      "likes": 1976,
       "pipeline_tag": "text-to-speech",
       "last_modified": "2026-01-29T08:00:54.000Z",
       "status": "ok"
@@ -838,7 +838,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 9199527,
-      "likes": 1977,
+      "likes": 1978,
       "pipeline_tag": "image-text-to-text",
       "last_modified": "2026-03-02T00:51:43.000Z",
       "status": "ok"
@@ -857,7 +857,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 59832,
-      "likes": 1563,
+      "likes": 1564,
       "pipeline_tag": "text-to-video",
       "last_modified": "2025-03-12T03:08:09.000Z",
       "status": "ok"
@@ -952,7 +952,7 @@
       "commercial_use": "No",
       "commercial_terms": "CircleStone Labs Non-Commercial License v1.2: model & derivatives non-commercial, non-production; generated images (Outputs) may be used commercially; commercial model use requires a separate license (circlestone.ai); derivative of Cosmos-Predict2-2B - NVIDIA Open Model License applies to derivatives.",
       "downloads": 1099004,
-      "likes": 2240,
+      "likes": 2241,
       "pipeline_tag": "",
       "last_modified": "2026-08-24T23:52:12.000Z",
       "status": "ok"
@@ -1174,16 +1174,16 @@
       "categories": "loras",
       "hf_id": "lrzjason/Anything2Real_2601",
       "file_count": 1,
-      "license": "",
-      "license_url": "",
-      "license_source": "",
-      "commercial_use": "",
-      "commercial_terms": "",
-      "downloads": "",
-      "likes": "",
-      "pipeline_tag": "",
-      "last_modified": "",
-      "status": "not_found"
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial_use": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "downloads": 163026,
+      "likes": 140,
+      "pipeline_tag": "image-to-image",
+      "last_modified": "2026-01-28T16:27:52.000Z",
+      "status": "ok"
     },
     {
       "name": "lrzjason/QwenEdit_Consistance_Edit",
@@ -1256,7 +1256,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 435095,
-      "likes": 318,
+      "likes": 319,
       "pipeline_tag": "video-to-video",
       "last_modified": "2025-11-09T16:24:56.000Z",
       "status": "ok"
@@ -1408,7 +1408,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 12504,
-      "likes": 107,
+      "likes": 108,
       "pipeline_tag": "image-to-image",
       "last_modified": "2026-08-19T05:29:25.000Z",
       "status": "ok"
@@ -1427,7 +1427,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
       "downloads": 8270,
-      "likes": 11,
+      "likes": 13,
       "pipeline_tag": "text-to-image",
       "last_modified": "2026-07-08T10:11:33.000Z",
       "status": "ok"
