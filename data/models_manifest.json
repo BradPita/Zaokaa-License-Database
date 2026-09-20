@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-09-14T15:27:51.703328+00:00",
-  "file_count": 162,
-  "repo_count": 67,
+  "_extracted_at": "2026-09-20T13:20:30.488977+00:00",
+  "file_count": 165,
+  "repo_count": 68,
   "scrubbed_entries": 277,
   "files": [
     {
@@ -976,6 +976,24 @@
       "filename": "dw-ll_ucoco_384.onnx",
       "hf_repo": "yzd-v/DWPose",
       "hf_url": "https://huggingface.co/yzd-v/DWPose/resolve/main/dw-ll_ucoco_384.onnx"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "qwen_image_2.1_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/diffusion_models/qwen_image_2.1_int8_convrot.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen3vl_8b_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_int8_convrot.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "qwen_image_2.1_vae_bf16.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors"
     }
   ]
 }
