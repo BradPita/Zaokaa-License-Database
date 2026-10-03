@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-09-22T05:39:47.422274+00:00",
+  "_generated_at": "2026-10-03T09:33:31.007955+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -2760,7 +2760,7 @@
     },
     {
       "category": "model_patches",
-      "filename": "minimax_h3_fun_controlnet_union_pruned_int8_convrot.safetensors",
+      "filename": "minimax_h3_fun_controlnet_union_2.0_pruned_int8_convrot.safetensors",
       "hf_repo": "Comfy-Org/MiniMax-H3",
       "derivative": false,
       "license": "other",
