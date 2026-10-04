@@ -1,9 +1,9 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-04T06:31:33.888057+00:00",
-  "file_count": 170,
-  "repo_count": 69,
-  "scrubbed_entries": 277,
+  "_extracted_at": "2026-10-04T12:57:17.472966+00:00",
+  "file_count": 172,
+  "repo_count": 71,
+  "scrubbed_entries": 276,
   "files": [
     {
       "category": "clip_vision",
@@ -805,15 +805,39 @@
     },
     {
       "category": "loras",
-      "filename": "VNCCS_QIE2511_PoseStudio_ART_V5.9.5.safetensors",
-      "hf_repo": "MIUProject/VNCCS_PoseStudio",
-      "hf_url": "https://huggingface.co/MIUProject/VNCCS_PoseStudio/resolve/main/models/loras/qwen/VNCCS/VNCCS_QIE2511_PoseStudio_ART_V5.9.5.safetensors"
+      "filename": "VNCCS_QI2_PoseStudioV1.1.safetensors",
+      "hf_repo": "MIUProject/VNCCS_PoseStudio_QI2.1",
+      "hf_url": "https://huggingface.co/MIUProject/VNCCS_PoseStudio_QI2.1/resolve/main/VNCCS_QI2_PoseStudioV1.1.safetensors"
     },
     {
       "category": "sharp",
       "filename": "sharp_2572gikvuh.pt",
       "hf_repo": "apple/Sharp",
       "hf_url": "https://huggingface.co/apple/Sharp/resolve/main/sharp_2572gikvuh.pt"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "qwen_image_2.1_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/diffusion_models/qwen_image_2.1_int8_convrot.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen3vl_8b_int8_convrot.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_int8_convrot.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "qwen_image_2.1_vae_bf16.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "QI2.1_AnyAngle.safetensors",
+      "hf_repo": "lilylilith/QI_2.1_AnyAngle",
+      "hf_url": "https://huggingface.co/lilylilith/QI_2.1_AnyAngle/resolve/main/QI2.1_AnyAngle.safetensors"
     },
     {
       "category": "diffusion_models",
@@ -978,22 +1002,10 @@
       "hf_url": "https://huggingface.co/yzd-v/DWPose/resolve/main/dw-ll_ucoco_384.onnx"
     },
     {
-      "category": "diffusion_models",
-      "filename": "qwen_image_2.1_int8_convrot.safetensors",
-      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
-      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/diffusion_models/qwen_image_2.1_int8_convrot.safetensors"
-    },
-    {
-      "category": "text_encoders",
-      "filename": "qwen3vl_8b_int8_convrot.safetensors",
-      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
-      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_int8_convrot.safetensors"
-    },
-    {
-      "category": "vae",
-      "filename": "qwen_image_2.1_vae_bf16.safetensors",
-      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
-      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors"
+      "category": "loras",
+      "filename": "qwen-image-2.1-outpaint-v2.safetensors",
+      "hf_repo": "ausboss/Qwen-Image-2.1-Outpaint-LoRA",
+      "hf_url": "https://huggingface.co/ausboss/Qwen-Image-2.1-Outpaint-LoRA/resolve/main/qwen-image-2.1-outpaint-v2.safetensors"
     },
     {
       "category": "vosr2",
