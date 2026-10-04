@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-03T09:32:09.698421+00:00",
-  "file_count": 165,
-  "repo_count": 68,
+  "_extracted_at": "2026-10-04T06:31:33.888057+00:00",
+  "file_count": 170,
+  "repo_count": 69,
   "scrubbed_entries": 277,
   "files": [
     {
@@ -994,6 +994,36 @@
       "filename": "qwen_image_2.1_vae_bf16.safetensors",
       "hf_repo": "Comfy-Org/Qwen-Image-2.1",
       "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors"
+    },
+    {
+      "category": "vosr2",
+      "filename": "VOSR2/args.json",
+      "hf_repo": "CSWRY/VOSR",
+      "hf_url": "https://huggingface.co/CSWRY/VOSR/resolve/f24b3061b7f350b81e1907bdcfc27f71fb4ff3f3/VOSR2/args.json"
+    },
+    {
+      "category": "vosr2",
+      "filename": "VOSR2/checkpoints/ema_model.safetensors",
+      "hf_repo": "CSWRY/VOSR",
+      "hf_url": "https://huggingface.co/CSWRY/VOSR/resolve/f24b3061b7f350b81e1907bdcfc27f71fb4ff3f3/VOSR2/checkpoints/ema_model.safetensors"
+    },
+    {
+      "category": "vosr2",
+      "filename": "VOSR2/Qwen-Image-vae-2d/config.json",
+      "hf_repo": "CSWRY/VOSR",
+      "hf_url": "https://huggingface.co/CSWRY/VOSR/resolve/f24b3061b7f350b81e1907bdcfc27f71fb4ff3f3/Qwen-Image-vae-2d/config.json"
+    },
+    {
+      "category": "vosr2",
+      "filename": "VOSR2/Qwen-Image-vae-2d/diffusion_pytorch_model.safetensors",
+      "hf_repo": "CSWRY/VOSR",
+      "hf_url": "https://huggingface.co/CSWRY/VOSR/resolve/f24b3061b7f350b81e1907bdcfc27f71fb4ff3f3/Qwen-Image-vae-2d/diffusion_pytorch_model.safetensors"
+    },
+    {
+      "category": "vosr2",
+      "filename": "VOSR2/dinov2_vitl14_pretrain.pth",
+      "hf_repo": "CSWRY/VOSR",
+      "hf_url": "https://huggingface.co/CSWRY/VOSR/resolve/f24b3061b7f350b81e1907bdcfc27f71fb4ff3f3/torch_cache/checkpoints/dinov2_vitl14_pretrain.pth"
     }
   ]
 }
