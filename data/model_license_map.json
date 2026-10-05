@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-04T12:58:42.039198+00:00",
+  "_generated_at": "2026-10-05T11:01:23.420893+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,7 +34,7 @@
     "merge",
     "finetune"
   ],
-  "file_count": 175,
+  "file_count": 176,
   "derivative_count": 6,
   "files_with_license_url": 169,
   "files": [
@@ -2864,6 +2864,23 @@
       "category": "loras",
       "filename": "qwen-image-2.1-outpaint-v2.safetensors",
       "hf_repo": "ausboss/Qwen-Image-2.1-Outpaint-LoRA",
+      "derivative": false,
+      "license": "other",
+      "license_url": "",
+      "license_source": "cardata",
+      "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "loras",
+      "filename": "qwen-image-2.1-outfit-swap.safetensors",
+      "hf_repo": "ausboss/Qwen-Image-2.1-Outfit-Swap-Consistency-LoRA",
       "derivative": false,
       "license": "other",
       "license_url": "",
