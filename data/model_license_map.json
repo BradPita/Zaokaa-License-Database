@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-05T11:01:23.420893+00:00",
+  "_generated_at": "2026-10-10T16:03:03.250046+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,9 +34,9 @@
     "merge",
     "finetune"
   ],
-  "file_count": 176,
+  "file_count": 177,
   "derivative_count": 6,
-  "files_with_license_url": 169,
+  "files_with_license_url": 170,
   "files": [
     {
       "category": "clip_vision",
@@ -2306,6 +2306,23 @@
       "derivative": false,
       "license": "待确认（HF未声明许可）",
       "license_url": "",
+      "license_source": "cardata",
+      "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "loras",
+      "filename": "qwen_image_2.1_turbo_lora_avg_rank_178_bf16.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
+      "derivative": false,
+      "license": "other",
+      "license_url": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
       "license_source": "cardata",
       "commercial": "Review",
       "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",

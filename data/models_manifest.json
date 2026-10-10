@@ -1,7 +1,7 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-07T06:42:53.123747+00:00",
-  "file_count": 173,
+  "_extracted_at": "2026-10-10T16:01:37.414803+00:00",
+  "file_count": 174,
   "repo_count": 72,
   "scrubbed_entries": 276,
   "files": [
@@ -808,6 +808,12 @@
       "filename": "VNCCS_QI2_PoseStudioV1.1.safetensors",
       "hf_repo": "MIUProject/VNCCS_PoseStudio_QI2.1",
       "hf_url": "https://huggingface.co/MIUProject/VNCCS_PoseStudio_QI2.1/resolve/main/VNCCS_QI2_PoseStudioV1.1.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "qwen_image_2.1_turbo_lora_avg_rank_178_bf16.safetensors",
+      "hf_repo": "Comfy-Org/Qwen-Image-2.1",
+      "hf_url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/loras/qwen_image_2.1_turbo_lora_avg_rank_178_bf16.safetensors"
     },
     {
       "category": "sharp",
