@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-10T16:03:03.250046+00:00",
+  "_generated_at": "2026-10-16T07:43:07.340533+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,9 +34,9 @@
     "merge",
     "finetune"
   ],
-  "file_count": 177,
+  "file_count": 179,
   "derivative_count": 6,
-  "files_with_license_url": 170,
+  "files_with_license_url": 172,
   "files": [
     {
       "category": "clip_vision",
@@ -2989,6 +2989,40 @@
       "license_source": "spdx",
       "commercial": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "flux3_image_klein_sd_int8_convrot.safetensors",
+      "hf_repo": "black-forest-labs/flux-3-image-klein-comfy",
+      "derivative": false,
+      "license": "other",
+      "license_url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy/resolve/main/LICENSE.md",
+      "license_source": "cardata",
+      "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen3.5_9b_flux3_prompt_upsampler_w4a8.safetensors",
+      "hf_repo": "black-forest-labs/flux-3-image-klein-comfy",
+      "derivative": false,
+      "license": "other",
+      "license_url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy/resolve/main/LICENSE.md",
+      "license_source": "cardata",
+      "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",

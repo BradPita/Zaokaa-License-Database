@@ -1,9 +1,9 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-10T16:01:37.414803+00:00",
-  "file_count": 174,
-  "repo_count": 72,
-  "scrubbed_entries": 276,
+  "_extracted_at": "2026-10-16T07:41:42.219750+00:00",
+  "file_count": 176,
+  "repo_count": 73,
+  "scrubbed_entries": 277,
   "files": [
     {
       "category": "clip_vision",
@@ -1048,6 +1048,18 @@
       "filename": "VOSR2/dinov2_vitl14_pretrain.pth",
       "hf_repo": "CSWRY/VOSR",
       "hf_url": "https://huggingface.co/CSWRY/VOSR/resolve/f24b3061b7f350b81e1907bdcfc27f71fb4ff3f3/torch_cache/checkpoints/dinov2_vitl14_pretrain.pth"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "flux3_image_klein_sd_int8_convrot.safetensors",
+      "hf_repo": "black-forest-labs/flux-3-image-klein-comfy",
+      "hf_url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy/resolve/main/diffusion_models/flux3_image_klein_sd_int8_convrot.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen3.5_9b_flux3_prompt_upsampler_w4a8.safetensors",
+      "hf_repo": "black-forest-labs/flux-3-image-klein-comfy",
+      "hf_url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy/resolve/main/text_encoders/qwen3.5_9b_flux3_prompt_upsampler_w4a8.safetensors"
     }
   ]
 }
