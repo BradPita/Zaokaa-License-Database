@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-16T07:41:42.219750+00:00",
-  "file_count": 176,
-  "repo_count": 73,
+  "_extracted_at": "2026-10-16T17:05:40.183508+00:00",
+  "file_count": 179,
+  "repo_count": 74,
   "scrubbed_entries": 277,
   "files": [
     {
@@ -1060,6 +1060,24 @@
       "filename": "qwen3.5_9b_flux3_prompt_upsampler_w4a8.safetensors",
       "hf_repo": "black-forest-labs/flux-3-image-klein-comfy",
       "hf_url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy/resolve/main/text_encoders/qwen3.5_9b_flux3_prompt_upsampler_w4a8.safetensors"
+    },
+    {
+      "category": "diffusion_models",
+      "filename": "moss_image_sft_int8_convrot.safetensors",
+      "hf_repo": "nif0/MOSS-Image-SFT-ComfyUI",
+      "hf_url": "https://huggingface.co/nif0/MOSS-Image-SFT-ComfyUI/resolve/main/diffusion_models/moss_image_sft_int8_convrot.safetensors"
+    },
+    {
+      "category": "text_encoders",
+      "filename": "qwen3.5_9b_moss_image_sft_w4a8_gptq.safetensors",
+      "hf_repo": "nif0/MOSS-Image-SFT-ComfyUI",
+      "hf_url": "https://huggingface.co/nif0/MOSS-Image-SFT-ComfyUI/resolve/main/text_encoders/qwen3.5_9b_moss_image_sft_w4a8_gptq.safetensors"
+    },
+    {
+      "category": "vae",
+      "filename": "moss_image_vae_bf16.safetensors",
+      "hf_repo": "nif0/MOSS-Image-SFT-ComfyUI",
+      "hf_url": "https://huggingface.co/nif0/MOSS-Image-SFT-ComfyUI/resolve/main/vae/moss_image_vae_bf16.safetensors"
     }
   ]
 }
