@@ -1,9 +1,9 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-16T17:05:40.183508+00:00",
-  "file_count": 179,
+  "_extracted_at": "2026-10-16T23:08:42.118512+00:00",
+  "file_count": 178,
   "repo_count": 74,
-  "scrubbed_entries": 277,
+  "scrubbed_entries": 278,
   "files": [
     {
       "category": "clip_vision",
@@ -1064,20 +1064,14 @@
     {
       "category": "diffusion_models",
       "filename": "moss_image_sft_int8_convrot.safetensors",
-      "hf_repo": "nif0/MOSS-Image-SFT-ComfyUI",
-      "hf_url": "https://huggingface.co/nif0/MOSS-Image-SFT-ComfyUI/resolve/main/diffusion_models/moss_image_sft_int8_convrot.safetensors"
+      "hf_repo": "Comfy-Org/MOSS-Image",
+      "hf_url": "https://huggingface.co/Comfy-Org/MOSS-Image/resolve/main/diffusion_models/moss_image_sft_int8_convrot.safetensors"
     },
     {
       "category": "text_encoders",
-      "filename": "qwen3.5_9b_moss_image_sft_w4a8_gptq.safetensors",
-      "hf_repo": "nif0/MOSS-Image-SFT-ComfyUI",
-      "hf_url": "https://huggingface.co/nif0/MOSS-Image-SFT-ComfyUI/resolve/main/text_encoders/qwen3.5_9b_moss_image_sft_w4a8_gptq.safetensors"
-    },
-    {
-      "category": "vae",
-      "filename": "moss_image_vae_bf16.safetensors",
-      "hf_repo": "nif0/MOSS-Image-SFT-ComfyUI",
-      "hf_url": "https://huggingface.co/nif0/MOSS-Image-SFT-ComfyUI/resolve/main/vae/moss_image_vae_bf16.safetensors"
+      "filename": "qwen3.5_9b_w4a8_gptq.safetensors",
+      "hf_repo": "Comfy-Org/MOSS-Image",
+      "hf_url": "https://huggingface.co/Comfy-Org/MOSS-Image/resolve/main/text_encoders/qwen3.5_9b_w4a8_gptq.safetensors"
     }
   ]
 }

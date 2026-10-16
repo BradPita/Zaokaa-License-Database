@@ -25,7 +25,7 @@ Each derivative is **traced up to its original base model** (registry in `data/b
 ## License table
 
 <!-- LICENSE_TABLE_START -->
-_Last updated: 2026-10-16 17:07 UTC | 76 tracked repos + 7 base models_
+_Last updated: 2026-10-16 23:10 UTC | 76 tracked repos + 7 base models_
 
 > **[View the formatted table online](https://bradpita.github.io/Zaokaa-License-Database/)** - fixed column widths for side-by-side comparison and every link opens in a new tab (not possible inside GitHub's README).
 
@@ -60,7 +60,7 @@ _Last updated: 2026-10-16 17:07 UTC | 76 tracked repos + 7 base models_
 | [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) | Comfy-Org | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 3 | 4,196,255 | 2026-10-16 |
 | [Patil/Krea-2-depth-controlnet](https://huggingface.co/Patil/Krea-2-depth-controlnet) | Patil | [other](https://www.krea.ai/krea-2-licensing) | Review | Custom or undeclared license; commercial conditions require human review of the license text. | 1 | 0 | 2026-07-03 |
 | [WarmBloodAban/Krea2_Anything2RealCharacters](https://huggingface.co/WarmBloodAban/Krea2_Anything2RealCharacters) | WarmBloodAban | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 7,599 | 2026-08-22 |
-| [conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit) | conradlocke | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 1 | 0 | 2026-07-29 |
+| [conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit) | conradlocke | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 1 | 0 | 2026-10-16 |
 | [thedeoxen/Krea-2-pose-controlnet](https://huggingface.co/thedeoxen/Krea-2-pose-controlnet) | thedeoxen | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 12,420 | 2026-08-19 |
 | [uzumix/krea2filterbypass3.safetensors](https://huggingface.co/uzumix/krea2filterbypass3.safetensors) | uzumix | [other](https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf) | Conditional | Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply. | 1 | 11,066 | 2026-07-08 |
 
@@ -206,6 +206,7 @@ _Last updated: 2026-10-16 17:07 UTC | 76 tracked repos + 7 base models_
 
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
+| [Comfy-Org/MOSS-Image](https://huggingface.co/Comfy-Org/MOSS-Image) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 2 | 0 | 2026-10-16 |
 | [Comfy-Org/MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3) | Comfy-Org | [other](https://huggingface.co/MiniMaxAI/MiniMax-H3/blob/main/LICENSE) | Conditional | MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies. | 3 | 24,667,625 | 2026-09-29 |
 | [Comfy-Org/OneReward_repackaged](https://huggingface.co/Comfy-Org/OneReward_repackaged) | Comfy-Org | [cc-by-nc-4.0](https://spdx.org/licenses/CC-BY-NC-4.0.html) | No | Non-commercial license: free use excludes commercial rights; commercial use requires a purchased license. | 1 | 8,208 | 2026-09-23 |
 | [Comfy-Org/mediapipe](https://huggingface.co/Comfy-Org/mediapipe) | Comfy-Org | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 1 | 7,149 | 2026-09-23 |
@@ -264,12 +265,6 @@ _Last updated: 2026-10-16 17:07 UTC | 76 tracked repos + 7 base models_
 | Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
 | :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
 | [mashb1t/misc](https://huggingface.co/mashb1t/misc) | mashb1t | [apache-2.0](https://github.com/facebookresearch/segment-anything/blob/main/LICENSE) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 3 | 0 | 2024-06-16 |
-
-### nif0
-
-| Model | Provider | License | Commercial | Commercial terms | Files | Downloads | Updated |
-| :--- | :--- | :--- | :---: | :--- | ---: | ---: | :--- |
-| [nif0/MOSS-Image-SFT-ComfyUI](https://huggingface.co/nif0/MOSS-Image-SFT-ComfyUI) | nif0 | [apache-2.0](https://spdx.org/licenses/Apache-2.0.html) | Yes | Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions. | 3 | 0 | 2026-10-16 |
 
 ### smhfacct
 

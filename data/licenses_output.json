@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T17:07:12.820849+00:00",
+  "generated_at": "2026-10-16T23:10:12.429584+00:00",
   "repo_count": 83,
   "_sources": [
     "HuggingFace API (cardData)",
@@ -40,7 +40,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 270752,
-      "likes": 1407,
+      "likes": 1409,
       "pipeline_tag": "image-to-image",
       "last_modified": "2026-09-27T21:59:09.000Z",
       "status": "ok"
@@ -160,6 +160,25 @@
       "status": "ok"
     },
     {
+      "name": "Comfy-Org/MOSS-Image",
+      "provider": "Comfy-Org",
+      "family": "Comfy-Org",
+      "kind": "tracked",
+      "categories": "diffusion_models, text_encoders",
+      "hf_id": "Comfy-Org/MOSS-Image",
+      "file_count": 2,
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial_use": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "downloads": 0,
+      "likes": 40,
+      "pipeline_tag": "",
+      "last_modified": "2026-10-16T20:28:03.000Z",
+      "status": "ok"
+    },
+    {
       "name": "Comfy-Org/MiniMax-H3",
       "provider": "Comfy-Org",
       "family": "Comfy-Org",
@@ -173,7 +192,7 @@
       "commercial_use": "Conditional",
       "commercial_terms": "MiniMax H3 Community License (2026-08-02): free commercial use below US$20M yearly revenue; >=US$20M requires prior written authorization (api@minimax.io); territory excludes EU/UK/South Korea/USA; must display 'MiniMax H3' on commercial product UI; AUP applies.",
       "downloads": 24667625,
-      "likes": 2306,
+      "likes": 2308,
       "pipeline_tag": "",
       "last_modified": "2026-09-29T11:11:09.000Z",
       "status": "ok"
@@ -211,7 +230,7 @@
       "commercial_use": "Review",
       "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "downloads": 10584606,
-      "likes": 1132,
+      "likes": 1133,
       "pipeline_tag": "",
       "last_modified": "2026-10-13T18:03:56.000Z",
       "status": "ok"
@@ -686,7 +705,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 276877,
-      "likes": 2672,
+      "likes": 2673,
       "pipeline_tag": "text-to-image",
       "last_modified": "2025-08-18T02:42:19.000Z",
       "status": "ok"
@@ -800,7 +819,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 3151487,
-      "likes": 562,
+      "likes": 563,
       "pipeline_tag": "",
       "last_modified": "2026-01-23T05:25:33.000Z",
       "status": "ok"
@@ -876,7 +895,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 8584713,
-      "likes": 2178,
+      "likes": 2180,
       "pipeline_tag": "image-text-to-text",
       "last_modified": "2026-03-02T00:51:43.000Z",
       "status": "ok"
@@ -1028,7 +1047,7 @@
       "commercial_use": "Review",
       "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "downloads": 73767,
-      "likes": 390,
+      "likes": 435,
       "pipeline_tag": "image-to-image",
       "last_modified": "2026-10-16T01:16:09.000Z",
       "status": "ok"
@@ -1047,7 +1066,7 @@
       "commercial_use": "No",
       "commercial_terms": "CircleStone Labs Non-Commercial License v1.2: model & derivatives non-commercial, non-production; generated images (Outputs) may be used commercially; commercial model use requires a separate license (circlestone.ai); derivative of Cosmos-Predict2-2B - NVIDIA Open Model License applies to derivatives.",
       "downloads": 1347076,
-      "likes": 2431,
+      "likes": 2432,
       "pipeline_tag": "",
       "last_modified": "2026-08-24T23:52:12.000Z",
       "status": "ok"
@@ -1066,9 +1085,9 @@
       "commercial_use": "Conditional",
       "commercial_terms": "Krea 2 Community License v1 (2026-06-22): free commercial use below US$1M company-wide annual revenue; >=US$1M requires a paid Enterprise License (opensource@krea.ai); AUP + content-filter obligations apply.",
       "downloads": 0,
-      "likes": 836,
+      "likes": 839,
       "pipeline_tag": "",
-      "last_modified": "2026-07-29T16:32:13.000Z",
+      "last_modified": "2026-10-16T20:34:47.000Z",
       "status": "ok"
     },
     {
@@ -1218,7 +1237,7 @@
       "commercial_use": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "downloads": 1488903,
-      "likes": 1086,
+      "likes": 1087,
       "pipeline_tag": "image-to-video",
       "last_modified": "2026-10-16T06:07:47.000Z",
       "status": "ok"
@@ -1354,25 +1373,6 @@
       "likes": 53,
       "pipeline_tag": "",
       "last_modified": "2026-03-10T06:43:50.000Z",
-      "status": "ok"
-    },
-    {
-      "name": "nif0/MOSS-Image-SFT-ComfyUI",
-      "provider": "nif0",
-      "family": "nif0",
-      "kind": "tracked",
-      "categories": "diffusion_models, text_encoders, vae",
-      "hf_id": "nif0/MOSS-Image-SFT-ComfyUI",
-      "file_count": 3,
-      "license": "apache-2.0",
-      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
-      "license_source": "spdx",
-      "commercial_use": "Yes",
-      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
-      "downloads": 0,
-      "likes": 16,
-      "pipeline_tag": "text-to-image",
-      "last_modified": "2026-10-16T08:46:28.000Z",
       "status": "ok"
     },
     {
