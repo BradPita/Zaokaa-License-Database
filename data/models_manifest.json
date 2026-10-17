@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-16T23:08:42.118512+00:00",
-  "file_count": 178,
-  "repo_count": 74,
+  "_extracted_at": "2026-10-17T07:20:09.716471+00:00",
+  "file_count": 179,
+  "repo_count": 75,
   "scrubbed_entries": 278,
   "files": [
     {
@@ -1072,6 +1072,12 @@
       "filename": "qwen3.5_9b_w4a8_gptq.safetensors",
       "hf_repo": "Comfy-Org/MOSS-Image",
       "hf_url": "https://huggingface.co/Comfy-Org/MOSS-Image/resolve/main/text_encoders/qwen3.5_9b_w4a8_gptq.safetensors"
+    },
+    {
+      "category": "loras",
+      "filename": "lora.safetensors",
+      "hf_repo": "lodestones/MOSS-Image-SFT-8-steps-dmd",
+      "hf_url": "https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd/resolve/main/lora.safetensors"
     }
   ]
 }

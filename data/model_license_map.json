@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-16T23:10:12.485147+00:00",
+  "_generated_at": "2026-10-17T07:21:36.865298+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,9 +34,9 @@
     "merge",
     "finetune"
   ],
-  "file_count": 181,
+  "file_count": 182,
   "derivative_count": 6,
-  "files_with_license_url": 174,
+  "files_with_license_url": 175,
   "files": [
     {
       "category": "clip_vision",
@@ -3051,6 +3051,23 @@
       "category": "text_encoders",
       "filename": "qwen3.5_9b_w4a8_gptq.safetensors",
       "hf_repo": "Comfy-Org/MOSS-Image",
+      "derivative": false,
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "loras",
+      "filename": "lora.safetensors",
+      "hf_repo": "lodestones/MOSS-Image-SFT-8-steps-dmd",
       "derivative": false,
       "license": "apache-2.0",
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
