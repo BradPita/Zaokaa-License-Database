@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-19T05:31:36.705681+00:00",
+  "_generated_at": "2026-10-19T18:00:45.920562+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -36,7 +36,7 @@
   ],
   "file_count": 184,
   "derivative_count": 6,
-  "files_with_license_url": 177,
+  "files_with_license_url": 176,
   "files": [
     {
       "category": "clip_vision",
@@ -2746,11 +2746,11 @@
       "filename": "minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
       "hf_repo": "lightx2v/Minimax-h3-Turbo",
       "derivative": false,
-      "license": "apache-2.0",
-      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
-      "license_source": "spdx",
-      "commercial": "Yes",
-      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "license": "待确认（HF未声明许可）",
+      "license_url": "",
+      "license_source": "cardata",
+      "commercial": "Review",
+      "commercial_terms": "Custom or undeclared license; commercial conditions require human review of the license text.",
       "base_model": "",
       "base_repo": "",
       "base_license": "",
