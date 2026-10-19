@@ -1,8 +1,8 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-17T07:20:09.716471+00:00",
-  "file_count": 179,
-  "repo_count": 75,
+  "_extracted_at": "2026-10-19T05:30:04.439992+00:00",
+  "file_count": 181,
+  "repo_count": 76,
   "scrubbed_entries": 278,
   "files": [
     {
@@ -1078,6 +1078,18 @@
       "filename": "lora.safetensors",
       "hf_repo": "lodestones/MOSS-Image-SFT-8-steps-dmd",
       "hf_url": "https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd/resolve/main/lora.safetensors"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "pixai-tagger-v1.0-fp16.onnx",
+      "hf_repo": "Mexes/pixai-tagger-v1.0-onnx-fp32-fp16-int8",
+      "hf_url": "https://huggingface.co/Mexes/pixai-tagger-v1.0-onnx-fp32-fp16-int8/resolve/0800778563144a0e6fdf41ddadd84aae3cb0dbcf/model_fp16.onnx"
+    },
+    {
+      "category": "clip_vision",
+      "filename": "pixai-tagger-v1.0-fp16.csv",
+      "hf_repo": "Mexes/pixai-tagger-v1.0-onnx-fp32-fp16-int8",
+      "hf_url": "https://huggingface.co/Mexes/pixai-tagger-v1.0-onnx-fp32-fp16-int8/resolve/0800778563144a0e6fdf41ddadd84aae3cb0dbcf/selected_tags.csv"
     }
   ]
 }

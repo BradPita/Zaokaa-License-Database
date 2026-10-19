@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-17T07:21:36.865298+00:00",
+  "_generated_at": "2026-10-19T05:31:36.705681+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -34,9 +34,9 @@
     "merge",
     "finetune"
   ],
-  "file_count": 182,
+  "file_count": 184,
   "derivative_count": 6,
-  "files_with_license_url": 175,
+  "files_with_license_url": 177,
   "files": [
     {
       "category": "clip_vision",
@@ -3068,6 +3068,40 @@
       "category": "loras",
       "filename": "lora.safetensors",
       "hf_repo": "lodestones/MOSS-Image-SFT-8-steps-dmd",
+      "derivative": false,
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "clip_vision",
+      "filename": "pixai-tagger-v1.0-fp16.onnx",
+      "hf_repo": "Mexes/pixai-tagger-v1.0-onnx-fp32-fp16-int8",
+      "derivative": false,
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
+      "license_source": "spdx",
+      "commercial": "Yes",
+      "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
+      "base_model": "",
+      "base_repo": "",
+      "base_license": "",
+      "base_license_url": "",
+      "base_commercial": "",
+      "base_commercial_terms": ""
+    },
+    {
+      "category": "clip_vision",
+      "filename": "pixai-tagger-v1.0-fp16.csv",
+      "hf_repo": "Mexes/pixai-tagger-v1.0-onnx-fp32-fp16-int8",
       "derivative": false,
       "license": "apache-2.0",
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",
