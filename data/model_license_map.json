@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-19T18:00:45.920562+00:00",
+  "_generated_at": "2026-10-22T06:52:31.250504+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -3066,8 +3066,8 @@
     },
     {
       "category": "loras",
-      "filename": "lora.safetensors",
-      "hf_repo": "lodestones/MOSS-Image-SFT-8-steps-dmd",
+      "filename": "8-steps-dmd2-lora.safetensors",
+      "hf_repo": "lodestones/Kromoss",
       "derivative": false,
       "license": "apache-2.0",
       "license_url": "https://spdx.org/licenses/Apache-2.0.html",

@@ -1,6 +1,6 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-19T05:30:04.439992+00:00",
+  "_extracted_at": "2026-10-22T06:50:58.750268+00:00",
   "file_count": 181,
   "repo_count": 76,
   "scrubbed_entries": 278,
@@ -1075,9 +1075,9 @@
     },
     {
       "category": "loras",
-      "filename": "lora.safetensors",
-      "hf_repo": "lodestones/MOSS-Image-SFT-8-steps-dmd",
-      "hf_url": "https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd/resolve/main/lora.safetensors"
+      "filename": "8-steps-dmd2-lora.safetensors",
+      "hf_repo": "lodestones/Kromoss",
+      "hf_url": "https://huggingface.co/lodestones/Kromoss/resolve/main/8-steps-dmd2-lora.safetensors"
     },
     {
       "category": "clip_vision",
