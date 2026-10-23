@@ -1,5 +1,5 @@
 {
-  "_generated_at": "2026-10-22T06:52:31.250504+00:00",
+  "_generated_at": "2026-10-23T08:07:47.346747+00:00",
   "_sources": [
     "models_manifest.json",
     "extra_models.json",
@@ -993,11 +993,11 @@
     {
       "category": "diffusion_models",
       "filename": "Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors",
-      "hf_repo": "Kijai/wav2vec2_safetensors",
+      "hf_repo": "Kijai/WanVideo_comfy",
       "derivative": false,
-      "license": "mit",
-      "license_url": "https://spdx.org/licenses/MIT.html",
-      "license_source": "spdx",
+      "license": "apache-2.0",
+      "license_url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-14B",
+      "license_source": "fallback:Wan-AI/Wan2.1-T2V-14B",
       "commercial": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",
       "base_model": "",
@@ -1027,10 +1027,10 @@
     {
       "category": "model_patches",
       "filename": "wan2.1_infiniteTalk_single_fp16.safetensors",
-      "hf_repo": "Kijai/wav2vec2_safetensors",
+      "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
       "derivative": false,
-      "license": "mit",
-      "license_url": "https://spdx.org/licenses/MIT.html",
+      "license": "apache-2.0",
+      "license_url": "https://spdx.org/licenses/Apache-2.0.html",
       "license_source": "spdx",
       "commercial": "Yes",
       "commercial_terms": "Permissive open-source license (e.g. Apache-2.0/MIT); commercial use permitted without additional conditions.",

@@ -1,6 +1,6 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-22T06:50:58.750268+00:00",
+  "_extracted_at": "2026-10-23T08:06:08.964290+00:00",
   "file_count": 181,
   "repo_count": 76,
   "scrubbed_entries": 278,
@@ -344,8 +344,8 @@
     {
       "category": "diffusion_models",
       "filename": "Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors",
-      "hf_repo": "Kijai/wav2vec2_safetensors",
-      "hf_url": "https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors"
+      "hf_repo": "Kijai/WanVideo_comfy",
+      "hf_url": "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors"
     },
     {
       "category": "diffusion_models",
@@ -356,8 +356,8 @@
     {
       "category": "model_patches",
       "filename": "wan2.1_infiniteTalk_single_fp16.safetensors",
-      "hf_repo": "Kijai/wav2vec2_safetensors",
-      "hf_url": "https://huggingface.co/Kijai/wav2vec2_safetensors/resolve/main/wav2vec2-chinese-base_fp16.safetensors"
+      "hf_repo": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+      "hf_url": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/model_patches/wan2.1_infiniteTalk_single_fp16.safetensors"
     },
     {
       "category": "audio_encoders",
