@@ -1,6 +1,6 @@
 {
   "_source": "model manifest (model_checker.py style)",
-  "_extracted_at": "2026-10-23T08:06:08.964290+00:00",
+  "_extracted_at": "2026-10-28T10:10:36.077220+00:00",
   "file_count": 181,
   "repo_count": 76,
   "scrubbed_entries": 278,
@@ -993,7 +993,7 @@
       "category": "latent_upscale_models",
       "filename": "minimax_h3_latent_upscaler_3d_bf16.safetensors",
       "hf_repo": "LBH-123-AI/Minimax_h3_latent_Upscaler",
-      "hf_url": "https://huggingface.co/LBH-123-AI/Minimax_h3_latent_Upscaler/resolve/main/minimax_h3_latent_upscaler_3d_bf16.safetensors"
+      "hf_url": "https://huggingface.co/LBH-123-AI/Minimax_h3_latent_Upscaler/resolve/main/minimax_h3_latent_upscaler_3d_conv_v1/minimax_h3_latent_upscaler_3d_conv_v1_bf16.safetensors"
     },
     {
       "category": "model_patches",
